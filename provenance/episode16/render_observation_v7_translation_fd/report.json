@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "initial": {
+    "human_silhouette": 0.2334462960716337,
+    "object_silhouette": 0.3170823057880625,
+    "human_area": 0.00805285406022449,
+    "object_area": 0.028421952834833064,
+    "object_color": 0.24271371483337134,
+    "penetration": 1.862504512148078,
+    "acceleration": 0.48554408075870015,
+    "object_linear_velocity": 0.39419133090996183,
+    "object_linear_acceleration": 42.882256160490215,
+    "angular_velocity": 72.57023531559389,
+    "angular_acceleration": 10141.124467983842,
+    "total": 10264.690108895302
+  },
+  "after_orientation_search": {
+    "human_silhouette": 0.2330021564848721,
+    "object_silhouette": 0.31018407351803035,
+    "human_area": 0.007880176704929909,
+    "object_area": 0.04649799570189472,
+    "object_color": 0.18904437532182783,
+    "penetration": 1.9281817336798022,
+    "acceleration": 0.48554404548485763,
+    "object_linear_velocity": 0.39419133090996183,
+    "object_linear_acceleration": 42.882256160490215,
+    "angular_velocity": 0.0,
+    "angular_acceleration": 0.0,
+    "total": 49.85295822843909
+  },
+  "optimized": {
+    "human_silhouette": 0.26822578348219395,
+    "object_silhouette": 0.22693232086021453,
+    "human_area": 0.009120363032707246,
+    "object_area": 0.019187865386584235,
+    "object_color": 0.16368687222711742,
+    "penetration": 2.5139387093409318,
+    "acceleration": 0.06226446781511186,
+    "object_linear_velocity": 0.12152481670818815,
+    "object_linear_acceleration": 0.5383582566282712,
+    "angular_velocity": 0.000796940777263444,
+    "angular_acceleration": 0.06710320657293778,
+    "total": 6.16769801825285
+  },
+  "best_step": 120,
+  "elapsed_seconds": 316.27738513983786,
+  "object_scale": 1.0726213455200195,
+  "ground_truth_used": false,
+  "frames": 360,
+  "scope": "Direct-trajectory rendering experiment; no dynamics rollout, no claim of general improvement"
+}

@@ -1,0 +1,20 @@
+{
+  "episode": "episode_000023",
+  "fps": 30.0,
+  "frames": 552,
+  "crop_xyxy": [
+    543,
+    366,
+    949,
+    1035
+  ],
+  "render_size": [
+    384,
+    232
+  ],
+  "bundle_path": "/home/lab-2/Research/V2D/outputs/episode_000023/test_canonical_v1/canonical.pth",
+  "comparison_label": "Full CARI4D",
+  "reference_inputs": false,
+  "preparation": "Canonical full CARI4D + masks from full monocular RGB; no reference labels",
+  "baseline_sha256": "0330b146bd3fd7d00b0da54eedcdb7db800c79fc0457d6c9997e1bf07b3e67fa"
+}

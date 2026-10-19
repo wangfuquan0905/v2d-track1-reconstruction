@@ -1,0 +1,63 @@
+{
+  "status": "complete",
+  "frames": 360,
+  "elapsed_seconds": 105.3257431909442,
+  "render_counts": {
+    "coarse": 67456,
+    "full": 128102,
+    "geometry_rejected": 0,
+    "expansions": 675
+  },
+  "previous": {
+    "mean_observation_terms": [
+      0.17414039373397827,
+      0.14208637177944183
+    ],
+    "rotation_path_length_deg": 21.406377970811057,
+    "max_orientation_difference_deg": 2.647053381650388,
+    "max_rotation_step_deg": 0.17693059516555726,
+    "summed_camera_rotation_components_deg": [
+      1.4617300968493725,
+      -0.37078112271772234,
+      0.6876462731019896
+    ],
+    "angular_acceleration_rms_deg_s2": 65.56745163617299,
+    "linear_acceleration_rms_m_s2": 0.5606825294709119
+  },
+  "tracked": {
+    "mean_observation_terms": [
+      0.10974296927452087,
+      0.12304659187793732
+    ],
+    "rotation_path_length_deg": 407.9037920114786,
+    "max_orientation_difference_deg": 41.872529465360024,
+    "max_rotation_step_deg": 4.029928812692312,
+    "summed_camera_rotation_components_deg": [
+      3.6500423029832,
+      2.7248406564342873,
+      25.674955181206204
+    ],
+    "angular_acceleration_rms_deg_s2": 362.5957891481008,
+    "linear_acceleration_rms_m_s2": 1.4759403582507513
+  },
+  "observation_order": [
+    "object_silhouette_loss",
+    "object_color_loss"
+  ],
+  "ground_truth_used": false,
+  "rotation_path_note": "Path length includes reversals and wobble; not proof of 270-degree upright rotation",
+  "scope": "Direct rigid-pose tracking; no SyILEN dynamics rollout; fixed source human and scale",
+  "assessment": {
+    "upright_270_degree_rotation_recovered": false,
+    "reason": "Maximum geodesic separation from the first pose is 41.87 degrees. Path length 407.9 degrees includes reversals/wobble and must not be interpreted as the requested directed rotation.",
+    "mean_mask_iou_before": 0.8258596062660217,
+    "mean_mask_iou_after": 0.8902570307254791,
+    "geometry_pruning_note": "No candidates rejected in final run; loose bbox pruning did not provide a measured benefit on this clip. Coarse silhouette selection limited full observation scoring to at most eight survivors per pass.",
+    "runtime_note": "105.33 seconds includes data loading, first-frame fitting, tracking, previous-result reevaluation and video export; no matched exhaustive-search timing benchmark.",
+    "validation": [
+      "Four helper tests passed",
+      "360 finite proper rotation matrices",
+      "Video verified 360 frames at 30 fps"
+    ]
+  }
+}

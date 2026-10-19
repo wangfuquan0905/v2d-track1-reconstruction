@@ -1,0 +1,32 @@
+{
+  "episode": "episode_000007",
+  "patches": [
+    {
+      "anchor": 450,
+      "start": 375,
+      "end": 776,
+      "box": [
+        774,
+        490,
+        822,
+        542
+      ],
+      "reason": "Forward object track remains empty after the iron reappears from behind the person; anchor selected from RGB frame 450."
+    }
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/recover_track1_object_masks.py": "ec0639ce1a392e4f641eb9afdfe9dc151700f7ecc27183b1c5202c13e3a8ad08"
+  },
+  "config_sha256_at_run": "63b548634c9b4b65670a900295b81b2644aa753029fd996ff99a942e1eb66515",
+  "output_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000007/segmentation/masks.h5": "9d4426e143ed9b90624afc62e0bc29686c7445ab953e6a2644d1474319e5b286",
+    "/home/lab-2/Research/V2D/outputs/episode_000007/segmentation/segmentation_report.json": "b632e49bd8b00ffcf2427193f087a2e2532f7b47e047dbec7a44f9f9cc3d3eb8",
+    "/home/lab-2/Research/V2D/outputs/episode_000007/segmentation/first_1_mask.png": "bd40f5f6f067556a53a9b6bddd0f9bf5cab5435d63ca31eb18815aa24114eeb9"
+  },
+  "initial_artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000007/segmentation/segmentation_report.json": "fd72d044fc98e00a69877055aa7ef4660e75c4050103098e1e5b80c44f9480d4",
+    "/home/lab-2/Research/V2D/outputs/episode_000007/segmentation/masks.h5": "ded4e0a197423ecf9ee0a8be2e5d112d830605ed8137121b211ac0a5370b552a"
+  },
+  "created": 1792339140.8070376,
+  "reference_inputs": false
+}

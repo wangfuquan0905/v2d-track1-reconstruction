@@ -1,0 +1,28 @@
+{
+  "method": "median aligned-depth / SAM3D rendered-depth on eroded mask overlap",
+  "metric_status": "monocular estimate anchored to inferred human size; no measured object dimensions",
+  "sam_layout_mask_iou": 0.4893979260176443,
+  "overlap_pixels": 1927,
+  "scene_depth_ratio": 2.7959200944028817,
+  "ratio_p10_p90": [
+    2.776361956891967,
+    2.810558007871792
+  ],
+  "human_depth_scale_first_frame": 1.13358736038208,
+  "local_mesh_scale_to_m": [
+    0.8165691819521619,
+    0.8165691819521619,
+    0.8165691819521619
+  ],
+  "mesh_extents_m": [
+    0.8151738604275627,
+    0.039645357773628036,
+    0.7762378334896989
+  ],
+  "faces": 20000,
+  "inputs": {
+    "depth": "/home/lab-2/Research/V2D/outputs/episode_000001/cari4d/episode_000001/depth/moge2/aligned.h5",
+    "intrinsics": "/home/lab-2/Research/V2D/outputs/episode_000001/cari4d/episode_000001/depth/moge2/intrinsics.pkl",
+    "mask": "/home/lab-2/Research/V2D/outputs/episode_000001/segmentation/first_1_mask.png"
+  }
+}

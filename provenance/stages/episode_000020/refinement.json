@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/run_cari4d_native.py",
+    "--episode",
+    "episode_000020",
+    "--from-stage",
+    "refinement",
+    "--through-stage",
+    "refinement"
+  ],
+  "script_sha256": "ad949ed13a8877d3275a5573050686a368734a690600f73dbe4be268f7b003ae",
+  "input_sha256": {},
+  "started": 1792370378.5890553,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/cari4d/episode_000020/inference/refined.pth": "330c08d270338e7ca039743464cdc48bed6b8fbb2d4de3facbf35466bf258e81"
+  },
+  "elapsed_seconds": 378.3479976654053
+}

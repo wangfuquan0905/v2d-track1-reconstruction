@@ -1,0 +1,56 @@
+{
+  "episode": "episode_000020",
+  "patches": [
+    {
+      "anchor": 0,
+      "start": 0,
+      "end": 548,
+      "box": [
+        697,
+        668,
+        792,
+        704
+      ],
+      "points": [
+        [
+          760,
+          685
+        ],
+        [
+          715,
+          679
+        ],
+        [
+          795,
+          706
+        ],
+        [
+          715,
+          700
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reason": "RGB prompts identify both roller and blue handle while excluding the table."
+    }
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/recover_track1_object_masks.py": "ec0639ce1a392e4f641eb9afdfe9dc151700f7ecc27183b1c5202c13e3a8ad08"
+  },
+  "config_sha256_at_run": "63b548634c9b4b65670a900295b81b2644aa753029fd996ff99a942e1eb66515",
+  "output_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/masks.h5": "5f8271d4b07542bad1f08b05303cfafacb678d075b76001bdc7ac1a391079541",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/segmentation_report.json": "3bd45aa2d09960d3358685c1703bf243e154936653c20d6c2f182a15fb6c6808",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/first_1_mask.png": "7735761c4b3b5935b501f534bb8d9a85d8e786a709fb52f15647124a3d45f56c"
+  },
+  "initial_artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/segmentation_report.json": "02cba7cf010ace36d73c381b933a7c36cfe4ccac45bfc57c5c3391fb8bed0b8e",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/masks.h5": "9826a7844a5c050526be457f9f54682023118a95899c56205b53534a8c38d737"
+  },
+  "created": 1792339277.0741982,
+  "reference_inputs": false
+}

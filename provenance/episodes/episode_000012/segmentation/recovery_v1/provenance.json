@@ -1,0 +1,56 @@
+{
+  "episode": "episode_000012",
+  "patches": [
+    {
+      "anchor": 0,
+      "start": 0,
+      "end": 404,
+      "box": [
+        563,
+        706,
+        687,
+        739
+      ],
+      "points": [
+        [
+          647,
+          722
+        ],
+        [
+          590,
+          716
+        ],
+        [
+          700,
+          730
+        ],
+        [
+          650,
+          748
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reason": "RGB inspection shows initial SAM2 mask selected the supporting table instead of the black pan."
+    }
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/recover_track1_object_masks.py": "ec0639ce1a392e4f641eb9afdfe9dc151700f7ecc27183b1c5202c13e3a8ad08"
+  },
+  "config_sha256_at_run": "63b548634c9b4b65670a900295b81b2644aa753029fd996ff99a942e1eb66515",
+  "output_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000012/segmentation/masks.h5": "ae6cbc4bc0aef406ead30e70daa1c3cc836b6b527d5629991ad5d41a50a824f3",
+    "/home/lab-2/Research/V2D/outputs/episode_000012/segmentation/segmentation_report.json": "92243abdd70a2bc673904b204efea6591e1c8e631a0dbee1d5c9ce1af93fbf3d",
+    "/home/lab-2/Research/V2D/outputs/episode_000012/segmentation/first_1_mask.png": "ebdf5bea79129a45840b288f7acce63c68c33fbe3bebceaeb3456b4b80c214ff"
+  },
+  "initial_artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000012/segmentation/segmentation_report.json": "38452cef95393f14ef2de3f682914c0efe7429c1ca4d028fc7f6eb369b748e64",
+    "/home/lab-2/Research/V2D/outputs/episode_000012/segmentation/masks.h5": "5d596e241de3712133ef8f52e31768c3ede7bbc6d7a6796b52e619894453393c"
+  },
+  "created": 1792339164.8293958,
+  "reference_inputs": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/bootstrap_cari4d_native.py",
+    "alignment",
+    "--episode",
+    "episode_000007",
+    "--frames",
+    "777",
+    "--batch-size",
+    "1"
+  ],
+  "script_sha256": "093106b30de3e830d175a51ca2f0415ef1da5ac376ad852864150beadf626b17",
+  "input_sha256": {},
+  "started": 1792347689.7507355,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000007/cari4d/episode_000007/depth/moge2/aligned.h5": "ea2ce6ba51018f675eec019992335518f3c78afd0c59fc0b37d011528a97ec4a"
+  },
+  "elapsed_seconds": 391.2014799118042
+}

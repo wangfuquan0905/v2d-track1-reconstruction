@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/canonicalize_track1_body.py",
+    "--bundle",
+    "/home/lab-2/Research/V2D/outputs/episode_000027/cari4d/episode_000027/inference/refined.pth",
+    "--out",
+    "/home/lab-2/Research/V2D/outputs/episode_000027/test_canonical_v1"
+  ],
+  "script_sha256": "a793a1db804cb939d3250c9e57908b8a815a0ebe48a8f53f83fecc5f091294ad",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000027/cari4d/episode_000027/inference/refined.pth": "45c81c430c14c2df2a84262c9adb8e012a02b58c7f6e7b6f102bd939d310e8a6"
+  },
+  "started": 1792374980.799865,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000027/test_canonical_v1/native.npz": "9c581ce665c283c93447efc9946326c7f8f449cc3f29281e2366d925edd15b64",
+    "/home/lab-2/Research/V2D/outputs/episode_000027/test_canonical_v1/canonical.pth": "0fcd82bdbab37dc83844421439c118b8ee1e993155df04e55b4ca6a7e3ed8dd1",
+    "/home/lab-2/Research/V2D/outputs/episode_000027/test_canonical_v1/report.json": "3b2e3e58a3b40e13c79e0000acbfb26c8e8786ac6f313ebc00f9e04d8814bd23"
+  },
+  "elapsed_seconds": 9.392690658569336
+}

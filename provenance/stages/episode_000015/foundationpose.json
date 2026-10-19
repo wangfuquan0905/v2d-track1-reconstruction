@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/run_cari4d_native.py",
+    "--episode",
+    "episode_000015",
+    "--from-stage",
+    "foundationpose",
+    "--through-stage",
+    "foundationpose"
+  ],
+  "script_sha256": "ad949ed13a8877d3275a5573050686a368734a690600f73dbe4be268f7b003ae",
+  "input_sha256": {},
+  "started": 1792368152.9924552,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000015/cari4d/episode_000015/foundationpose/episode_000015.pkl": "ba4072f35e37fdc0029f2b5228ed57917590e9e421265402d75deab7037a5c88"
+  },
+  "elapsed_seconds": 39.88086915016174
+}

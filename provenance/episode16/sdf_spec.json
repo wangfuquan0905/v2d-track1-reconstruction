@@ -1,0 +1,17 @@
+{
+  "resolution": 80,
+  "lower": [
+    -0.22828945517539978,
+    -0.24058355391025543,
+    -0.24098508059978485
+  ],
+  "upper": [
+    0.22828945517539978,
+    0.24058355391025543,
+    0.24098508059978485
+  ],
+  "mesh_hash": "1e0911bf3e16ac0d5e4bc0f2fe932a8a824e6fcf85fafd23266e2eabdac2560c",
+  "sha256": "a34d4702dc21e31f6cc0b31234610b6c79d5e230096a57255ff2968efbbad008",
+  "loss_weight_in_legacy_runs": 0,
+  "note": "Loaded for diagnostics by historical scripts; penetration has zero weight in the three retained warm-start runs."
+}

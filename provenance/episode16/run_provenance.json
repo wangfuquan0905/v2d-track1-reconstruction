@@ -1,0 +1,47 @@
+{
+  "source_revision": "a709404e30954c14a97a8fb8417535a01a5b9299",
+  "kaolin_revision": "f7093babd992e227375c15b0ba9479a6926f6760",
+  "environments": {
+    "torch": {
+      "version": "2.9.1",
+      "direct_url": null
+    },
+    "torchvision": {
+      "version": "0.24.1",
+      "direct_url": null
+    },
+    "pytorch3d": {
+      "version": "0.7.8",
+      "direct_url": "{\"dir_info\": {}, \"url\": \"file:///home/lab-2/Research/RLSIM/third_party/pytorch3d\"}"
+    },
+    "moge": {
+      "version": "2.0.0",
+      "direct_url": "{\"url\": \"https://github.com/microsoft/MoGe.git\", \"vcs_info\": {\"commit_id\": \"925b8ed835a7a9cdb7578ba15c658a0afc969030\", \"requested_revision\": \"925b8ed835a7a9cdb7578ba15c658a0afc969030\", \"vcs\": \"git\"}}"
+    },
+    "utils3d": {
+      "version": "1.3",
+      "direct_url": "{\"url\": \"https://github.com/EasternJournalist/utils3d.git\", \"vcs_info\": {\"commit_id\": \"3fab839f0be9931dac7c8488eb0e1600c236e183\", \"requested_revision\": \"3fab839f0be9931dac7c8488eb0e1600c236e183\", \"vcs\": \"git\"}}"
+    },
+    "kaolin": {
+      "version": "0.18.0",
+      "direct_url": "{\"dir_info\": {}, \"url\": \"file:///home/lab-2/Research/V2D/third_party/kaolin\"}"
+    },
+    "transformers": {
+      "version": "5.3.0",
+      "direct_url": null
+    }
+  },
+  "moge_bootstrap_source_check": {
+    "all_python_files_identical_to_pinned_install": true,
+    "files_compared": 56
+  },
+  "test_result": "8 passed (includes elevated support contact test)",
+  "ground_truth_used": false,
+  "object_shape_source": "SAM3D Objects, RGB frame 0 + SAM2 mask, human-aligned monocular scale estimate",
+  "dataset_revision": "5f68335f3acc802033d1e80728c1633197521de8",
+  "episode": "episode_000016",
+  "source_sequence": "2026-09-11_15-12-36_foam_grass_block_rotate_04",
+  "camera": "front",
+  "frames": 360,
+  "fps": 30
+}

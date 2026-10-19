@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/prepare_track1_review.py"
+  ],
+  "script_sha256": "0f9682f2fb6ae312e9f3e3373a3b94007555d9639cb911dbc0f6b28429eec485",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000010/safe_windows_v1/optimized.npz": "4c0383879cca2a46cfa442c049dd3f50de8e4a9d27a8593a60d0c572b28d0c24"
+  },
+  "started": 1792350893.1267846,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/track1_safe_windows_v1/review/episode_000010/manifest.json": "4ab41ad4dde2a1cd29d547220eca76e7e261c1df0cce103b3af7af873fe78f2a"
+  },
+  "elapsed_seconds": 3.292936086654663
+}

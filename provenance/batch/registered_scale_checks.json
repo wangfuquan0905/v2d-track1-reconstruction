@@ -1,0 +1,38 @@
+[
+  {
+    "episode": "episode_000001",
+    "passed": true,
+    "before_iou": 0.02305172010297215,
+    "after_iou": 0.4893979260176443
+  },
+  {
+    "episode": "episode_000002",
+    "passed": true,
+    "before_iou": 0.019807692307692307,
+    "after_iou": 0.44018425687576207
+  },
+  {
+    "episode": "episode_000005",
+    "passed": true,
+    "before_iou": 0.23810252486610559,
+    "after_iou": 0.9498183469573115
+  },
+  {
+    "episode": "episode_000007",
+    "passed": true,
+    "before_iou": 0.281123595505618,
+    "after_iou": 0.7804255319148936
+  },
+  {
+    "episode": "episode_000008",
+    "passed": true,
+    "before_iou": 0.3840304182509506,
+    "after_iou": 0.8243759177679882
+  },
+  {
+    "episode": "episode_000012",
+    "passed": true,
+    "before_iou": 0.03589420654911839,
+    "after_iou": 0.7464726631393298
+  }
+]

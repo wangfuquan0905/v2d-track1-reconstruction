@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/bootstrap_cari4d_native.py",
+    "scale",
+    "--episode",
+    "episode_000020",
+    "--frames",
+    "549",
+    "--batch-size",
+    "1"
+  ],
+  "script_sha256": "093106b30de3e830d175a51ca2f0415ef1da5ac376ad852864150beadf626b17",
+  "input_sha256": {},
+  "started": 1792355536.2998703,
+  "error": "Command '['/home/lab-2/Research/V2D/.venv-cari4d/bin/python', 'scripts/bootstrap_cari4d_native.py', 'scale', '--episode', 'episode_000020', '--frames', '549', '--batch-size', '1']' returned non-zero exit status 1.",
+  "elapsed_seconds": 0.9846196174621582
+}

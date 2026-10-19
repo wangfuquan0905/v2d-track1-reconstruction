@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-sam3d-object/bin/python",
+    "scripts/reconstruct_object.py",
+    "--source",
+    "/home/lab-2/Research/RLSIM/sam-3d-objects",
+    "--image",
+    "/home/lab-2/Research/V2D/outputs/episode_000013/segmentation/frames/000000.jpg",
+    "--mask",
+    "/home/lab-2/Research/V2D/outputs/episode_000013/segmentation/first_1_mask.png",
+    "--out",
+    "/home/lab-2/Research/V2D/outputs/episode_000013/object"
+  ],
+  "script_sha256": "01a42c244c778d3cdcb75fdd5c70406cf1846b162d0f6dc59cc97db57b31c9b0",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000013/segmentation/frames/000000.jpg": "5c6cf14f4e90ca1adb23410664605337fb293607c6a542baa81bc2eb4c203904",
+    "/home/lab-2/Research/V2D/outputs/episode_000013/segmentation/first_1_mask.png": "748fa1ef116a889da0fc2ad0e1d9bdcb85e470aea7a106781749f488f447cbf3"
+  },
+  "started": 1792353046.6014602,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000013/object/object_local.glb": "982a1ec58a5485de31245754dca22973248a9784ce7bdafcbd0e6230cd0c182a",
+    "/home/lab-2/Research/V2D/outputs/episode_000013/object/object_report.json": "521e6c3377ae16cc7de6af15e1f2242530b75f4f717be14ba2aaead91356719d"
+  },
+  "elapsed_seconds": 28.491177558898926
+}

@@ -1,0 +1,16 @@
+diff --git a/setup.py b/setup.py
+index 5a6201a..a27e3df 100755
+--- a/setup.py
++++ b/setup.py
+@@ -46,7 +46,11 @@ def get_extensions():
+     this_dir = os.path.dirname(os.path.abspath(__file__))
+     extensions_dir = os.path.join(this_dir, "pytorch3d", "csrc")
+     sources = glob.glob(os.path.join(extensions_dir, "**", "*.cpp"), recursive=True)
++    # --- ORION patch: skip Pulsar (often fails to link) ---
++    sources = [x for x in sources if '/pulsar/' not in x and 'pulsar' not in x]
++
+     source_cuda = glob.glob(os.path.join(extensions_dir, "**", "*.cu"), recursive=True)
++    source_cuda = [x for x in source_cuda if "/pulsar/" not in x and "pulsar" not in x]
+     extension = CppExtension
+ 
+     extra_compile_args = {"cxx": ["-std=c++17"]}

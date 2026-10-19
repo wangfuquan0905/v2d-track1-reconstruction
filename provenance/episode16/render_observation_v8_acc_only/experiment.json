@@ -1,0 +1,18 @@
+{
+  "purpose": "Continuation ablation removing both linear and angular velocity penalties",
+  "previous_run": "render_observation_v7b_translation_fd",
+  "changes": {
+    "linear_velocity_weight": [
+      0.1,
+      0
+    ],
+    "angular_velocity_weight": [
+      1,
+      0
+    ]
+  },
+  "steps": 120,
+  "unchanged": "Acceleration weights, image weights, renderer derivatives, optimizer settings and human controls",
+  "limitation": "Rotation image gradients remain autograd with known finite-difference discrepancies; this run does not fix them. Continued optimization confounds direct comparison to the previous checkpoint.",
+  "validation": "tests/test_rotation_temporal.py: 4 passed"
+}

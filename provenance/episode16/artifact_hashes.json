@@ -1,0 +1,11 @@
+{
+  "outputs/episode_000016/render_observation_v7_translation_fd/optimized.npz": "496f34c9fac271c7f5ef4b34810f6369b87bb3d0cf484e2307334dda3f420b5d",
+  "outputs/episode_000016/render_observation_v7b_translation_fd/optimized.npz": "1a61e9777c3bde7c049918498cb67945ab1088376ca5dc8398c3a64e8f0fdb67",
+  "outputs/episode_000016/render_observation_v8_acc_only/optimized.npz": "b1982a1384acc4e5c406f9a0fa74b969a6505d05b48604e9446022c498a64c87",
+  "outputs/episode_000016/pruned_tracking_v4_acc001/optimized.npz": "e6cdb2a2fe332c274cf8cec1b3f8846cd434431b3ad241046a624e70a025e5a2",
+  "outputs/episode_000016/safe_windows_input_v1/optimized.npz": "f2a08497c09def900209f2ea71bc843d0b36033220a0cf143afd826015cd0e56",
+  "outputs/episode_000016/safe_windows_alternate_v1/optimized.npz": "6d296897487eef9bc2b1f73c2f26c945853b7d735d5ce4435a1a833cee6e0fb7",
+  "outputs/episode_000016/safe_windows_v1/optimized.npz": "d7693ade2901f39be6daa373a6a62809949d2f4bc94bd16fb7245f68e861944f",
+  "outputs/episode_000016/render_observation_v1/canonical_baseline/native.npz": "fd8d334fa13240d4187194ffa7308d588d45386455ca63057d7e3f9d3c739394",
+  "outputs/episode_000016/render_observation_v1/canonical_baseline/canonical.pth": "bdf9821da51755b7cf913e24382b59e08564a0643b6dd5a7b8119f548664a8a0"
+}

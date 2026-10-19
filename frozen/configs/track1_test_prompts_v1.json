@@ -1,0 +1,1235 @@
+{
+  "reference_inputs": false,
+  "episodes": [
+    {
+      "episode_index": 0,
+      "sequence_id": "2026-03-16_15-04-26_hula_hoop_inside_ground_01",
+      "camera": "back_stereo_camera_left",
+      "object": "hula_hoop",
+      "object_prompt": "a shiny skinny hula hoop.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000000",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000000.mp4",
+      "frames": 790,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 169,
+      "prompts": {
+        "sequence": "episode_000000",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              450,
+              390,
+              630,
+              945
+            ]
+          },
+          {
+            "id": 1,
+            "label": "hula_hoop",
+            "box": [
+              621,
+              765,
+              831,
+              855
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 1,
+      "sequence_id": "2026-03-16_15-07-35_hula_hoop_through_01",
+      "camera": "back_stereo_camera_left",
+      "object": "hula_hoop",
+      "object_prompt": "a shiny skinny hula hoop.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000001",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000001.mp4",
+      "frames": 668,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 174,
+      "prompts": {
+        "sequence": "episode_000001",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              783,
+              408,
+              945,
+              885
+            ]
+          },
+          {
+            "id": 1,
+            "label": "hula_hoop",
+            "box": [
+              585,
+              843,
+              834,
+              987
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 2,
+      "sequence_id": "2026-04-25_14-46-14_hula_hoop_jump_rope_06",
+      "camera": "back_stereo_camera_left",
+      "object": "hula_hoop",
+      "object_prompt": "a shiny skinny hula hoop.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000002",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000002.mp4",
+      "frames": 866,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 84,
+      "prompts": {
+        "sequence": "episode_000002",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              684,
+              450,
+              828,
+              804
+            ]
+          },
+          {
+            "id": 1,
+            "label": "hula_hoop",
+            "box": [
+              588,
+              855,
+              867,
+              1005
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 3,
+      "sequence_id": "2026-06-03_18-26-12_big_red_bowl_flip_03",
+      "camera": "left_stereo_camera_left",
+      "object": "big_red_bowl",
+      "object_prompt": "A red plastic bowl.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000003",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000003.mp4",
+      "frames": 592,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 340,
+      "prompts": {
+        "sequence": "episode_000003",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              627,
+              411,
+              840,
+              894
+            ]
+          },
+          {
+            "id": 1,
+            "label": "big_red_bowl",
+            "box": [
+              753,
+              636,
+              870,
+              714
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 4,
+      "sequence_id": "2026-06-08_15-30-20_big_red_bowl_push_05",
+      "camera": "front_stereo_camera_left",
+      "object": "big_red_bowl",
+      "object_prompt": "A red plastic bowl.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000004",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000004.mp4",
+      "frames": 747,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 519,
+      "prompts": {
+        "sequence": "episode_000004",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              810,
+              369,
+              984,
+              897
+            ]
+          },
+          {
+            "id": 1,
+            "label": "big_red_bowl",
+            "box": [
+              645,
+              582,
+              750,
+              669
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 5,
+      "sequence_id": "2026-06-09_11-19-34_big_red_bowl_skinny_wood_chair_05",
+      "camera": "front_stereo_camera_left",
+      "object": "big_red_bowl",
+      "object_prompt": "A red plastic bowl.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000005",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000005.mp4",
+      "frames": 668,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 412,
+      "prompts": {
+        "sequence": "episode_000005",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              477,
+              402,
+              678,
+              876
+            ]
+          },
+          {
+            "id": 1,
+            "label": "big_red_bowl",
+            "box": [
+              615,
+              816,
+              729,
+              900
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 6,
+      "sequence_id": "2026-05-29_15-24-23_iron_pick_place_right_left_hand_02",
+      "camera": "left_stereo_camera_left",
+      "object": "iron",
+      "object_prompt": "An metallic iron with blue accents.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000006",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000006.mp4",
+      "frames": 816,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 636,
+      "prompts": {
+        "sequence": "episode_000006",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              540,
+              432,
+              690,
+              867
+            ]
+          },
+          {
+            "id": 1,
+            "label": "iron",
+            "box": [
+              729,
+              627,
+              831,
+              702
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 7,
+      "sequence_id": "2026-06-08_15-54-40_iron_rotate_mid_air_04",
+      "camera": "left_stereo_camera_left",
+      "object": "iron",
+      "object_prompt": "An metallic iron with blue accents.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000007",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000007.mp4",
+      "frames": 777,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 597,
+      "prompts": {
+        "sequence": "episode_000007",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              690,
+              405,
+              831,
+              870
+            ]
+          },
+          {
+            "id": 1,
+            "label": "iron",
+            "box": [
+              747,
+              825,
+              819,
+              945
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 8,
+      "sequence_id": "2026-06-09_11-34-07_iron_ground_05",
+      "camera": "right_stereo_camera_left",
+      "object": "iron",
+      "object_prompt": "An metallic iron with blue accents.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000008",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000008.mp4",
+      "frames": 634,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 454,
+      "prompts": {
+        "sequence": "episode_000008",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              597,
+              414,
+              768,
+              918
+            ]
+          },
+          {
+            "id": 1,
+            "label": "iron",
+            "box": [
+              807,
+              765,
+              882,
+              885
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 9,
+      "sequence_id": "2026-03-12_16-43-03_white_desk_side_to_side_01",
+      "camera": "front_stereo_camera_left",
+      "object": "white_desk",
+      "object_prompt": "a medium sized white desk.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000009",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000009.mp4",
+      "frames": 415,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 325,
+      "prompts": {
+        "sequence": "episode_000009",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              876,
+              396,
+              1065,
+              903
+            ]
+          },
+          {
+            "id": 1,
+            "label": "white_desk",
+            "box": [
+              390,
+              666,
+              789,
+              978
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 10,
+      "sequence_id": "2026-03-13_11-18-20_white_desk_left_foot_push_04",
+      "camera": "left_stereo_camera_left",
+      "object": "white_desk",
+      "object_prompt": "a medium sized white desk.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000010",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000010.mp4",
+      "frames": 577,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 418,
+      "prompts": {
+        "sequence": "episode_000010",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              507,
+              429,
+              675,
+              882
+            ]
+          },
+          {
+            "id": 1,
+            "label": "white_desk",
+            "box": [
+              636,
+              606,
+              975,
+              963
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 11,
+      "sequence_id": "2026-04-29_14-21-44_white_desk_lower_to_ground_09",
+      "camera": "left_stereo_camera_left",
+      "object": "white_desk",
+      "object_prompt": "a medium sized white desk.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000011",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000011.mp4",
+      "frames": 877,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 803,
+      "prompts": {
+        "sequence": "episode_000011",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              678,
+              420,
+              804,
+              858
+            ]
+          },
+          {
+            "id": 1,
+            "label": "white_desk",
+            "box": [
+              582,
+              600,
+              927,
+              945
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 12,
+      "sequence_id": "2026-09-11_15-27-19_black_pan_wipe_06",
+      "camera": "front_stereo_camera_left",
+      "object": "black_pan",
+      "object_prompt": "a black frying pan.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000012",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000012.mp4",
+      "frames": 405,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 209,
+      "prompts": {
+        "sequence": "episode_000012",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              678,
+              453,
+              849,
+              945
+            ]
+          },
+          {
+            "id": 1,
+            "label": "black_pan",
+            "box": [
+              585,
+              675,
+              736,
+              750
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 13,
+      "sequence_id": "2026-09-11_15-28-23_black_pan_wipe_07",
+      "camera": "left_stereo_camera_left",
+      "object": "black_pan",
+      "object_prompt": "a black frying pan.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000013",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000013.mp4",
+      "frames": 425,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 106,
+      "prompts": {
+        "sequence": "episode_000013",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              810,
+              420,
+              960,
+              855
+            ]
+          },
+          {
+            "id": 1,
+            "label": "black_pan",
+            "box": [
+              642,
+              621,
+              750,
+              690
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 14,
+      "sequence_id": "2026-09-11_15-55-29_black_pan_wipe_08",
+      "camera": "front_stereo_camera_left",
+      "object": "black_pan",
+      "object_prompt": "a black frying pan.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000014",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000014.mp4",
+      "frames": 442,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 83,
+      "prompts": {
+        "sequence": "episode_000014",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              756,
+              429,
+              918,
+              921
+            ]
+          },
+          {
+            "id": 1,
+            "label": "black_pan",
+            "box": [
+              639,
+              666,
+              756,
+              753
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 15,
+      "sequence_id": "2026-09-10_16-14-06_foam_grass_block_rotate_02",
+      "camera": "right_stereo_camera_left",
+      "object": "foam_grass_block",
+      "object_prompt": "a foam block with a pixalated design of various shades of green and various shades of brown.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000015",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000015.mp4",
+      "frames": 501,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 356,
+      "prompts": {
+        "sequence": "episode_000015",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              717,
+              480,
+              852,
+              918
+            ]
+          },
+          {
+            "id": 1,
+            "label": "foam_grass_block",
+            "box": [
+              675,
+              651,
+              768,
+              744
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 16,
+      "sequence_id": "2026-09-11_15-12-36_foam_grass_block_rotate_04",
+      "camera": "front_stereo_camera_left",
+      "object": "foam_grass_block",
+      "object_prompt": "a foam block with a pixalated design of various shades of green and various shades of brown.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000016",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000016.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 240,
+      "prompts": {
+        "sequence": "episode_000016",
+        "source": "Official Track 1 RGB, frame 0 at 1536x1152; manually specified boxes from observed image",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              465,
+              435,
+              604,
+              894
+            ]
+          },
+          {
+            "id": 1,
+            "label": "foam grass block",
+            "box": [
+              660,
+              650,
+              747,
+              725
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 17,
+      "sequence_id": "2026-09-11_15-53-19_foam_grass_block_pick_place_05",
+      "camera": "left_stereo_camera_left",
+      "object": "foam_grass_block",
+      "object_prompt": "a foam block with a pixalated design of various shades of green and various shades of brown.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000017",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000017.mp4",
+      "frames": 419,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 277,
+      "prompts": {
+        "sequence": "episode_000017",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              798,
+              402,
+              951,
+              885
+            ]
+          },
+          {
+            "id": 1,
+            "label": "foam_grass_block",
+            "box": [
+              684,
+              609,
+              789,
+              696
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 18,
+      "sequence_id": "2026-09-10_15-45-17_paint_roller_table_roll_03",
+      "camera": "back_stereo_camera_left",
+      "object": "paint_roller",
+      "object_prompt": "white with yellow stipped paint roller with a blue handle.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000018",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000018.mp4",
+      "frames": 535,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 420,
+      "prompts": {
+        "sequence": "episode_000018",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              435,
+              399,
+              612,
+              1035
+            ]
+          },
+          {
+            "id": 1,
+            "label": "paint_roller",
+            "box": [
+              720,
+              660,
+              840,
+              714
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 19,
+      "sequence_id": "2026-09-11_15-00-57_paint_roller_table_roll_04",
+      "camera": "left_stereo_camera_left",
+      "object": "paint_roller",
+      "object_prompt": "white with yellow stipped paint roller with a blue handle.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000019",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000019.mp4",
+      "frames": 443,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 283,
+      "prompts": {
+        "sequence": "episode_000019",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              414,
+              330,
+              648,
+              1074
+            ]
+          },
+          {
+            "id": 1,
+            "label": "paint_roller",
+            "box": [
+              720,
+              636,
+              825,
+              696
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 20,
+      "sequence_id": "2026-09-11_15-45-25_paint_roller_table_roll_05",
+      "camera": "left_stereo_camera_left",
+      "object": "paint_roller",
+      "object_prompt": "white with yellow stipped paint roller with a blue handle.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000020",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000020.mp4",
+      "frames": 549,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 375,
+      "prompts": {
+        "sequence": "episode_000020",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              486,
+              408,
+              672,
+              885
+            ]
+          },
+          {
+            "id": 1,
+            "label": "paint_roller",
+            "box": [
+              684,
+              660,
+              804,
+              717
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 21,
+      "sequence_id": "2026-09-10_15-52-02_pink_foam_roll_tap_03",
+      "camera": "left_stereo_camera_left",
+      "object": "pink_foam_roll",
+      "object_prompt": "pink foam roll.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000021",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000021.mp4",
+      "frames": 563,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 347,
+      "prompts": {
+        "sequence": "episode_000021",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              867,
+              375,
+              1023,
+              1023
+            ]
+          },
+          {
+            "id": 1,
+            "label": "pink_foam_roll",
+            "box": [
+              609,
+              801,
+              768,
+              897
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 22,
+      "sequence_id": "2026-09-10_15-57-50_pink_foam_roll_table_001",
+      "camera": "front_stereo_camera_left",
+      "object": "pink_foam_roll",
+      "object_prompt": "pink foam roll.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000022",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000022.mp4",
+      "frames": 533,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 452,
+      "prompts": {
+        "sequence": "episode_000022",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              645,
+              432,
+              837,
+              930
+            ]
+          },
+          {
+            "id": 1,
+            "label": "pink_foam_roll",
+            "box": [
+              582,
+              519,
+              642,
+              750
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 23,
+      "sequence_id": "2026-09-11_15-04-48_pink_foam_roll_tap_04",
+      "camera": "front_stereo_camera_left",
+      "object": "pink_foam_roll",
+      "object_prompt": "pink foam roll.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000023",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000023.mp4",
+      "frames": 552,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 399,
+      "prompts": {
+        "sequence": "episode_000023",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              714,
+              423,
+              891,
+              918
+            ]
+          },
+          {
+            "id": 1,
+            "label": "pink_foam_roll",
+            "box": [
+              573,
+              918,
+              807,
+              999
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 24,
+      "sequence_id": "2026-09-10_16-02-58_short_wood_stool_sit_rotate_001",
+      "camera": "front_stereo_camera_left",
+      "object": "short_wood_stool",
+      "object_prompt": "short wooden stool with no back support.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000024",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000024.mp4",
+      "frames": 420,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 242,
+      "prompts": {
+        "sequence": "episode_000024",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              435,
+              435,
+              612,
+              924
+            ]
+          },
+          {
+            "id": 1,
+            "label": "short_wood_stool",
+            "box": [
+              693,
+              798,
+              870,
+              1065
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 25,
+      "sequence_id": "2026-09-10_16-08-39_short_wood_stool_pick_place_02",
+      "camera": "right_stereo_camera_left",
+      "object": "short_wood_stool",
+      "object_prompt": "short wooden stool with no back support.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000025",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000025.mp4",
+      "frames": 365,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 219,
+      "prompts": {
+        "sequence": "episode_000025",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              750,
+              450,
+              912,
+              1062
+            ]
+          },
+          {
+            "id": 1,
+            "label": "short_wood_stool",
+            "box": [
+              510,
+              813,
+              663,
+              1068
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 26,
+      "sequence_id": "2026-09-11_15-49-16_short_wood_stool_sit_rotate_05",
+      "camera": "right_stereo_camera_left",
+      "object": "short_wood_stool",
+      "object_prompt": "short wooden stool with no back support.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000026",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000026.mp4",
+      "frames": 399,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 281,
+      "prompts": {
+        "sequence": "episode_000026",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              792,
+              420,
+              987,
+              1098
+            ]
+          },
+          {
+            "id": 1,
+            "label": "short_wood_stool",
+            "box": [
+              558,
+              789,
+              744,
+              999
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 27,
+      "sequence_id": "2026-09-10_15-07-44_white_laptop_cart_place_down_01",
+      "camera": "right_stereo_camera_left",
+      "object": "white_laptop_cart",
+      "object_prompt": "white_laptop_cart.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000027",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000027.mp4",
+      "frames": 440,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 243,
+      "prompts": {
+        "sequence": "episode_000027",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              435,
+              468,
+              585,
+              930
+            ]
+          },
+          {
+            "id": 1,
+            "label": "white_laptop_cart",
+            "box": [
+              627,
+              714,
+              831,
+              1062
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 28,
+      "sequence_id": "2026-09-10_15-36-27_white_laptop_cart_place_down_02",
+      "camera": "back_stereo_camera_left",
+      "object": "white_laptop_cart",
+      "object_prompt": "rolling white laptop desk with cup holder and basket.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000028",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000028.mp4",
+      "frames": 366,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 147,
+      "prompts": {
+        "sequence": "episode_000028",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              798,
+              456,
+              930,
+              903
+            ]
+          },
+          {
+            "id": 1,
+            "label": "white_laptop_cart",
+            "box": [
+              546,
+              648,
+              723,
+              891
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "episode_index": 29,
+      "sequence_id": "2026-09-10_15-38-09_white_laptop_cart_push_pull_003",
+      "camera": "left_stereo_camera_left",
+      "object": "white_laptop_cart",
+      "object_prompt": "rolling white laptop desk with cup holder and basket.",
+      "video_key": "observation.images.exo_camera",
+      "episode": "episode_000029",
+      "video": "/home/lab-2/Research/V2D/data/track1_release/track_1/videos/chunk-000/observation.images.exo_camera/episode_000029.mp4",
+      "frames": 419,
+      "fps": 30.0,
+      "width": 1536,
+      "height": 1152,
+      "scored_count": 267,
+      "prompts": {
+        "sequence": "episode_000029",
+        "source": "Official Track 1 RGB frame 0; 1536x1152; boxes selected by visual inspection of the RGB image only",
+        "objects": [
+          {
+            "id": 0,
+            "label": "person",
+            "box": [
+              837,
+              375,
+              1032,
+              960
+            ]
+          },
+          {
+            "id": 1,
+            "label": "white_laptop_cart",
+            "box": [
+              723,
+              633,
+              906,
+              948
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

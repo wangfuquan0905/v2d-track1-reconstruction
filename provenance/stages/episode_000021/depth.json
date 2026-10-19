@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/bootstrap_cari4d_native.py",
+    "depth",
+    "--episode",
+    "episode_000021",
+    "--frames",
+    "563",
+    "--batch-size",
+    "1"
+  ],
+  "script_sha256": "093106b30de3e830d175a51ca2f0415ef1da5ac376ad852864150beadf626b17",
+  "input_sha256": {},
+  "started": 1792355566.1698434,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000021/cari4d/episode_000021/depth/moge2/raw.npy": "fed81dfada2774ba97491cf4b404379f11f76d2154818c68f4e08726c92ac0d3",
+    "/home/lab-2/Research/V2D/outputs/episode_000021/cari4d/episode_000021/depth/moge2/intrinsics.pkl": "6aad18c011d736ff9b2ccabec2a23131c918621b7676766221192f53223125ec",
+    "/home/lab-2/Research/V2D/outputs/episode_000021/cari4d/episode_000021/depth/moge2/depth_report.json": "51020902bb15248c7441c539c4840e410e99d713af3cffbb80a87732f7fce498"
+  },
+  "elapsed_seconds": 35.195449113845825
+}

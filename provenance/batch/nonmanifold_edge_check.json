@@ -1,0 +1,16 @@
+[
+  {
+    "episode": "episode_000006",
+    "nonmanifold_edges": 9,
+    "max_faces_per_edge": 4,
+    "faces": 20000,
+    "vertices": 10003
+  },
+  {
+    "episode": "episode_000029",
+    "nonmanifold_edges": 23,
+    "max_faces_per_edge": 4,
+    "faces": 20000,
+    "vertices": 9963
+  }
+]

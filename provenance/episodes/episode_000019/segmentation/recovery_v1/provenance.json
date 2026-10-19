@@ -1,0 +1,56 @@
+{
+  "episode": "episode_000019",
+  "patches": [
+    {
+      "anchor": 0,
+      "start": 0,
+      "end": 442,
+      "box": [
+        736,
+        643,
+        804,
+        683
+      ],
+      "points": [
+        [
+          764,
+          655
+        ],
+        [
+          779,
+          674
+        ],
+        [
+          820,
+          674
+        ],
+        [
+          757,
+          688
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reason": "Tight RGB paint-roller and handle prompts exclude supporting table."
+    }
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/recover_track1_object_masks.py": "ec0639ce1a392e4f641eb9afdfe9dc151700f7ecc27183b1c5202c13e3a8ad08"
+  },
+  "config_sha256_at_run": "63b548634c9b4b65670a900295b81b2644aa753029fd996ff99a942e1eb66515",
+  "output_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000019/segmentation/masks.h5": "9d374c9f1aa5754cf7c09daed2c538ebdea2762f415b5405a958c9b0c555b19e",
+    "/home/lab-2/Research/V2D/outputs/episode_000019/segmentation/segmentation_report.json": "a4e764ac71d585c9c7cad6c1caba0bba10175e1df243dc089446a95c9f242aff",
+    "/home/lab-2/Research/V2D/outputs/episode_000019/segmentation/first_1_mask.png": "7a16fd7fcd866e21e40c4827f23f72cf7e16fec5f3fe3385fcc25557e579e375"
+  },
+  "initial_artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000019/segmentation/segmentation_report.json": "338c4a1e61f872a799cba9440f7914e8d8ee4128b0a781eeecb4a76acba93cea",
+    "/home/lab-2/Research/V2D/outputs/episode_000019/segmentation/masks.h5": "71ed6053aa329e3d73dcce3872ca5e246471f9fe67dd6ec595a748b756f18db0"
+  },
+  "created": 1792339246.218648,
+  "reference_inputs": false
+}

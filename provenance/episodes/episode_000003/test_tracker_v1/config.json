@@ -1,0 +1,58 @@
+{
+  "source": "/home/lab-2/Research/V2D/outputs/episode_000003/test_safe_input_v1",
+  "episode": "episode_000003",
+  "frames": 592,
+  "beam": 4,
+  "first_frame": "Source frame 0 followed by image-only local registration before motion prediction; no earlier tracking history",
+  "fixed": [
+    "human vertices/parameters from source",
+    "shared object scale",
+    "mesh/colors/camera"
+  ],
+  "loss_weights": {
+    "object_color": 20,
+    "object_silhouette": 10,
+    "angular_acceleration": 0.01,
+    "linear_acceleration": 0.01,
+    "angular_velocity": 0,
+    "linear_velocity": 0
+  },
+  "normalization": {
+    "angular_acceleration_deg_s2": 360,
+    "linear_acceleration_m_s2": 1
+  },
+  "coarse_candidates": 32,
+  "fine_survivors": 8,
+  "fps": 30.0,
+  "reference_inputs": false,
+  "gradient_method": "actual candidate renders; no object image autograd",
+  "recovery": "silhouette loss > .55 or best local candidate on search boundary; larger rotation proposals",
+  "limitations": [
+    "Heuristic pruning, not guaranteed global optimum",
+    "Beam may merge similar paths",
+    "Fixed appearance/occlusion can bias RGB fit",
+    "Acceleration-only causal tracking can drift"
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/track_object_pruned.py": "cc13a9275b801c58d4ccf398dd567cfca12bc171ffb601cff7ea37a6d2971d2d",
+    "/home/lab-2/Research/V2D/v2d_syilen/pruned_tracking.py": "470af3ec2eac552901d480a7367b052b3d3a2288601b09caef70447fd1eeee71"
+  },
+  "frame_range_inclusive": [
+    0,
+    591
+  ],
+  "render_size": [
+    384,
+    248
+  ],
+  "crop_xyxy": [
+    522,
+    362,
+    913,
+    971
+  ],
+  "bundle_path": "/home/lab-2/Research/V2D/outputs/episode_000003/test_canonical_v1/canonical.pth",
+  "comparison_label": "Full CARI4D",
+  "candidate_retention": "Unrefined alternatives plus refined top two; endpoint diversity across beam",
+  "translation_proposals": "Constant-velocity prediction, local offsets, and observed mask-box displacement"
+}

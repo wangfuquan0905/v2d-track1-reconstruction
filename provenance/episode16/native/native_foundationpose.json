@@ -1,0 +1,26 @@
+{
+  "stage": "foundationpose",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "/home/lab-2/Research/V2D/third_party/video_to_data/reconstruction/modules/v2d_cari4d/lib/cari4d/prep/run_foundationpose_mhr_export.py",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/export/episode_000016",
+    "--depth-root",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/depth/moge2/aligned.h5",
+    "--out-file",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/foundationpose/episode_000016.pkl",
+    "--camera-id",
+    "0",
+    "--iteration",
+    "5",
+    "--max-attempts",
+    "5",
+    "--register-first-then-track",
+    "--no-first-usable-frame-gt-rotation-oracle",
+    "--viz-file",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/foundationpose/tracking_preview.mp4"
+  ],
+  "status": "passed",
+  "started_unix": 1791401592.3352654,
+  "returncode": 0,
+  "elapsed_seconds": 32.27867913246155
+}

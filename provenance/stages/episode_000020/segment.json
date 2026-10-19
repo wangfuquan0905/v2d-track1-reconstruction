@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/segment_track1.py",
+    "--video",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/inputs/episode_000020.0.color.mp4",
+    "--out",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation",
+    "--prompts",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/inputs/prompts.json",
+    "--checkpoint",
+    "/home/lab-2/Research/RLSIM/third_party/sam2/checkpoints/sam2.1_hiera_large.pt",
+    "--chunk-frames",
+    "96"
+  ],
+  "script_sha256": "8b37701afc48dd1f1c1a53418765ca54d2f68f896d0b50b1afcc08f792b0852c",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/inputs/episode_000020.0.color.mp4": "781ec1de0edcf8bf30cbc9f3847f80efd8cd2e97e53b0b4f80ccb0b505ef03ce",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/inputs/prompts.json": "d576cb877a123b629092de7bece89eb7bdfbfcd146b5c89602580dacf2e1d3d5"
+  },
+  "started": 1792338705.0851097,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/masks.h5": "5f8271d4b07542bad1f08b05303cfafacb678d075b76001bdc7ac1a391079541",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/segmentation_report.json": "3bd45aa2d09960d3358685c1703bf243e154936653c20d6c2f182a15fb6c6808",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/first_1_mask.png": "7735761c4b3b5935b501f534bb8d9a85d8e786a709fb52f15647124a3d45f56c"
+  },
+  "elapsed_seconds": 47.00605487823486,
+  "initial_artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/segmentation_report.json": "02cba7cf010ace36d73c381b933a7c36cfe4ccac45bfc57c5c3391fb8bed0b8e",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/masks.h5": "9826a7844a5c050526be457f9f54682023118a95899c56205b53534a8c38d737"
+  },
+  "postprocessing": {
+    "provenance": "/home/lab-2/Research/V2D/outputs/episode_000020/segmentation/recovery_v1/provenance.json",
+    "sha256": "76a044c5073af0293fe7ebeca9daff77f5d664a11893496c098f18408eb35fba",
+    "source_sha256": {
+      "/home/lab-2/Research/V2D/scripts/recover_track1_object_masks.py": "ec0639ce1a392e4f641eb9afdfe9dc151700f7ecc27183b1c5202c13e3a8ad08"
+    }
+  }
+}

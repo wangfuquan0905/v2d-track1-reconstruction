@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv*/
+workspace*/
+runtime.local.json
+validation.local/
+outputs/
+data/
+third_party/
+*.egg-info/
+dist/
+.env

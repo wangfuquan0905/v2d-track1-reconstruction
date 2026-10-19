@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/segment_track1.py",
+    "--video",
+    "/home/lab-2/Research/V2D/outputs/episode_000017/inputs/episode_000017.0.color.mp4",
+    "--out",
+    "/home/lab-2/Research/V2D/outputs/episode_000017/segmentation",
+    "--prompts",
+    "/home/lab-2/Research/V2D/outputs/episode_000017/inputs/prompts.json",
+    "--checkpoint",
+    "/home/lab-2/Research/RLSIM/third_party/sam2/checkpoints/sam2.1_hiera_large.pt",
+    "--chunk-frames",
+    "96"
+  ],
+  "script_sha256": "8b37701afc48dd1f1c1a53418765ca54d2f68f896d0b50b1afcc08f792b0852c",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000017/inputs/episode_000017.0.color.mp4": "4c536c20aff3e803c0d5caf1f91b0dfab1054444361fdae2799212e5af15a94b",
+    "/home/lab-2/Research/V2D/outputs/episode_000017/inputs/prompts.json": "6e0593da0541a3cc23f1b9deaded787d8e850a778e45f7a793d0caa560f090ee"
+  },
+  "started": 1792338584.4756553,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000017/segmentation/segmentation_report.json": "ebd0020bfb36fb7c6a5caf1ce0c7a410a323488eef6c9813defd5623e0c809f0",
+    "/home/lab-2/Research/V2D/outputs/episode_000017/segmentation/masks.h5": "6adc1d5be208bceb9c4da67384e8fd8b1523139ba15af27104ef908b420ac83d"
+  },
+  "elapsed_seconds": 36.309014081954956
+}

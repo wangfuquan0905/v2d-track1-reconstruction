@@ -1,0 +1,24 @@
+{
+  "input_bundle": "outputs/episode_000016/cari4d/episode_000016/inference/refined.pth",
+  "frames": 360,
+  "identity": "shared temporal median of predicted compact shape/scale; zero expression",
+  "native_shape_contract": {
+    "pose": [
+      360,
+      136
+    ],
+    "scales": [
+      68
+    ],
+    "shape": [
+      45
+    ]
+  },
+  "roundtrip_max_vertex_error_m": 1.1920928955078125e-06,
+  "roundtrip_max_joint_error_m": 4.76837158203125e-07,
+  "joint_roundtrip_excludes": [
+    0
+  ],
+  "reference_inputs": false,
+  "scope": "public native MHR decoder; private Kaggle asset equivalence unverified"
+}

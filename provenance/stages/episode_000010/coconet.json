@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/run_cari4d_native.py",
+    "--episode",
+    "episode_000010",
+    "--from-stage",
+    "coconet",
+    "--through-stage",
+    "coconet"
+  ],
+  "script_sha256": "ad949ed13a8877d3275a5573050686a368734a690600f73dbe4be268f7b003ae",
+  "input_sha256": {},
+  "started": 1792350141.0561955,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000010/cari4d/episode_000010/inference/coconet.pth": "863b5d3d9a929e9ce4fda53334cbb717af66254ba8e87b39d2c07e085fdd9d75"
+  },
+  "elapsed_seconds": 49.01939034461975
+}

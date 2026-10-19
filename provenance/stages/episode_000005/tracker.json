@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/track_object_pruned.py",
+    "--source",
+    "/home/lab-2/Research/V2D/outputs/episode_000005/test_safe_input_v1",
+    "--out",
+    "/home/lab-2/Research/V2D/outputs/episode_000005/test_tracker_v1",
+    "--end",
+    "667",
+    "--beam",
+    "4",
+    "--batch",
+    "4",
+    "--angular-acceleration-weight",
+    ".01",
+    "--linear-acceleration-weight",
+    ".01"
+  ],
+  "script_sha256": "cc13a9275b801c58d4ccf398dd567cfca12bc171ffb601cff7ea37a6d2971d2d",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000005/test_safe_input_v1/optimized.npz": "0f87c116199c61daea738872b47c5b6d2e975a90433c39aba5df9397d7c16f23",
+    "/home/lab-2/Research/V2D/outputs/episode_000005/test_safe_input_v1/config.json": "8b871114e18fbe7ddb6bd8323745c4af4d244a9b7176d586e0d406ca02253baf"
+  },
+  "started": 1792363812.8407366,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000005/test_tracker_v1/optimized.npz": "ba713e779b512985cec8ad5d0841fc348c69b9ad8597e52e41959bdc615d3be7",
+    "/home/lab-2/Research/V2D/outputs/episode_000005/test_tracker_v1/report.json": "bd47132a028ada1162de401bf335d2fce4532bdbae141132c93b021e4b72d68a"
+  },
+  "elapsed_seconds": 187.88379669189453
+}

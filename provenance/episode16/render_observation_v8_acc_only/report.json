@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "initial": {
+    "human_silhouette": 0.2334463286679238,
+    "object_silhouette": 0.31708247668575495,
+    "human_area": 0.00805285097885644,
+    "object_area": 0.02842205753950111,
+    "object_color": 0.24271369946654886,
+    "penetration": 1.8625045060279035,
+    "acceleration": 0.48554408075870015,
+    "object_linear_acceleration": 42.882256160490215,
+    "angular_velocity": 72.57023531559389,
+    "angular_acceleration": 10141.124467983842,
+    "total": 10192.080391824245
+  },
+  "after_orientation_search": {
+    "human_silhouette": 0.23300216509960592,
+    "object_silhouette": 0.3101839964510873,
+    "human_area": 0.007880176886828849,
+    "object_area": 0.046497937232299336,
+    "object_color": 0.18904436973389238,
+    "penetration": 1.9281817218904331,
+    "acceleration": 0.48554404548485763,
+    "object_linear_acceleration": 42.882256160490215,
+    "angular_velocity": 0.0,
+    "angular_acceleration": 0.0,
+    "total": 49.81353813782334
+  },
+  "optimization_start": {
+    "human_silhouette": 0.28507930983323604,
+    "object_silhouette": 0.1951618540333584,
+    "human_area": 0.009720267058582976,
+    "object_area": 0.016942543903297747,
+    "object_color": 0.1499828363303095,
+    "penetration": 2.272744951503351,
+    "acceleration": 0.06303606784786098,
+    "object_linear_acceleration": 0.4132973867090186,
+    "angular_velocity": 0.0006776527786769293,
+    "angular_acceleration": 0.06334991058247397,
+    "total": 5.434226222336292
+  },
+  "optimized": {
+    "human_silhouette": 0.29273217427544296,
+    "object_silhouette": 0.17414021492004395,
+    "human_area": 0.009759643759025494,
+    "object_area": 0.015042931899216683,
+    "object_color": 0.14208633662201464,
+    "penetration": 2.157402327118583,
+    "acceleration": 0.0574641044731834,
+    "object_linear_acceleration": 0.3143649023550097,
+    "angular_velocity": 0.0004876727919054247,
+    "angular_acceleration": 0.033172042763908394,
+    "total": 4.9364122822880745
+  },
+  "best_step": 119,
+  "elapsed_seconds": 295.0665955010336,
+  "object_scale": 1.0858920812606812,
+  "ground_truth_used": false,
+  "frames": 360,
+  "scope": "Direct-trajectory rendering experiment; no dynamics rollout, no claim of general improvement"
+}

@@ -1,0 +1,13 @@
+{
+  "input": "render_observation_v8_acc_only/optimized.npz",
+  "tracked_object_initialization": "Only frame zero, further locally registered to frame zero RGB; later source object transforms used solely for comparisons",
+  "retained_data": "Per-frame source human mesh, shared source object scale, fixed mesh appearance/camera",
+  "search": "32 rotation proposals per parent per local or expanded pass; loose projected-box filter; <=8 full-color survivors; retain up to four endpoint-diverse trajectories; derivative-free local refinement",
+  "motion_prior": "Acceleration only; linear and angular weights 0.01. No speed penalty or absolute rotation clamp.",
+  "earlier_trials": [
+    "v1 failed due recursive non-orthogonal matrix extrapolation, corrected",
+    "v2 demonstrated wrong constant spin with weight 1",
+    "v3 added first-image registration, candidate diversity and image translation proposals; weight 1 still lost tracking"
+  ],
+  "interpretation": "Parameter-tuning trial on one clip, not an official GT evaluation or a controlled runtime speedup benchmark"
+}

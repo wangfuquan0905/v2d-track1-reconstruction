@@ -1,0 +1,162 @@
+{
+  "episodes": {
+    "episode_000000": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000000/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "98f54c09b9a2dbf404d1a9b905ca0aed08f16eccbf3a276d3c423f303a926980"
+    },
+    "episode_000001": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000001/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "9c3b91be4fe8e301afab93a4ca50062612f53e2c799e8319e2118b0366485c9f"
+    },
+    "episode_000002": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000002/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "3c8e3b83fe0105019e80ba0ed8bd2dead2965b1e155aca2c2c48dc2927ed5bbc"
+    },
+    "episode_000003": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000003/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "a307f4d972031c6200e2d20e9f62a380038d11363ba77a4c3ac9794e6d4f03d0"
+    },
+    "episode_000004": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000004/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "17f4c93a824cedc7ede7627f8a07527135298acc21a1b3208c95847db7c82d7c"
+    },
+    "episode_000005": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000005/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "6eea0b204df710cdec846b428639d6980dde01b4c10c1f6e218a3d6847d429cb"
+    },
+    "episode_000006": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000006/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "e92c93387e8ae47c3856b8f34b9893b3907161866391d76d1501ebebc03276b5"
+    },
+    "episode_000007": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000007/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "ef66ffef82202ffc5a7830178faf9d9c2c29b41c0230880900be72c38f53c286"
+    },
+    "episode_000008": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000008/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "4aa542905ecef6d44b76802c394b29a832f4284a6aab125321f8768e13cdbbe5"
+    },
+    "episode_000009": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000009/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "581db3b4e8de14c071ea20c2e1783430c5396470c65cec110ac1bae0904c1ee4"
+    },
+    "episode_000010": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000010/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "4c0383879cca2a46cfa442c049dd3f50de8e4a9d27a8593a60d0c572b28d0c24"
+    },
+    "episode_000011": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000011/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "6395bab9f76965f0e8317bc9e3de499c6fae24e0f746c680c9272c1da4b5eca2"
+    },
+    "episode_000012": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000012/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "8b414eb5a9497f98f25f484e7d37d82ec3abb4d87e31a3300b32f22cd5a9b446"
+    },
+    "episode_000013": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000013/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "ba6f30befcae6cb4e95a52df57d66e06dddc6ad0205786a528600b210a1bc799"
+    },
+    "episode_000014": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000014/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "3c32f3895d810b61f1be1539fd16520ac3a0863327d760e15ad83affba2999ca"
+    },
+    "episode_000015": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000015/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "ba6a076a26bc43ab35d710cd9d80626292f515f27c34ad19984a3300eb287e25"
+    },
+    "episode_000016": {
+      "status": "complete",
+      "reused_reviewed_result": true,
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000016/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "d7693ade2901f39be6daa373a6a62809949d2f4bc94bd16fb7245f68e861944f"
+    },
+    "episode_000017": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000017/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "678bc32b4a7de5695fe4e2ce01f3fc162dc7677588d986ac009bc5115cd3002e"
+    },
+    "episode_000018": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000018/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "f1387ae74ebffddcdb42a2822eab62f4e3ec6dd30dd7c3a908bdb1ddc0ca10ce"
+    },
+    "episode_000019": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000019/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "fee8319010e140043cea90ce21e2fbe1de24da8f9c3732014f5c6217d463a994"
+    },
+    "episode_000020": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000020/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "0b6e69243e6948c2214cf535d24d73b821c7a4a3065189a33656b1b8baddc8b9"
+    },
+    "episode_000021": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000021/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "081dd012fd3e5df1b9a74e70d1623b7aa334991f0540e2318ce4cef1fc256741"
+    },
+    "episode_000022": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000022/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "0e0c8e54cfcab2090125e2d5b0fdae2998ea893f28f307f61504f18c97982999"
+    },
+    "episode_000023": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000023/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "0755be0bed1df26a894ca6fa63d5d27688fdff3a06adb74ff45b7c3267c6c4ee"
+    },
+    "episode_000024": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000024/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "4029a3433b10ab05f349a553bd3e03d29d0eb49c77a5b7a26965a55e23aceadb"
+    },
+    "episode_000025": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000025/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "6c07a654b0e6f307fb79387277b4a0dd9fe9c5472bbc9ce4a9fe1b8c2aa27ca7"
+    },
+    "episode_000026": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000026/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "7e617b31d8d1bfee0b5f1379e4ecf376cb29fce4899bbe7b9ec6809ca4381167"
+    },
+    "episode_000027": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000027/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "cd02c086bf412b36a81c0f37ea879fc125590dc39060b0ea3d80bf7acf65bbc7"
+    },
+    "episode_000028": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000028/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "de24e2f8eedb9d5877168a5cdd4ff70302b08587fd901f93d6966c71ecc6277c"
+    },
+    "episode_000029": {
+      "status": "complete",
+      "result": "/home/lab-2/Research/V2D/outputs/episode_000029/safe_windows_v1/optimized.npz",
+      "prediction_sha256": "fec3d51ba5800f1958ecdae9ef6dceac327cd7f2b5eb64f16353886e35ded1c4"
+    }
+  },
+  "created": 1792337709.9860852,
+  "status": "phase_complete",
+  "phase": "full",
+  "started": 1792375842.1041274,
+  "pid": 2782980,
+  "failed": [],
+  "finished": 1792376788.8627315
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/calibrate_object_scale_registered.py",
+    "--episode",
+    "episode_000008"
+  ],
+  "script_sha256": "efcb0a79d87cb73afd154c7da2579f0ffa04073c41b2fc6714a81e412074bd1f",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000008/object/object_local.glb": "94d358cd2a194a1735e9175cbe1a65e90b03c4421bcdb4cfdc60733485c12e73",
+    "/home/lab-2/Research/V2D/outputs/episode_000008/object/object_report.json": "a4f939128bec4098344c881f5938d5ea110f6444bff45c657fc789408d7298d7",
+    "/home/lab-2/Research/V2D/outputs/episode_000008/segmentation/first_1_mask.png": "0ae434e818db5b7e2d86f15d04716d37df6f31746481b059c9a002dca6e84b4a",
+    "/home/lab-2/Research/V2D/outputs/episode_000008/cari4d/episode_000008/depth/moge2/intrinsics.pkl": "cbadabfb46cfc0f229264aad6cb0cb401575dda9e79162219e3093628e9bb809",
+    "/home/lab-2/Research/V2D/outputs/episode_000008/cari4d/episode_000008/depth/moge2/aligned.h5": "3cf68ebde01caa4c818eb0c67dc3067d574a3486573b14dc21d1d3b7bdce4660"
+  },
+  "started": 1792365684.3192184,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000008/object/object_metric_estimate.glb": "24153b9d7f5e7cd2b7d2c199be68c0f7d1e16ff7fbc65f210723f26f114ad221",
+    "/home/lab-2/Research/V2D/outputs/episode_000008/object/scale_report.json": "cbff7d61d0f8be8fc5c974ea036be7868f5e63db65fb43b943a4f04f303c594f"
+  },
+  "elapsed_seconds": 3.123347282409668
+}

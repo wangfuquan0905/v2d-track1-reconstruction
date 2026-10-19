@@ -1,0 +1,56 @@
+{
+  "episode": "episode_000014",
+  "patches": [
+    {
+      "anchor": 0,
+      "start": 0,
+      "end": 441,
+      "box": [
+        659,
+        690,
+        777,
+        728
+      ],
+      "points": [
+        [
+          694,
+          713
+        ],
+        [
+          748,
+          701
+        ],
+        [
+          744,
+          728
+        ],
+        [
+          660,
+          735
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reason": "RGB inspection shows table contamination around the black pan; use tight pan and handle prompts."
+    }
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/recover_track1_object_masks.py": "ec0639ce1a392e4f641eb9afdfe9dc151700f7ecc27183b1c5202c13e3a8ad08"
+  },
+  "config_sha256_at_run": "63b548634c9b4b65670a900295b81b2644aa753029fd996ff99a942e1eb66515",
+  "output_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000014/segmentation/masks.h5": "ed231d817794ed8807c4a6b9d97ffe567585db4446901cf20ba88d05c50fbac8",
+    "/home/lab-2/Research/V2D/outputs/episode_000014/segmentation/segmentation_report.json": "ed9e72d8e92a0436bf5b9c2b42b3a895e400c448a3eed7e22db5cf17148dc4e5",
+    "/home/lab-2/Research/V2D/outputs/episode_000014/segmentation/first_1_mask.png": "f3730440ebddccd9b2625e2b89a409d3b7b0b66932e0647e0be2963597658ac0"
+  },
+  "initial_artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000014/segmentation/segmentation_report.json": "abdf66b09f2a2da682ab835e641e81fa22dd850e602c3d82cc106b45e99f8a34",
+    "/home/lab-2/Research/V2D/outputs/episode_000014/segmentation/masks.h5": "eed9ada7e7dc9186e9e3a9cccb9ecf7440058614767b31a9e0bd0e97a031aea3"
+  },
+  "created": 1792339190.3285203,
+  "reference_inputs": false
+}

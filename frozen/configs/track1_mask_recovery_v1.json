@@ -1,0 +1,24 @@
+{
+  "method": "SAM2 bidirectional propagation from visible RGB anchor after occlusion",
+  "reference_inputs": false,
+  "episodes": {
+    "episode_000007": [
+      {"anchor": 450, "start": 375, "end": 776, "box": [774, 490, 822, 542], "reason": "Forward object track remains empty after the iron reappears from behind the person; anchor selected from RGB frame 450."}
+    ],
+    "episode_000012": [
+      {"anchor":0,"start":0,"end":404,"box":[563,706,687,739],"points":[[647,722],[590,716],[700,730],[650,748]],"labels":[1,1,0,0],"reason":"RGB inspection shows initial SAM2 mask selected the supporting table instead of the black pan."}
+    ],
+    "episode_000014": [
+      {"anchor":0,"start":0,"end":441,"box":[659,690,777,728],"points":[[694,713],[748,701],[744,728],[660,735]],"labels":[1,1,0,0],"reason":"RGB inspection shows table contamination around the black pan; use tight pan and handle prompts."}
+    ],
+    "episode_000018": [
+      {"anchor":0,"start":0,"end":534,"box":[732,665,831,696],"points":[[753,680],[810,685],[790,703],[721,684]],"labels":[1,1,0,0],"reason":"RGB inspection shows paint-roller track spilling onto supporting table; prompt roller and blue handle."}
+    ],
+    "episode_000019": [
+      {"anchor":0,"start":0,"end":442,"box":[736,643,804,683],"points":[[764,655],[779,674],[820,674],[757,688]],"labels":[1,1,0,0],"reason":"Tight RGB paint-roller and handle prompts exclude supporting table."}
+    ],
+    "episode_000020": [
+      {"anchor":0,"start":0,"end":548,"box":[697,668,792,704],"points":[[760,685],[715,679],[795,706],[715,700]],"labels":[1,1,0,0],"reason":"RGB prompts identify both roller and blue handle while excluding the table."}
+    ]
+  }
+}

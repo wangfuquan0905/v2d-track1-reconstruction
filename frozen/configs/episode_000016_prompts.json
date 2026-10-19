@@ -1,0 +1,8 @@
+{
+  "sequence": "episode_000016",
+  "source": "Official Track 1 RGB, frame 0 at 1536x1152; manually specified boxes from observed image",
+  "objects": [
+    {"id": 0, "label": "person", "box": [465, 435, 604, 894]},
+    {"id": 1, "label": "foam grass block", "box": [660, 650, 747, 725]}
+  ]
+}

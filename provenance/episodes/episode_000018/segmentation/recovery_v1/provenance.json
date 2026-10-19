@@ -1,0 +1,56 @@
+{
+  "episode": "episode_000018",
+  "patches": [
+    {
+      "anchor": 0,
+      "start": 0,
+      "end": 534,
+      "box": [
+        732,
+        665,
+        831,
+        696
+      ],
+      "points": [
+        [
+          753,
+          680
+        ],
+        [
+          810,
+          685
+        ],
+        [
+          790,
+          703
+        ],
+        [
+          721,
+          684
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "reason": "RGB inspection shows paint-roller track spilling onto supporting table; prompt roller and blue handle."
+    }
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/recover_track1_object_masks.py": "ec0639ce1a392e4f641eb9afdfe9dc151700f7ecc27183b1c5202c13e3a8ad08"
+  },
+  "config_sha256_at_run": "63b548634c9b4b65670a900295b81b2644aa753029fd996ff99a942e1eb66515",
+  "output_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000018/segmentation/masks.h5": "6d825a7d6c6c9546eea9811a8fb01a7260c8973bf6a22b3b2ef08a60bb963ab1",
+    "/home/lab-2/Research/V2D/outputs/episode_000018/segmentation/segmentation_report.json": "d346156da654fc3c1587a87908e36a06b22084dbf19a2eec9c4fc54cf679e832",
+    "/home/lab-2/Research/V2D/outputs/episode_000018/segmentation/first_1_mask.png": "a8428f0d83bc2c0f067b1e097cb6df489e4cd1d76c4cf106b057c1bb1136b015"
+  },
+  "initial_artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000018/segmentation/segmentation_report.json": "df94100f07ad9c7d3518151c11df13973d917b7902c6936d36e7996dd9c503ab",
+    "/home/lab-2/Research/V2D/outputs/episode_000018/segmentation/masks.h5": "72a907323d0be3398b82bfe10b4fdd5ae3eec634f93b85eca513f6b176da2b83"
+  },
+  "created": 1792339220.7379475,
+  "reference_inputs": false
+}

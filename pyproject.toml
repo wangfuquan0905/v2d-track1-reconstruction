@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "v2d-track1-reconstruction"
+version = "0.1.0"
+description = "Frozen RGB reconstruction, object tracking and window refinement for V2D Track 1"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["frozen"]
+include = ["v2d_syilen*"]
+
+[tool.pytest.ini_options]
+testpaths = ["frozen/tests"]
+pythonpath = ["frozen", "frozen/scripts"]

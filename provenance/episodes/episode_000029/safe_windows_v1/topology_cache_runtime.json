@@ -1,0 +1,14 @@
+{
+  "method": "nvdiffrast antialias_construct_topology_hash reuse for identical triangle arrays",
+  "antialias_calls": 83695,
+  "hash_constructions": 1,
+  "triangle_sha256": [
+    "1db2a1f1aabc8abe0f9f183c96fbc34fbe0bb5694880de8289da9dc5b47622e5"
+  ],
+  "loss_mesh_and_validation_tolerances_unchanged": true,
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/run_safe_windows_cached_topology.py": "3ebdea25c244120c83723ca2ecc14c976335810650c0ee6d2d7ed4c965170b03",
+    "/home/lab-2/Research/V2D/v2d_syilen/render_topology_cache.py": "e2f11f82c0e94ee0de29c9bd9b0890da7c45ac1efe0518ee20d6d2c20aaad043"
+  },
+  "completed": true
+}

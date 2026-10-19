@@ -1,0 +1,88 @@
+{
+  "repositories": [
+    {
+      "name": "video_to_data",
+      "remote": "https://github.com/nvidia-isaac/video_to_data.git",
+      "commit": "a709404e30954c14a97a8fb8417535a01a5b9299",
+      "patch": "dependency_patches/video_to_data.patch",
+      "patch_sha256": "a9add6825bce9cad06a69875075fc04db4f326408064589281655bc3b36adc43"
+    },
+    {
+      "name": "sam3d_objects",
+      "remote": "https://github.com/facebookresearch/sam-3d-objects.git",
+      "commit": "0e3d254f70c388efd10d6deae3f12a1344eb1957",
+      "patch": "dependency_patches/sam3d_objects.patch",
+      "patch_sha256": "14ed9856f97df22b819482576c01e05d794ff24d3153ed72617b82dd4ae84bb6"
+    },
+    {
+      "name": "sam2",
+      "remote": "https://github.com/facebookresearch/segment-anything-2.git",
+      "commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+      "patch": "dependency_patches/sam2.patch",
+      "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "kaolin",
+      "remote": "https://github.com/NVIDIAGameWorks/kaolin.git",
+      "commit": "f7093babd992e227375c15b0ba9479a6926f6760",
+      "patch": "dependency_patches/kaolin.patch",
+      "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "pytorch3d",
+      "remote": "https://github.com/facebookresearch/pytorch3d.git",
+      "commit": "2d4d345b6fd2720580bff5f63dcbd3b230b43996",
+      "patch": "dependency_patches/pytorch3d.patch",
+      "patch_sha256": "d20df2707175121b09e7a9a2ef0a1e42f3366d7b342fa9416fa6866f9881c30b"
+    }
+  ],
+  "runtime_packages": {
+    "torch": "2.9.1",
+    "torchvision": "0.24.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "trimesh": "4.9.0",
+    "h5py": "3.16.0",
+    "opencv-python": "4.12.0.88",
+    "nvdiffrast": "0.3.4",
+    "pytorch3d": "0.7.8",
+    "transformers": "5.3.0",
+    "safetensors": "0.7.0",
+    "imageio": "2.37.2",
+    "fast-simplification": "0.2.0"
+  },
+  "additional_git_packages": {
+    "torch": {
+      "version": "2.9.1",
+      "direct_url": null
+    },
+    "torchvision": {
+      "version": "0.24.1",
+      "direct_url": null
+    },
+    "pytorch3d": {
+      "version": "0.7.8",
+      "direct_url": "{\"dir_info\": {}, \"url\": \"file:///home/lab-2/Research/RLSIM/third_party/pytorch3d\"}"
+    },
+    "moge": {
+      "version": "2.0.0",
+      "direct_url": "{\"url\": \"https://github.com/microsoft/MoGe.git\", \"vcs_info\": {\"commit_id\": \"925b8ed835a7a9cdb7578ba15c658a0afc969030\", \"requested_revision\": \"925b8ed835a7a9cdb7578ba15c658a0afc969030\", \"vcs\": \"git\"}}"
+    },
+    "utils3d": {
+      "version": "1.3",
+      "direct_url": "{\"url\": \"https://github.com/EasternJournalist/utils3d.git\", \"vcs_info\": {\"commit_id\": \"3fab839f0be9931dac7c8488eb0e1600c236e183\", \"requested_revision\": \"3fab839f0be9931dac7c8488eb0e1600c236e183\", \"vcs\": \"git\"}}"
+    },
+    "kaolin": {
+      "version": "0.18.0",
+      "direct_url": "{\"dir_info\": {}, \"url\": \"file:///home/lab-2/Research/V2D/third_party/kaolin\"}"
+    },
+    "transformers": {
+      "version": "5.3.0",
+      "direct_url": null
+    }
+  },
+  "cuda": "12.8",
+  "gpu_at_run": "NVIDIA RTX 5090",
+  "reconstruction_python": "3.10.19",
+  "packing_python": "3.13"
+}

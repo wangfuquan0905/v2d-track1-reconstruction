@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/run_safe_windows_cached_topology.py",
+    "--source",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/test_safe_input_v1",
+    "--alternate",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/test_tracker_v1",
+    "--out",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/safe_windows_v1",
+    "--window",
+    "50",
+    "--stride",
+    "25",
+    "--steps",
+    "12",
+    "--batch",
+    "1"
+  ],
+  "script_sha256": "3ebdea25c244120c83723ca2ecc14c976335810650c0ee6d2d7ed4c965170b03",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/test_safe_input_v1/optimized.npz": "bf644bdede016d7d0d7134bd8e2ad599fd817610f91701c243f0b4c8ad72964d",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/test_tracker_v1/optimized.npz": "03993e2b591c235eaaf79c3cf382844fb7a06368ede514e947641a23d93fc093",
+    "/home/lab-2/Research/V2D/v2d_syilen/render_topology_cache.py": "e2f11f82c0e94ee0de29c9bd9b0890da7c45ac1efe0518ee20d6d2c20aaad043"
+  },
+  "started": 1792376134.2932336,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000020/safe_windows_v1/optimized.npz": "0b6e69243e6948c2214cf535d24d73b821c7a4a3065189a33656b1b8baddc8b9",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/safe_windows_v1/report.json": "8663a8ec795cfb8c6f12be004fbb8a68ea4e19e5cf9335669ece05d33a7605fb",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/safe_windows_v1/comparison.mp4": "0e4fa0317b0002cea420c066c7dce2899a2bae5538413e7545938529d017583f",
+    "/home/lab-2/Research/V2D/outputs/episode_000020/safe_windows_v1/comparison.png": "7015e9714bea847718922388b4f3d8a63f06ba0fd33ecab5324caaaf670b5799"
+  },
+  "elapsed_seconds": 177.61314630508423
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "name": "cari4d_commercial",
+    "provider": "huggingface",
+    "repo": "nvidia/cari4d_commercial",
+    "revision": "6e064f8b261599a4e563d72cb8457256929d7455",
+    "destination": "models/cari4d_commercial",
+    "files": {
+      "README.md": {
+        "size": 12498,
+        "sha256": "fa3c521fb47f9965386a9569e562af414d6227e8db21c77a4658aa30184ec2f5"
+      },
+      "2026-08-25-09-35-57/manifest.json": {
+        "size": 449,
+        "sha256": "886038d938984a332ba386a3541bb6690fbc7ff0e0bb032ddcaef13e2df298de"
+      },
+      "2026-08-25-09-35-57/resolved_config.yaml": {
+        "size": 9842,
+        "sha256": "ea8d3279eb63ea1595232a1c69e235381e8021b7e0acdd823cab44e587228697"
+      },
+      "2026-08-25-09-35-57/step200000.pth": {
+        "size": 2084484133,
+        "sha256": "78ff5cb874dd012a272382e3f2d8bc11226d5b7d0ecc739a60fbb4a97a5a5ba3"
+      }
+    }
+  },
+  {
+    "name": "sam-3d-body-dinov3",
+    "provider": "huggingface",
+    "repo": "facebook/sam-3d-body-dinov3",
+    "revision": "11aaa346c7204874a1cbafe3d39a979080b2c55a",
+    "destination": "models/sam-3d-body-dinov3",
+    "files": {
+      "LICENSE": {
+        "size": 8204,
+        "sha256": "b3a5a0e2d973ab80e6610ccf1cffc40756050d0ace3cd4fec879b3ec290b2e9b"
+      },
+      "README.md": {
+        "size": 5761,
+        "sha256": "93d4d9b963b2b8d30c465f3b7b06843576e0c0a8c12711a8d03c9dc47817ddba"
+      },
+      "model_config.yaml": {
+        "size": 1488,
+        "sha256": "1012fc3f39cb5e90e3f8fbadf7bded31604bfafdce0321d17a7c1a2d3f08b88d"
+      },
+      "assets/mhr_model.pt": {
+        "size": 696110248,
+        "sha256": "352e271a6c42729c68554ceaea0c955e866970160c31e35506d782dc0f7377bc"
+      },
+      "model.ckpt": {
+        "size": 2109129346,
+        "sha256": "b5a2f9d305dd02626b967aa2e86021fba07065df66ce7a7e00ffb9664f150abf"
+      }
+    }
+  },
+  {
+    "name": "sam3d_objects",
+    "provider": "huggingface",
+    "repo": "facebook/sam-3d-objects",
+    "revision": "2e73555018d2741ccd486e56c24fac41155a1dc6",
+    "destination": "sam3d_objects/checkpoints/hf",
+    "files": {
+      "checkpoints/slat_decoder_mesh.ckpt": {
+        "sha256": "85907b37b67d8ce5b099a96629bdcfbd873eb407dee6b3aa9a75deb15038db33",
+        "size": 363726862,
+        "local_name": "slat_decoder_mesh.ckpt"
+      },
+      "checkpoints/ss_generator.ckpt": {
+        "sha256": "225f40479e4cff4f39d6fa14c55be3abad1475bf55b61af3bec1e19ed2f6c146",
+        "size": 6690136964,
+        "local_name": "ss_generator.ckpt"
+      },
+      "checkpoints/pipeline.yaml": {
+        "sha256": "53c3d226b21df85c0bb3d16e6e4fa63abde0d6167525765eb929d02bfa9d358c",
+        "size": 3548,
+        "local_name": "pipeline.yaml"
+      },
+      "checkpoints/ss_generator.yaml": {
+        "sha256": "3c265448bca7c057f94e3ef56adea3a895a10bcd9f15f992a41dd03fa35412cd",
+        "size": 5076,
+        "local_name": "ss_generator.yaml"
+      },
+      "checkpoints/slat_decoder_mesh.yaml": {
+        "sha256": "8f46952764aa985c50109a56f0b4f07625cdb06457aaded74957d26f3520c69e",
+        "size": 300,
+        "local_name": "slat_decoder_mesh.yaml"
+      },
+      "checkpoints/slat_generator.yaml": {
+        "sha256": "53029fadff6fe34a0344381a16d64d65d0567d603484952712e8969319559c4e",
+        "size": 1986,
+        "local_name": "slat_generator.yaml"
+      },
+      "checkpoints/slat_decoder_gs_4.yaml": {
+        "sha256": "3d1dfd4c56cdac56f30e0cf5eb310d4df973fe25c60ac0a462c86ca4e3bf8b48",
+        "size": 575,
+        "local_name": "slat_decoder_gs_4.yaml"
+      },
+      "checkpoints/ss_decoder.yaml": {
+        "sha256": "baacff269b664f84f7aa1896ebd66128065f6568cdb88d419d5c3d2ccb4193ae",
+        "size": 244,
+        "local_name": "ss_decoder.yaml"
+      },
+      "checkpoints/slat_decoder_gs.ckpt": {
+        "sha256": "f8077c36a06eaf890dd93cda1937411f793dea1eb80b3dd9329f2038ba84a111",
+        "size": 171476155,
+        "local_name": "slat_decoder_gs.ckpt"
+      },
+      "checkpoints/ss_decoder.ckpt": {
+        "sha256": "6dac1cd7b7fda5a38e0614fadae441f1794f80e39ea2981f1ac8aff0a7e99340",
+        "size": 147609242,
+        "local_name": "ss_decoder.ckpt"
+      },
+      "checkpoints/slat_decoder_gs_4.ckpt": {
+        "sha256": "731a0eceaa47945b52aa27f650d695b2aea9cc70945751e5609e5cb5b49f0186",
+        "size": 170269801,
+        "local_name": "slat_decoder_gs_4.ckpt"
+      },
+      "checkpoints/slat_generator.ckpt": {
+        "sha256": "91529bde8e7daa12d09618a66c319e3a5a6398db6b23b958cedcb1c3f28faabb",
+        "size": 4906537684,
+        "local_name": "slat_generator.ckpt"
+      },
+      "checkpoints/slat_decoder_gs.yaml": {
+        "sha256": "53f054e02a0c185f0a6885d30bb6ca0ec92efe0a98148688e7f05f7c26afe670",
+        "size": 576,
+        "local_name": "slat_decoder_gs.yaml"
+      }
+    }
+  },
+  {
+    "name": "moge2",
+    "provider": "huggingface-cache",
+    "repo": "Ruicheng/moge-2-vitl-normal",
+    "revision": "b135031bae30b5ac2ae141a0e68717795ce38340",
+    "destination": "models/cari4d_runtime/hf_home/hub",
+    "files": {
+      "model.pt": {
+        "size": 1323815904,
+        "sha256": "280741fd09bc3f403ccff9967784c2a391b52d2c0742ae3efdb21d9f90cc1a01"
+      }
+    }
+  },
+  {
+    "name": "sam2",
+    "provider": "url",
+    "url": "https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt",
+    "files": {
+      "sam2.1_hiera_large.pt": {
+        "size": 898083611,
+        "sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318"
+      }
+    }
+  },
+  {
+    "name": "foundationpose",
+    "provider": "upstream-downloader",
+    "backend": "nvlabs_pytorch",
+    "destination": "models/cari4d_runtime/foundationpose/nvlabs_pytorch",
+    "files": {
+      "2024-01-11-20-02-45/config.yml": {
+        "size": 778,
+        "sha256": "a79db4de3b95885dd5ae86833b37b8698a75dad81e87d1086cd50b2fcd8dda3f"
+      },
+      "2024-01-11-20-02-45/model_best.pth": {
+        "size": 190229389,
+        "sha256": "81924d384bf5c26c646ee4783104982ae3d1e049c181c36641b6a7aeae494c26"
+      },
+      "2023-10-28-18-33-37/config.yml": {
+        "size": 708,
+        "sha256": "28a6ba94a33230ee5fc3c51939486281578b0972542bd9e38ca6123e75605686"
+      },
+      "2023-10-28-18-33-37/model_best.pth": {
+        "size": 68220109,
+        "sha256": "774700586ddc435d408fc01c9809c43e151232936369dfbea0f0f964ba471d60"
+      }
+    }
+  },
+  {
+    "name": "torch_hub",
+    "provider": "torch-hub",
+    "destination": "models/cari4d_runtime/sam3d_body/torch_home/hub",
+    "repositories": {
+      "dinov2": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "dinov3": "6876159a11b4df116f30f667f8c9888617df0751"
+    },
+    "files": {
+      "checkpoints/dinov2_vitb14_pretrain.pth": {
+        "size": 346378731,
+        "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+      },
+      "checkpoints/dinov2_vits14_pretrain.pth": {
+        "size": 88283115,
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      }
+    }
+  }
+]

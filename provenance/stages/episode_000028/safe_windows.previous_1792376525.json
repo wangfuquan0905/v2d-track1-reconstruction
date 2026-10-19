@@ -1,0 +1,29 @@
+{
+  "status": "failed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/refine_object_windows_safe.py",
+    "--source",
+    "/home/lab-2/Research/V2D/outputs/episode_000028/test_safe_input_v1",
+    "--alternate",
+    "/home/lab-2/Research/V2D/outputs/episode_000028/test_tracker_v1",
+    "--out",
+    "/home/lab-2/Research/V2D/outputs/episode_000028/safe_windows_v1",
+    "--window",
+    "50",
+    "--stride",
+    "25",
+    "--steps",
+    "12",
+    "--batch",
+    "4"
+  ],
+  "script_sha256": "b0dd4cb202637f2535cd139932dfe364bbd7febf4ed4cf8153a89e7c853f26ce",
+  "input_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000028/test_safe_input_v1/optimized.npz": "1b579b385f628669bbb9ab2e8c4756eb40cd6246e78db37d1fcaeb4f6d1ac66a",
+    "/home/lab-2/Research/V2D/outputs/episode_000028/test_tracker_v1/optimized.npz": "30f1a908ca0bf85f44157221f5afa1f51070cc5be5b9132c8b5f4ef0a56fa1d1"
+  },
+  "started": 1792375644.0673084,
+  "error": "Command '['/home/lab-2/Research/V2D/.venv-cari4d/bin/python', 'scripts/refine_object_windows_safe.py', '--source', '/home/lab-2/Research/V2D/outputs/episode_000028/test_safe_input_v1', '--alternate', '/home/lab-2/Research/V2D/outputs/episode_000028/test_tracker_v1', '--out', '/home/lab-2/Research/V2D/outputs/episode_000028/safe_windows_v1', '--window', '50', '--stride', '25', '--steps', '12', '--batch', '4']' returned non-zero exit status 1.",
+  "elapsed_seconds": 51.45695972442627
+}

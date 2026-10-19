@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "scripts/run_cari4d_native.py",
+    "--episode",
+    "episode_000010",
+    "--from-stage",
+    "metric_export",
+    "--through-stage",
+    "metric_export"
+  ],
+  "script_sha256": "ad949ed13a8877d3275a5573050686a368734a690600f73dbe4be268f7b003ae",
+  "input_sha256": {},
+  "started": 1792350077.7421215,
+  "artifact_sha256": {
+    "/home/lab-2/Research/V2D/outputs/episode_000010/cari4d/episode_000010/export/episode_000010/object_mesh/output_aligned.glb": "569fd6604cd25f243486d8185ab29c1568d8cbed363fb068fb668be2ab57beb9"
+  },
+  "elapsed_seconds": 17.39601159095764
+}

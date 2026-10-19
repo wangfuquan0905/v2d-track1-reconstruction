@@ -1,0 +1,24 @@
+{
+  "input_bundle": "/home/lab-2/Research/V2D/outputs/episode_000008/cari4d/episode_000008/inference/refined.pth",
+  "frames": 634,
+  "identity": "shared temporal median of predicted compact shape/scale; zero expression",
+  "native_shape_contract": {
+    "pose": [
+      634,
+      136
+    ],
+    "scales": [
+      68
+    ],
+    "shape": [
+      45
+    ]
+  },
+  "roundtrip_max_vertex_error_m": 9.5367431640625e-07,
+  "roundtrip_max_joint_error_m": 4.76837158203125e-07,
+  "joint_roundtrip_excludes": [
+    0
+  ],
+  "reference_inputs": false,
+  "scope": "public native MHR decoder; private Kaggle asset equivalence unverified"
+}

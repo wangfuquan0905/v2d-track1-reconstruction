@@ -1,0 +1,7 @@
+{
+  "source": "/home/lab-2/Research/V2D/outputs/episode_000016/pruned_tracking_v4_acc001/optimized.npz",
+  "source_sha256": "e6cdb2a2fe332c274cf8cec1b3f8846cd434431b3ad241046a624e70a025e5a2",
+  "adaptation": "Only rotations/translations from previous tracker; baseline human/scale retained and all candidates rerendered",
+  "old_object_scale": 1.0858920812606812,
+  "fixed_object_scale": 1.0
+}

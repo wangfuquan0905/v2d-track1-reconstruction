@@ -1,0 +1,665 @@
+{
+  "episodes": [
+    {
+      "episode": "episode_000000",
+      "source_sha256": "66a0114b923ca1b27f4e2618379fb2e6f84cbf56f5dfb33e754e67f7920954bc",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000000/cari4d/episode_000000/export/episode_000000/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2156,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.044147979243342905,
+        0.8432070402267182,
+        0.8468401948163775
+      ],
+      "area_m2": 0.40501828590629096,
+      "budget_sha256": "b4f719ac28e94a3aee7bfbec953029beb9ca8d87a67388ab48b2b84e8150b102"
+    },
+    {
+      "episode": "episode_000001",
+      "source_sha256": "8eb5ec3bdab7067207ef81c0888ef58f7316c5c96c080456fdd1566ab68a7403",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000001/cari4d/episode_000001/export/episode_000001/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2056,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.028231167481329103,
+        0.7849927189362313,
+        0.8094044489625143
+      ],
+      "area_m2": 0.1820510653866523,
+      "budget_sha256": "18b9eef70300f56d0bc9952f8329be596415fe592648a8c32b659e1a3b552c97"
+    },
+    {
+      "episode": "episode_000002",
+      "source_sha256": "9e78237454f3835cae167558e7df1a2e9e7de84c8b13a934a8d4cb408891b131",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000002/cari4d/episode_000002/export/episode_000002/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2076,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.033949676544789226,
+        0.796806003607946,
+        0.8086325418814507
+      ],
+      "area_m2": 0.212272193602993,
+      "budget_sha256": "f2ad71141cf04e1afaf7a5e355df650de16de72d59fb9ef00e4df063ee15b43f"
+    },
+    {
+      "episode": "episode_000003",
+      "source_sha256": "98b39775cea8ff8ba4b2bada686ea090586712925a1a1503b043c9d06134d7d2",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000003/cari4d/episode_000003/export/episode_000003/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2075,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.1302521839771944,
+        0.2974085125829309,
+        0.29720081774150886
+      ],
+      "area_m2": 0.26213406954506346,
+      "budget_sha256": "bcd5fd1b88e14fc943c5a47d32aa6f794edee7eead150dcf3357b90183f35304"
+    },
+    {
+      "episode": "episode_000004",
+      "source_sha256": "b5b40ea67eb1b2b46b0eefeca86f6c1d084e89e611cd5d5584f99812f1e04d59",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000004/cari4d/episode_000004/export/episode_000004/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2087,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.14355359484905483,
+        0.3349543149355628,
+        0.33568652176826697
+      ],
+      "area_m2": 0.31458337172552137,
+      "budget_sha256": "0f20fc6a5c2600d7ea6872df5ebe6e8ec8b2037348800a7db07e5bf22fd6dd5f"
+    },
+    {
+      "episode": "episode_000005",
+      "source_sha256": "79e86b2fd768f1b244a27d15c4a369e944e297daefd9ed2eec16f40995554ef9",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000005/cari4d/episode_000005/export/episode_000005/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2070,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.14179622066443487,
+        0.31030362926215715,
+        0.3104867617807421
+      ],
+      "area_m2": 0.2802567093805941,
+      "budget_sha256": "4a23a7d0014063aaf7b0681c3ad5f8a85b52152412a13b1bc99966f59f809cf8"
+    },
+    {
+      "episode": "episode_000006",
+      "source_sha256": "be0f19c8e1bd41fdc3855df8f446e8aba722cde103769cb48106f896f15d09d9",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000006/cari4d/episode_000006/export/episode_000006/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2044,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.12351008327070889,
+        0.16374945992138873,
+        0.38375220045392033
+      ],
+      "area_m2": 0.29348524439894663,
+      "budget_sha256": "361d37a1e53b2ed7f3d0c68ce2d489918351846804c9f748847d0941a593a53b"
+    },
+    {
+      "episode": "episode_000007",
+      "source_sha256": "41833fe29dfec0274d61545dabfc1f9489329fd7c7ac52bb378d90ed252eeade",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000007/cari4d/episode_000007/export/episode_000007/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2048,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.08494767570846935,
+        0.16108214486528652,
+        0.317873666935372
+      ],
+      "area_m2": 0.23163569127445574,
+      "budget_sha256": "1b93e16a60589573b5538a868f490a9bbfccff6e1c13fd283fac5722a5689a7e"
+    },
+    {
+      "episode": "episode_000008",
+      "source_sha256": "3db944083698f00b536ba91df743cead4380f770ed5542a79448f92f3955acfa",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000008/cari4d/episode_000008/export/episode_000008/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2051,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.1825662971540644,
+        0.19270794711048023,
+        0.33543168964015807
+      ],
+      "area_m2": 0.39032453768229836,
+      "budget_sha256": "3458e162a1e39b8747b74f5bbef4fea9d992c1bea72153fdb57c1bec1394f7fd"
+    },
+    {
+      "episode": "episode_000009",
+      "source_sha256": "25a3169d698bb07b92827d74e063d30a4d094517b6e8a5c4ee94a87bb01fd55d",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000009/cari4d/episode_000009/export/episode_000009/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2063,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.6395121342961345,
+        1.061099262101902,
+        1.0609112174053368
+      ],
+      "area_m2": 4.22343815667009,
+      "budget_sha256": "88e21b33c442a37a01c2bf436c7609c0af1b6603da9bad340ce8e9eec22aa51a"
+    },
+    {
+      "episode": "episode_000010",
+      "source_sha256": "569fd6604cd25f243486d8185ab29c1568d8cbed363fb068fb668be2ab57beb9",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000010/cari4d/episode_000010/export/episode_000010/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2058,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.6831349653079155,
+        0.9127163746371091,
+        1.0568527817195323
+      ],
+      "area_m2": 2.6852741979342167,
+      "budget_sha256": "7f2035464dee29b110adf4364e793f4a876ab91ddb707b44d5296e7985245e5b"
+    },
+    {
+      "episode": "episode_000011",
+      "source_sha256": "afb8b9e9b20a8fd86bbaa0a7b434b1af917ceb612b0bdb953f0db58bbc441125",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000011/cari4d/episode_000011/export/episode_000011/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2060,
+      "surface_faces": 4096,
+      "watertight": true,
+      "extents_m": [
+        0.6413119242308218,
+        0.8532241972648816,
+        0.9883099488811395
+      ],
+      "area_m2": 2.41720346407985,
+      "budget_sha256": "3cb020fd71c411b6f4b8a10b8d84672ee944ae72f5a74e866e6be66d0b0af063"
+    },
+    {
+      "episode": "episode_000012",
+      "source_sha256": "1e4c5fa2785f73e065e541afaed2bbd7361b07252df505bda3e8533037612a6a",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000012/cari4d/episode_000012/export/episode_000012/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2054,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.06498990043917628,
+        0.24176165385731035,
+        0.43111217370229743
+      ],
+      "area_m2": 0.15826334029228578,
+      "budget_sha256": "6d391481be25d1625c9e40b449aed6d2ca1b8bfa62dc4bd7b8cf7d039869a6f9"
+    },
+    {
+      "episode": "episode_000013",
+      "source_sha256": "03d31e29cb890601544f0240dfabcc42befa5f5f611779a685512de73f56db6e",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000013/cari4d/episode_000013/export/episode_000013/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2054,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.07219872190095364,
+        0.20348864406812056,
+        0.3538054482881666
+      ],
+      "area_m2": 0.14160313733813368,
+      "budget_sha256": "a91fec5905aeaab153dad58156b3393065605b6ccee3963a7fd0455f6d974e8e"
+    },
+    {
+      "episode": "episode_000014",
+      "source_sha256": "c9037e553b35b22ea0ba85352227c6ab5770f37322ffcb332dc1785ada0619d9",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000014/cari4d/episode_000014/export/episode_000014/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2048,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.0615045753342081,
+        0.23316056380478692,
+        0.44625931005098507
+      ],
+      "area_m2": 0.1469317763773077,
+      "budget_sha256": "dfed6289860173594b2cd5848cd982f30989d9d7c7427d2e0fbee6d45b470002"
+    },
+    {
+      "episode": "episode_000015",
+      "source_sha256": "c44076b6900d9224afbfc5c1372d4faf0c985ea035a83fc5a7f36311b27a8234",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000015/cari4d/episode_000015/export/episode_000015/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2035,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.20181531729767915,
+        0.20966850818838476,
+        0.21013979511576958
+      ],
+      "area_m2": 0.5946362861985063,
+      "budget_sha256": "685b2e26865c2472d2c353b2f1314f81485164a48a06ccea9febea61a46c6ff4"
+    },
+    {
+      "episode": "episode_000016",
+      "source_sha256": "fceeae4addbe4f292916aaafd50fae292afa584ca87707b13d64d246ca0adf79",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/export/episode_000016/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2052,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.1965833698535311,
+        0.2211818333150214,
+        0.22196649092240223
+      ],
+      "area_m2": 0.46982957739628145,
+      "budget_sha256": "86d72ae8028a9ad3b3997c07d9ee1c61b30060ea42c13e9c3e8c805b7b38566a"
+    },
+    {
+      "episode": "episode_000017",
+      "source_sha256": "2b77b5f6ea11cbc7fe01d8dd616991021377a201f7b01971fa90fb8ce6c44a66",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000017/cari4d/episode_000017/export/episode_000017/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2052,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.21630261071692222,
+        0.2185429083324633,
+        0.21849548991613793
+      ],
+      "area_m2": 0.49905719750440425,
+      "budget_sha256": "fe7471319e0b31223572e4c3bf853cbc8d009d03087e1cf725cdc99a34558277"
+    },
+    {
+      "episode": "episode_000018",
+      "source_sha256": "37a20a29c7248b7db1635934691d7c576f69f8c461e27e32142eaa9558635ca9",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000018/cari4d/episode_000018/export/episode_000018/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2057,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.08524663856669573,
+        0.3010959089459734,
+        0.30563953603764143
+      ],
+      "area_m2": 0.3392320857372273,
+      "budget_sha256": "895bc231a5e240b9d76405fd792ad76a2d68e516f215ef0f9887fd272137bb8d"
+    },
+    {
+      "episode": "episode_000019",
+      "source_sha256": "977f334111c01a52cecea04d7ac502a20402b7bbe785d72189e727d7cce7d80e",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000019/cari4d/episode_000019/export/episode_000019/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2036,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.06457625607598036,
+        0.23346081148909748,
+        0.2447626626489714
+      ],
+      "area_m2": 0.4856904378032649,
+      "budget_sha256": "151bb48751e5baf431e02bb04dc858c40be1b26cb27c2c67bc44233b77362d39"
+    },
+    {
+      "episode": "episode_000020",
+      "source_sha256": "2bf0f3fc9b8b231974f120ab842842b15ec9c51a6eb1c04edefb8942bda906b1",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000020/cari4d/episode_000020/export/episode_000020/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2047,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.06560921621665076,
+        0.22559859206229985,
+        0.22852392297364538
+      ],
+      "area_m2": 0.20217554361297752,
+      "budget_sha256": "1ee2d63f438f5effdf40923845371afcc8f48bf2e44f7bdc69adac5eca444a5d"
+    },
+    {
+      "episode": "episode_000021",
+      "source_sha256": "d2263a2abb7cad8baf7b9c696ca066317fea3a715ef3d2c482d79f891389eaa7",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000021/cari4d/episode_000021/export/episode_000021/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2050,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.13763718951193324,
+        0.1411294301799905,
+        0.5895821660388618
+      ],
+      "area_m2": 0.629557155704412,
+      "budget_sha256": "41da2417a177fc262c9f3ed5ad72e23595dfc940bd4289f75a76136cdc5737f6"
+    },
+    {
+      "episode": "episode_000022",
+      "source_sha256": "5599e5a714ca003a1e99962a7ff039ec2da4396f3b99571c3449ad4c3a08fea6",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000022/cari4d/episode_000022/export/episode_000022/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2050,
+      "surface_faces": 4096,
+      "watertight": true,
+      "extents_m": [
+        0.11475119701283645,
+        0.12197535493844641,
+        0.5224691011236887
+      ],
+      "area_m2": 0.3696471790653895,
+      "budget_sha256": "045a2f2fb5756a513055837cf600819d78d94ad32675dc2307ac6d237463ae2c"
+    },
+    {
+      "episode": "episode_000023",
+      "source_sha256": "fed78726bfda441b91977af8ab48f06c21cd381f372b74fd49fc80531afe04f3",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000023/cari4d/episode_000023/export/episode_000023/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2049,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.147965515890073,
+        0.15693109216129886,
+        0.6145241135125827
+      ],
+      "area_m2": 0.690743162012795,
+      "budget_sha256": "61917f1a83e1a233062a8c9dd5b597e0196453d9a58ba4b06ce99623fb565cb2"
+    },
+    {
+      "episode": "episode_000024",
+      "source_sha256": "e2a6bcdf843df95bc6ec0a971997d7f04bbd6df270df4e9acd75e54ad7b7a850",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000024/cari4d/episode_000024/export/episode_000024/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2045,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.30752955422016337,
+        0.4284028584301197,
+        0.4851568356548501
+      ],
+      "area_m2": 1.2252290280038016,
+      "budget_sha256": "fe7ed75b6ead799d60dcb9807f459f50787c230bd661892647fec5c74b7b0f9e"
+    },
+    {
+      "episode": "episode_000025",
+      "source_sha256": "b483e51fd1b8d8dda52fe211d5e69dc185a2ed3895b2d5536aaf1ed527e4818e",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000025/cari4d/episode_000025/export/episode_000025/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2038,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.313219558879428,
+        0.4958115134275737,
+        0.5338959340479614
+      ],
+      "area_m2": 1.4022630951946164,
+      "budget_sha256": "043c589d74a28c867ae06fcc705bc7fb8b8685e3d25be2f623f7ab4ef215e057"
+    },
+    {
+      "episode": "episode_000026",
+      "source_sha256": "ed59898ab3f9eef17638744bfeffe7602fbd90af69d530a9387d36ac4cd7c39b",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000026/cari4d/episode_000026/export/episode_000026/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2059,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.3293173740165887,
+        0.4419681610273518,
+        0.5000929408514024
+      ],
+      "area_m2": 1.2106907375317724,
+      "budget_sha256": "241e681e0808add5363e45823e852cfa6e46818de7f0e2238c3a4856fe000562"
+    },
+    {
+      "episode": "episode_000027",
+      "source_sha256": "81ef5ad3fba16b630fada24d76602efe6b5113b700078dc57f4cd577eab895db",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000027/cari4d/episode_000027/export/episode_000027/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2047,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.5216223863168569,
+        0.5361649032589682,
+        0.8058567764091853
+      ],
+      "area_m2": 1.486743771337884,
+      "budget_sha256": "9349a11f8e3eeaa14d2877c66bc77d85e8f5aaeba26a5662f6b80470a548ee57"
+    },
+    {
+      "episode": "episode_000028",
+      "source_sha256": "8f00c02c6e573ba8660b5eab0c09f8466bd7ec9fa0be66e753048d29035b086c",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000028/cari4d/episode_000028/export/episode_000028/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 1963,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.5531474279640951,
+        0.5696954812938242,
+        0.8077943266356067
+      ],
+      "area_m2": 1.9030610282267633,
+      "budget_sha256": "f2620461219dd6a13006ff423648d79e938416cf8aba4dcd271c4dc404e461a3"
+    },
+    {
+      "episode": "episode_000029",
+      "source_sha256": "22484b82fd57ece82c562cd583bd58ad490d9d6b5ff50f5d8756d3ba7ec3ef8c",
+      "packages": {
+        "numpy": "2.5.4",
+        "trimesh": "5.1.1",
+        "fast_simplification": "0.2.0"
+      },
+      "source": "/home/lab-2/Research/V2D/outputs/episode_000029/cari4d/episode_000029/export/episode_000029/object_mesh/output_aligned.glb",
+      "budget_vertices": 4096,
+      "budget_faces": 4096,
+      "surface_vertices": 2013,
+      "surface_faces": 4096,
+      "watertight": false,
+      "extents_m": [
+        0.48735027265866826,
+        0.5239804333177482,
+        0.7379736038276314
+      ],
+      "area_m2": 1.620952102071334,
+      "budget_sha256": "c080ab5745bc4d9568bc3740cea297dc0a2a4a60ef7daf8fe11586fbd224f914"
+    }
+  ],
+  "official_advisories": []
+}

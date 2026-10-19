@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-19T18:48:47.822277+00:00",
+  "source_and_results": {
+    "status": "passed",
+    "frozen_files": 52,
+    "historical_sources": 16,
+    "verified_result_episodes": 30
+  },
+  "recorded_successful_stage_sources": {
+    "checked": 493,
+    "missing": 0,
+    "changed": 0
+  },
+  "tests": {
+    "command": "PYTHONPATH=<workspace>:<workspace>/scripts <workspace>/.venv-cari4d/bin/python -m pytest <workspace>/tests -q",
+    "passed": 22,
+    "failed": 0,
+    "elapsed_seconds": 11.96
+  },
+  "gpu_replay": {
+    "episode": 3,
+    "frames": 592,
+    "windows": 23,
+    "steps_limit": 12,
+    "render_batch": 1,
+    "cached_antialias_topology": true,
+    "before": 7.84918911156123,
+    "after": 3.8908681735430513,
+    "final_rerender_check": true,
+    "elapsed_seconds": 196.69383258302696,
+    "input": "Original RGB-derived baseline and tracker; fresh optimizer output in separate materialized workspace"
+  },
+  "limits": [
+    "No clean-machine end-to-end rerun of all pretrained models.",
+    "Historical episode16 replay driver was not executed through the full GPU chain.",
+    "GPU replay is not a byte-identical reconstruction claim."
+  ],
+  "original_submission_predictions_changed": false
+}

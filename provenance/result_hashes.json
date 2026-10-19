@@ -1,0 +1,212 @@
+{
+  "episode_000000": {
+    "outputs/episode_000000/safe_windows_v1/optimized.npz": "98f54c09b9a2dbf404d1a9b905ca0aed08f16eccbf3a276d3c423f303a926980",
+    "outputs/episode_000000/segmentation/masks.h5": "15b085c325606f41644a7c242d327e7db81365847ac80d0e663a801eee37991c",
+    "outputs/episode_000000/object/object_local.glb": "eb7d26cf663afe5b006c7cb4935e8c45385f1e350234604b2ce5d1f1b2534adb",
+    "outputs/episode_000000/cari4d/episode_000000/export/episode_000000/object_mesh/output_aligned.glb": "66a0114b923ca1b27f4e2618379fb2e6f84cbf56f5dfb33e754e67f7920954bc",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000000.npz": "d8a3aa4c1eef3ff95f9540bb52eb590d47af89e504592ad28065846ef31e713e"
+  },
+  "episode_000001": {
+    "outputs/episode_000001/safe_windows_v1/optimized.npz": "9c3b91be4fe8e301afab93a4ca50062612f53e2c799e8319e2118b0366485c9f",
+    "outputs/episode_000001/segmentation/masks.h5": "f9815cdb56251d75e25b78896e1c4d6be7a7bf01c5888a67a50516c5dd10b0fd",
+    "outputs/episode_000001/object/object_local.glb": "1a3d3c236ae053873b2631479cd23fdbcb7a2a07cca31f1f9e57e10ca6878d46",
+    "outputs/episode_000001/cari4d/episode_000001/export/episode_000001/object_mesh/output_aligned.glb": "8eb5ec3bdab7067207ef81c0888ef58f7316c5c96c080456fdd1566ab68a7403",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000001.npz": "891c853e545426395946d8e20717ab1adb2b54a612eac19610bdd057e2038e9d"
+  },
+  "episode_000002": {
+    "outputs/episode_000002/safe_windows_v1/optimized.npz": "3c8e3b83fe0105019e80ba0ed8bd2dead2965b1e155aca2c2c48dc2927ed5bbc",
+    "outputs/episode_000002/segmentation/masks.h5": "df6edb8c4d204fe5183b77162577048ffb1e242e8578577cd5b939ccccf24866",
+    "outputs/episode_000002/object/object_local.glb": "2a5f00416a4d552b2cedf3b67d06e38f8a5ca4e9875dbc5546e215b3ad68e21f",
+    "outputs/episode_000002/cari4d/episode_000002/export/episode_000002/object_mesh/output_aligned.glb": "9e78237454f3835cae167558e7df1a2e9e7de84c8b13a934a8d4cb408891b131",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000002.npz": "49a96f9cb119c5fd893c5737cbbb98b020dcee917054826ae2fa1ac703108a22"
+  },
+  "episode_000003": {
+    "outputs/episode_000003/safe_windows_v1/optimized.npz": "a307f4d972031c6200e2d20e9f62a380038d11363ba77a4c3ac9794e6d4f03d0",
+    "outputs/episode_000003/segmentation/masks.h5": "61ca02d6e8f258272694fb820b5db8123c3f5bb6cb4ff188d05304c7fbe11b4b",
+    "outputs/episode_000003/object/object_local.glb": "0030b7b0c29ed60ff6a39aad0f0c3bb3d0878cd1113978a7decc7817812c34a5",
+    "outputs/episode_000003/cari4d/episode_000003/export/episode_000003/object_mesh/output_aligned.glb": "98b39775cea8ff8ba4b2bada686ea090586712925a1a1503b043c9d06134d7d2",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000003.npz": "9d826d36b1963a263c8fc3434b2e792be0ba26e3c1938904c70883463068c888"
+  },
+  "episode_000004": {
+    "outputs/episode_000004/safe_windows_v1/optimized.npz": "17f4c93a824cedc7ede7627f8a07527135298acc21a1b3208c95847db7c82d7c",
+    "outputs/episode_000004/segmentation/masks.h5": "cc3d77f265bac7ec4c1cc914e129e91d19771c61fd1c2f1674fc157795abdac3",
+    "outputs/episode_000004/object/object_local.glb": "1cdc0bc787f8cf3eae004fea4292e7911474b637c8f787b6ad3f66092eb1570c",
+    "outputs/episode_000004/cari4d/episode_000004/export/episode_000004/object_mesh/output_aligned.glb": "b5b40ea67eb1b2b46b0eefeca86f6c1d084e89e611cd5d5584f99812f1e04d59",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000004.npz": "1e563562a285e271709e0f780d98c3c687f9255cf181766c014b732475e2434a"
+  },
+  "episode_000005": {
+    "outputs/episode_000005/safe_windows_v1/optimized.npz": "6eea0b204df710cdec846b428639d6980dde01b4c10c1f6e218a3d6847d429cb",
+    "outputs/episode_000005/segmentation/masks.h5": "4a0df83d4d3fe78302122cec5d5d5e4843696ede6e5d8ca713b2125dbc627217",
+    "outputs/episode_000005/object/object_local.glb": "a2c5439d4f45682fa85d322a366206204bac86a388fa22564fda67146287abe9",
+    "outputs/episode_000005/cari4d/episode_000005/export/episode_000005/object_mesh/output_aligned.glb": "79e86b2fd768f1b244a27d15c4a369e944e297daefd9ed2eec16f40995554ef9",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000005.npz": "108e8fcfbdb2cfa14882e29451327efa76a2daaee1bb9394451c73cf4acc2a7c"
+  },
+  "episode_000006": {
+    "outputs/episode_000006/safe_windows_v1/optimized.npz": "e92c93387e8ae47c3856b8f34b9893b3907161866391d76d1501ebebc03276b5",
+    "outputs/episode_000006/segmentation/masks.h5": "f0d5ae4b7e841bed3ec0a565c3966c8df3151311f3dff9c3323800a4ee2ed4bd",
+    "outputs/episode_000006/object/object_local.glb": "1b7ef03061e85e164659e9b4421c6f945872bc09ba3a1761bb8df1a91ce8366a",
+    "outputs/episode_000006/cari4d/episode_000006/export/episode_000006/object_mesh/output_aligned.glb": "be0f19c8e1bd41fdc3855df8f446e8aba722cde103769cb48106f896f15d09d9",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000006.npz": "1eac2a4cceffdf7bc0e1fd578c26fb8af3a43a217db324a7361e24999fcfd1a0"
+  },
+  "episode_000007": {
+    "outputs/episode_000007/safe_windows_v1/optimized.npz": "ef66ffef82202ffc5a7830178faf9d9c2c29b41c0230880900be72c38f53c286",
+    "outputs/episode_000007/segmentation/masks.h5": "9d4426e143ed9b90624afc62e0bc29686c7445ab953e6a2644d1474319e5b286",
+    "outputs/episode_000007/object/object_local.glb": "ab834c6bcedc6b0f4bdd259d0b602c29701c91b89a59452922ce746536561bcf",
+    "outputs/episode_000007/cari4d/episode_000007/export/episode_000007/object_mesh/output_aligned.glb": "41833fe29dfec0274d61545dabfc1f9489329fd7c7ac52bb378d90ed252eeade",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000007.npz": "5531fb4e2a95b7bb936f38426b89889de1bb074e0f8d887cee96cf9f825a1719"
+  },
+  "episode_000008": {
+    "outputs/episode_000008/safe_windows_v1/optimized.npz": "4aa542905ecef6d44b76802c394b29a832f4284a6aab125321f8768e13cdbbe5",
+    "outputs/episode_000008/segmentation/masks.h5": "de5453389809e732f8e0540af857dec3c58a9bc1b9fc5bbbaf05ad5c99f31f02",
+    "outputs/episode_000008/object/object_local.glb": "94d358cd2a194a1735e9175cbe1a65e90b03c4421bcdb4cfdc60733485c12e73",
+    "outputs/episode_000008/cari4d/episode_000008/export/episode_000008/object_mesh/output_aligned.glb": "3db944083698f00b536ba91df743cead4380f770ed5542a79448f92f3955acfa",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000008.npz": "1abd8e2223ae66e91e8850530020bb514095f3b5827830c6962a90a6464d6097"
+  },
+  "episode_000009": {
+    "outputs/episode_000009/safe_windows_v1/optimized.npz": "581db3b4e8de14c071ea20c2e1783430c5396470c65cec110ac1bae0904c1ee4",
+    "outputs/episode_000009/segmentation/masks.h5": "10f8fa09277c962f7c5697295d6840a71a0e62880f71a246fd879594eb093029",
+    "outputs/episode_000009/object/object_local.glb": "d6fa4b13658065a37127b5a5dd6685acfbc13b2674ee8650ca7013323ef5bf7e",
+    "outputs/episode_000009/cari4d/episode_000009/export/episode_000009/object_mesh/output_aligned.glb": "25a3169d698bb07b92827d74e063d30a4d094517b6e8a5c4ee94a87bb01fd55d",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000009.npz": "d131559af91cd6d3eac5f7b2d299b1d8911f70d074a2a98fe5a9392afb2e979e"
+  },
+  "episode_000010": {
+    "outputs/episode_000010/safe_windows_v1/optimized.npz": "4c0383879cca2a46cfa442c049dd3f50de8e4a9d27a8593a60d0c572b28d0c24",
+    "outputs/episode_000010/segmentation/masks.h5": "ae006cc74a4d7b5eb2e3c11fe617140770976357685f432bb5a6dc4274332688",
+    "outputs/episode_000010/object/object_local.glb": "91bc4d383528969d6dc74b2833a7570fe3aabf41f7398a5ecff540050ec8113e",
+    "outputs/episode_000010/cari4d/episode_000010/export/episode_000010/object_mesh/output_aligned.glb": "569fd6604cd25f243486d8185ab29c1568d8cbed363fb068fb668be2ab57beb9",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000010.npz": "27bfb65583326d4154a057689cdb0868863b141769b9723190ea49ca66ef1af3"
+  },
+  "episode_000011": {
+    "outputs/episode_000011/safe_windows_v1/optimized.npz": "6395bab9f76965f0e8317bc9e3de499c6fae24e0f746c680c9272c1da4b5eca2",
+    "outputs/episode_000011/segmentation/masks.h5": "77a5e79f9a88b834b715785942f90624fc9920d8a6c03b527d1a81ad79729ead",
+    "outputs/episode_000011/object/object_local.glb": "32ba6a49bf1397b5f2d491c722b70582b11f6b2567382ce312c87c105ce81508",
+    "outputs/episode_000011/cari4d/episode_000011/export/episode_000011/object_mesh/output_aligned.glb": "afb8b9e9b20a8fd86bbaa0a7b434b1af917ceb612b0bdb953f0db58bbc441125",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000011.npz": "cae8c511df0d4b2cf7c9d812c7856ae563abbe627424af9e1ffb7d3ab170a2fd"
+  },
+  "episode_000012": {
+    "outputs/episode_000012/safe_windows_v1/optimized.npz": "8b414eb5a9497f98f25f484e7d37d82ec3abb4d87e31a3300b32f22cd5a9b446",
+    "outputs/episode_000012/segmentation/masks.h5": "ae6cbc4bc0aef406ead30e70daa1c3cc836b6b527d5629991ad5d41a50a824f3",
+    "outputs/episode_000012/object/object_local.glb": "a02176963943f5f1d4edb6342400a4d52ae88f3664d1e2b01345c799a5bdd5b9",
+    "outputs/episode_000012/cari4d/episode_000012/export/episode_000012/object_mesh/output_aligned.glb": "1e4c5fa2785f73e065e541afaed2bbd7361b07252df505bda3e8533037612a6a",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000012.npz": "0ab43be65ca039a65fdaf34c4447c78deb62dfa569e6b4beb2f94f559ab2af5c"
+  },
+  "episode_000013": {
+    "outputs/episode_000013/safe_windows_v1/optimized.npz": "ba6f30befcae6cb4e95a52df57d66e06dddc6ad0205786a528600b210a1bc799",
+    "outputs/episode_000013/segmentation/masks.h5": "ca7f29583844f8c4f12425f76df7482dce2553bf4bce23e6014fc069baade779",
+    "outputs/episode_000013/object/object_local.glb": "982a1ec58a5485de31245754dca22973248a9784ce7bdafcbd0e6230cd0c182a",
+    "outputs/episode_000013/cari4d/episode_000013/export/episode_000013/object_mesh/output_aligned.glb": "03d31e29cb890601544f0240dfabcc42befa5f5f611779a685512de73f56db6e",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000013.npz": "fcbac3251385e52b2b95c0b176e3715ce32b97693522004ecb9e053c208654ee"
+  },
+  "episode_000014": {
+    "outputs/episode_000014/safe_windows_v1/optimized.npz": "3c32f3895d810b61f1be1539fd16520ac3a0863327d760e15ad83affba2999ca",
+    "outputs/episode_000014/segmentation/masks.h5": "ed231d817794ed8807c4a6b9d97ffe567585db4446901cf20ba88d05c50fbac8",
+    "outputs/episode_000014/object/object_local.glb": "6e553c74af7346190b03efd47b9cd273968ca465c9d71f2ba7e402bb4a022ec7",
+    "outputs/episode_000014/cari4d/episode_000014/export/episode_000014/object_mesh/output_aligned.glb": "c9037e553b35b22ea0ba85352227c6ab5770f37322ffcb332dc1785ada0619d9",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000014.npz": "df1664f0180731fd6fa92130268357efbd59cc3876b9f3cc2425fb7c83c4aa1a"
+  },
+  "episode_000015": {
+    "outputs/episode_000015/safe_windows_v1/optimized.npz": "ba6a076a26bc43ab35d710cd9d80626292f515f27c34ad19984a3300eb287e25",
+    "outputs/episode_000015/segmentation/masks.h5": "be9135ba03a1a008f33084d0199b7724b67f2943d04a224f9c7d6347ba34057e",
+    "outputs/episode_000015/object/object_local.glb": "93b3624ef0e39356d16944b4300b39ace72e975b23e0cca17609b503cc3b034a",
+    "outputs/episode_000015/cari4d/episode_000015/export/episode_000015/object_mesh/output_aligned.glb": "c44076b6900d9224afbfc5c1372d4faf0c985ea035a83fc5a7f36311b27a8234",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000015.npz": "64fa9739c3d522cf39a0e94f4a586559a34bd2dc1ae733e010a3b886c299ea7c"
+  },
+  "episode_000016": {
+    "outputs/episode_000016/safe_windows_v1/optimized.npz": "d7693ade2901f39be6daa373a6a62809949d2f4bc94bd16fb7245f68e861944f",
+    "outputs/episode_000016/segmentation/masks.h5": "8a9422593658acad17b01c63015415c415c09a9bfacf3bb241625460f8f6933c",
+    "outputs/episode_000016/object/object_local.glb": "629d3116625407b598140015eb3fad582edfd6593a797ddb3aef69ded1f8c652",
+    "outputs/episode_000016/cari4d/episode_000016/export/episode_000016/object_mesh/output_aligned.glb": "fceeae4addbe4f292916aaafd50fae292afa584ca87707b13d64d246ca0adf79",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000016.npz": "9c4620377b838efe2382b1df1c7a9eb3e25ca01101e6b520e65fc4d5106823c4"
+  },
+  "episode_000017": {
+    "outputs/episode_000017/safe_windows_v1/optimized.npz": "678bc32b4a7de5695fe4e2ce01f3fc162dc7677588d986ac009bc5115cd3002e",
+    "outputs/episode_000017/segmentation/masks.h5": "6adc1d5be208bceb9c4da67384e8fd8b1523139ba15af27104ef908b420ac83d",
+    "outputs/episode_000017/object/object_local.glb": "978690b2a4f9d5d69c3999871c1d2145b09b2a9bd1435d9b159f56cf0982574b",
+    "outputs/episode_000017/cari4d/episode_000017/export/episode_000017/object_mesh/output_aligned.glb": "2b77b5f6ea11cbc7fe01d8dd616991021377a201f7b01971fa90fb8ce6c44a66",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000017.npz": "3771d0a55d71dafc2f84f83ed7d6b0021933f97962677934d8f33773199d39a7"
+  },
+  "episode_000018": {
+    "outputs/episode_000018/safe_windows_v1/optimized.npz": "f1387ae74ebffddcdb42a2822eab62f4e3ec6dd30dd7c3a908bdb1ddc0ca10ce",
+    "outputs/episode_000018/segmentation/masks.h5": "6d825a7d6c6c9546eea9811a8fb01a7260c8973bf6a22b3b2ef08a60bb963ab1",
+    "outputs/episode_000018/object/object_local.glb": "ebcd0a44408253188a7d566b95b2ce956700c403388c21b6af9f10d61dd6d7b9",
+    "outputs/episode_000018/cari4d/episode_000018/export/episode_000018/object_mesh/output_aligned.glb": "37a20a29c7248b7db1635934691d7c576f69f8c461e27e32142eaa9558635ca9",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000018.npz": "0066c543466559a4ef972059c0dce06049ce6f7c0b082772c068955a45482565"
+  },
+  "episode_000019": {
+    "outputs/episode_000019/safe_windows_v1/optimized.npz": "fee8319010e140043cea90ce21e2fbe1de24da8f9c3732014f5c6217d463a994",
+    "outputs/episode_000019/segmentation/masks.h5": "9d374c9f1aa5754cf7c09daed2c538ebdea2762f415b5405a958c9b0c555b19e",
+    "outputs/episode_000019/object/object_local.glb": "1c58338436e5dceab089b9860043fc803ff15ae596451bdc7a893a8de77371d1",
+    "outputs/episode_000019/cari4d/episode_000019/export/episode_000019/object_mesh/output_aligned.glb": "977f334111c01a52cecea04d7ac502a20402b7bbe785d72189e727d7cce7d80e",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000019.npz": "c14bd8d49f3f218286c59309f1c8efe1fff7358884baf7a2e24c983e57057b1e"
+  },
+  "episode_000020": {
+    "outputs/episode_000020/safe_windows_v1/optimized.npz": "0b6e69243e6948c2214cf535d24d73b821c7a4a3065189a33656b1b8baddc8b9",
+    "outputs/episode_000020/segmentation/masks.h5": "5f8271d4b07542bad1f08b05303cfafacb678d075b76001bdc7ac1a391079541",
+    "outputs/episode_000020/object/object_local.glb": "80f061fbd1f347a71a3990de515b9050afd18bfafc8262afa58faba3f3fe1642",
+    "outputs/episode_000020/cari4d/episode_000020/export/episode_000020/object_mesh/output_aligned.glb": "2bf0f3fc9b8b231974f120ab842842b15ec9c51a6eb1c04edefb8942bda906b1",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000020.npz": "9b0f7a2e28237d37a337d2b97e5c194745f6f31fa1756d6d26d6b2a11a46a61c"
+  },
+  "episode_000021": {
+    "outputs/episode_000021/safe_windows_v1/optimized.npz": "081dd012fd3e5df1b9a74e70d1623b7aa334991f0540e2318ce4cef1fc256741",
+    "outputs/episode_000021/segmentation/masks.h5": "bf51a7162c6467e3060fa9657b37dfe2cf8319e4bceb2c4d82d50c7a9fa1dc5f",
+    "outputs/episode_000021/object/object_local.glb": "58f2c7252f847aad3cf70ffcf92a8112244fb1bee079b5181ebb600ccb45e26d",
+    "outputs/episode_000021/cari4d/episode_000021/export/episode_000021/object_mesh/output_aligned.glb": "d2263a2abb7cad8baf7b9c696ca066317fea3a715ef3d2c482d79f891389eaa7",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000021.npz": "29c7774642921c988e995f8323216d86e49c200d971ce41e00a5fb17dcf7a2cb"
+  },
+  "episode_000022": {
+    "outputs/episode_000022/safe_windows_v1/optimized.npz": "0e0c8e54cfcab2090125e2d5b0fdae2998ea893f28f307f61504f18c97982999",
+    "outputs/episode_000022/segmentation/masks.h5": "3f49e2a027bf9f6143a3d9d48ed044af3b8bd75fa167a3b77a6bacf5e4420838",
+    "outputs/episode_000022/object/object_local.glb": "85b84805f1b32b72b67eeeaa1e1f78107ee0304b3a63a9af093aa701ab54a05c",
+    "outputs/episode_000022/cari4d/episode_000022/export/episode_000022/object_mesh/output_aligned.glb": "5599e5a714ca003a1e99962a7ff039ec2da4396f3b99571c3449ad4c3a08fea6",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000022.npz": "44541f04c4d1a8d61b0c4fccd461313b66d14bc3eea2efa581ea81ea6ae6c379"
+  },
+  "episode_000023": {
+    "outputs/episode_000023/safe_windows_v1/optimized.npz": "0755be0bed1df26a894ca6fa63d5d27688fdff3a06adb74ff45b7c3267c6c4ee",
+    "outputs/episode_000023/segmentation/masks.h5": "353cecceb081052b4320d55c82fb4bb0584611e988ddffb2898ab08c7a85e1e5",
+    "outputs/episode_000023/object/object_local.glb": "532a7833038b49ace1ef08ad3e5fb20ed5a513b579c79805f5a0a341bd7ba549",
+    "outputs/episode_000023/cari4d/episode_000023/export/episode_000023/object_mesh/output_aligned.glb": "fed78726bfda441b91977af8ab48f06c21cd381f372b74fd49fc80531afe04f3",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000023.npz": "dfd0329f0c5f19a13ffd10885460ea964e1513f88b416534229ab065bddc315c"
+  },
+  "episode_000024": {
+    "outputs/episode_000024/safe_windows_v1/optimized.npz": "4029a3433b10ab05f349a553bd3e03d29d0eb49c77a5b7a26965a55e23aceadb",
+    "outputs/episode_000024/segmentation/masks.h5": "4c310bf7094cf0bb68f860d9a8dc820fd0df5f5a7b02efc0b2b344782aad2c24",
+    "outputs/episode_000024/object/object_local.glb": "82fd5cdbd14f5fdd8a54c492eea53d46bb4a69278bdfd700897c45c844750967",
+    "outputs/episode_000024/cari4d/episode_000024/export/episode_000024/object_mesh/output_aligned.glb": "e2a6bcdf843df95bc6ec0a971997d7f04bbd6df270df4e9acd75e54ad7b7a850",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000024.npz": "2478e6462fd6e42e9c0750db9a757c7a8059d3aac1048d4dac5223d85ac3ad0f"
+  },
+  "episode_000025": {
+    "outputs/episode_000025/safe_windows_v1/optimized.npz": "6c07a654b0e6f307fb79387277b4a0dd9fe9c5472bbc9ce4a9fe1b8c2aa27ca7",
+    "outputs/episode_000025/segmentation/masks.h5": "8f8cb5c717a01b3c5ad28569f454a8e2136a1283812f16b27c4bb6287a36c607",
+    "outputs/episode_000025/object/object_local.glb": "389c2d74f966c5ac7dac8134ff33b676e79daa08fd41ba1d2c7dac4e5337f0af",
+    "outputs/episode_000025/cari4d/episode_000025/export/episode_000025/object_mesh/output_aligned.glb": "b483e51fd1b8d8dda52fe211d5e69dc185a2ed3895b2d5536aaf1ed527e4818e",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000025.npz": "058841544c66f04548996c96153fd9186316532f81a02052171444dde68a498e"
+  },
+  "episode_000026": {
+    "outputs/episode_000026/safe_windows_v1/optimized.npz": "7e617b31d8d1bfee0b5f1379e4ecf376cb29fce4899bbe7b9ec6809ca4381167",
+    "outputs/episode_000026/segmentation/masks.h5": "4c2b82f23babe3c1af93aa328027a6ee74d204cbed3c3f21fbd81be1320e1b73",
+    "outputs/episode_000026/object/object_local.glb": "b0e8043f471581d1258402f3a8cdbdc64e521c72d9e764ac8c43b8129e07fb65",
+    "outputs/episode_000026/cari4d/episode_000026/export/episode_000026/object_mesh/output_aligned.glb": "ed59898ab3f9eef17638744bfeffe7602fbd90af69d530a9387d36ac4cd7c39b",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000026.npz": "f980fbbe738af4233a454ec64577efd12a8e69381e11a543b55baa66a4d33d92"
+  },
+  "episode_000027": {
+    "outputs/episode_000027/safe_windows_v1/optimized.npz": "cd02c086bf412b36a81c0f37ea879fc125590dc39060b0ea3d80bf7acf65bbc7",
+    "outputs/episode_000027/segmentation/masks.h5": "0842e1fbc93e573ffee8b70d75933f35603dab089ebd99399accae9436b249ae",
+    "outputs/episode_000027/object/object_local.glb": "b0f6e1b5a69d1040c24f651534e535b4efd9dd379c158d6fbbf2a72c8b9aee44",
+    "outputs/episode_000027/cari4d/episode_000027/export/episode_000027/object_mesh/output_aligned.glb": "81ef5ad3fba16b630fada24d76602efe6b5113b700078dc57f4cd577eab895db",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000027.npz": "608886fd6b888205f415a8942fcc9e0402ae71df88623fefa84614403c524d60"
+  },
+  "episode_000028": {
+    "outputs/episode_000028/safe_windows_v1/optimized.npz": "de24e2f8eedb9d5877168a5cdd4ff70302b08587fd901f93d6966c71ecc6277c",
+    "outputs/episode_000028/segmentation/masks.h5": "8748114d05096c894ab137f7a25649fe97af39d41751fed8c3aeeaf16cfeefc9",
+    "outputs/episode_000028/object/object_local.glb": "63ee633f05b48faad2c6f87e9596a64970300f51949731994c81bbb86a5ca161",
+    "outputs/episode_000028/cari4d/episode_000028/export/episode_000028/object_mesh/output_aligned.glb": "8f00c02c6e573ba8660b5eab0c09f8466bd7ec9fa0be66e753048d29035b086c",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000028.npz": "ac0c3346cac85e514d4a4c929cb264f1ac16b1c6f2e14719eeb55714f984192a"
+  },
+  "episode_000029": {
+    "outputs/episode_000029/safe_windows_v1/optimized.npz": "fec3d51ba5800f1958ecdae9ef6dceac327cd7f2b5eb64f16353886e35ded1c4",
+    "outputs/episode_000029/segmentation/masks.h5": "68a936a7c62609bf3c8886d6821f98f94e5104bc1d744c2d2256542f9bc81c95",
+    "outputs/episode_000029/object/object_local.glb": "361b8abbfceb2254fade376b3aa9813eab8e7a30e4ebc7ed4df87742aa23b2e7",
+    "outputs/episode_000029/cari4d/episode_000029/export/episode_000029/object_mesh/output_aligned.glb": "22484b82fd57ece82c562cd583bd58ad490d9d6b5ff50f5d8756d3ba7ec3ef8c",
+    "outputs/track1_safe_windows_v1/submission_episodes/episode_000029.npz": "a05df83615f0cb7382ce1828e39edb6c96b082a0a97508ccd88ab8b7e80dc08f"
+  }
+}

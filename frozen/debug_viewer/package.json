@@ -1,0 +1,8 @@
+{
+  "name": "v2d-debug-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local synchronized RGB, MHR, contact and physics debugging UI",
+  "dependencies": { "three": "0.180.0" }
+}

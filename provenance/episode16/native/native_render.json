@@ -1,0 +1,28 @@
+{
+  "stage": "render",
+  "command": [
+    "/home/lab-2/Research/V2D/.venv-cari4d/bin/python",
+    "/home/lab-2/Research/V2D/third_party/video_to_data/reconstruction/modules/v2d_cari4d/lib/cari4d/tools/render_mhr_wild_inference.py",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/export/episode_000016",
+    "--source-video",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/inputs/episode_000016.0.color.mp4",
+    "--object-mesh",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/export/episode_000016/object_mesh/output_aligned.glb",
+    "--before-bundle",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/inference/coconet.pth",
+    "--after-bundle",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/inference/refined.pth",
+    "--output",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/inference/reconstruction.mp4",
+    "--comparison-output",
+    "/home/lab-2/Research/V2D/outputs/episode_000016/cari4d/episode_000016/inference/before_after.mp4",
+    "--device",
+    "cuda",
+    "--batch-size",
+    "4"
+  ],
+  "status": "passed",
+  "started_unix": 1791402475.2149765,
+  "returncode": 0,
+  "elapsed_seconds": 195.03545451164246
+}

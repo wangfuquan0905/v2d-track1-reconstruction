@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "frames": 405,
+  "elapsed_seconds": 114.22614599694498,
+  "render_counts": {
+    "coarse": 87744,
+    "full": 146319,
+    "geometry_rejected": 0,
+    "expansions": 1129
+  },
+  "previous": {
+    "mean_observation_terms": [
+      0.6099315881729126,
+      0.2042718231678009
+    ],
+    "rotation_path_length_deg": 1899.9118186397998,
+    "max_orientation_difference_deg": 75.36820603006181,
+    "max_rotation_step_deg": 36.443677589535454,
+    "summed_camera_rotation_components_deg": [
+      2.278780396752596,
+      -18.039520383310734,
+      22.69468811689867
+    ],
+    "angular_acceleration_rms_deg_s2": 9232.711088214755,
+    "linear_acceleration_rms_m_s2": 12.787954702776021
+  },
+  "tracked": {
+    "mean_observation_terms": [
+      0.366890013217926,
+      0.14604221284389496
+    ],
+    "rotation_path_length_deg": 828.9486017670415,
+    "max_orientation_difference_deg": 143.9262622015508,
+    "max_rotation_step_deg": 5.356389124375371,
+    "summed_camera_rotation_components_deg": [
+      -31.013137793381755,
+      -119.45406319664154,
+      86.91184440824979
+    ],
+    "angular_acceleration_rms_deg_s2": 465.90347954999055,
+    "linear_acceleration_rms_m_s2": 1.5937364702392365
+  },
+  "observation_order": [
+    "object_silhouette_loss",
+    "object_color_loss"
+  ],
+  "ground_truth_used": false,
+  "rotation_path_note": "Path length includes reversals and wobble; not proof of 270-degree upright rotation",
+  "scope": "Direct rigid-pose tracking; no SyILEN dynamics rollout; fixed source human and scale",
+  "frame_range_inclusive": [
+    0,
+    404
+  ]
+}

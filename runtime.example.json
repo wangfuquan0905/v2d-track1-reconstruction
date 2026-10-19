@@ -1,0 +1,11 @@
+{
+  "cari4d_python": "/absolute/path/to/cari4d-env/bin/python",
+  "object_python": "/absolute/path/to/sam3d-object-env/bin/python",
+  "submission_python": "/absolute/path/to/submission-env/bin/python",
+  "video_to_data": "/absolute/path/to/video_to_data",
+  "sam3d_objects": "/absolute/path/to/sam-3d-objects",
+  "sam2_checkpoint": "/absolute/path/to/sam2.1_hiera_large.pt",
+  "submission_kit": "/absolute/path/to/v2d_submission_kit_20261018",
+  "models": "/absolute/path/to/models",
+  "cuda_home": "/usr/local/cuda-12.8"
+}

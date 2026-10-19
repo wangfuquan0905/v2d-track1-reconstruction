@@ -1,0 +1,55 @@
+{
+  "episode": "episode_000004",
+  "fps": 30.0,
+  "frames": 747,
+  "crop_xyxy": [
+    412,
+    293,
+    1060,
+    1039
+  ],
+  "render_size": [
+    384,
+    336
+  ],
+  "bundle_path": "/home/lab-2/Research/V2D/outputs/episode_000004/test_canonical_v1/canonical.pth",
+  "comparison_label": "Full CARI4D",
+  "reference_inputs": false,
+  "preparation": "Canonical full CARI4D + masks from full monocular RGB; no reference labels",
+  "baseline_sha256": "56ac2036aa1ccf82b69f438a9941d7a733253c28ff374579a9e77a324b226a6f",
+  "algorithm": "baseline_preserving_overlapping_windows_v1",
+  "source": "/home/lab-2/Research/V2D/outputs/episode_000004/test_safe_input_v1",
+  "alternate": "/home/lab-2/Research/V2D/outputs/episode_000004/test_tracker_v1",
+  "window": 50,
+  "stride": 25,
+  "steps": 12,
+  "loss_weights": {
+    "object_color": 20,
+    "object_silhouette": 10,
+    "angular_acceleration": 0.01,
+    "linear_acceleration": 0.01,
+    "angular_velocity": 0,
+    "linear_velocity": 0
+  },
+  "acceptance": "Exact change of whole-clip objective, including all triples crossing both window boundaries; full final rerender versus retained complete baseline",
+  "candidates": [
+    "current complete trajectory",
+    "complete baseline",
+    "previous complete tracker",
+    "baseline window with current exterior",
+    "previous tracker window with current exterior"
+  ],
+  "fixed": [
+    "human parameters/vertices",
+    "object scale",
+    "mesh and colors",
+    "camera"
+  ],
+  "source_sha256": {
+    "/home/lab-2/Research/V2D/scripts/refine_object_windows_safe.py": "b0dd4cb202637f2535cd139932dfe364bbd7febf4ed4cf8153a89e7c853f26ce",
+    "/home/lab-2/Research/V2D/v2d_syilen/window_search.py": "ea88cc8786d6d13851da3f96e4b5d16214f41d1975fe2daa3281c2adc225ba31",
+    "/home/lab-2/Research/V2D/v2d_syilen/window_objective.py": "946607adccea63cb87ade60ac62eb52f8d4a16d4c412a61a4f6a150aeb38bd84",
+    "/home/lab-2/Research/V2D/v2d_syilen/rotation_temporal.py": "a1a1ea01b956e734f2ad374e514868a705b58c8f4334640e0110664a1d09b7a4",
+    "/home/lab-2/Research/V2D/v2d_syilen/render_observation.py": "13b84b6e9aa63dae6aa6c9f4ada7af64beb4524425364fb90acf9a8e34b6f89c"
+  }
+}

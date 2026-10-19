@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "frames": 777,
+  "baseline": {
+    "object_silhouette": 0.6244741491829566,
+    "object_color": 1.0233964804593507,
+    "angular_acceleration": 5343.187277992525,
+    "linear_acceleration": 189.7192885065663,
+    "total": 82.04173676600749
+  },
+  "previous_tracker": {
+    "object_silhouette": 0.6004972155643399,
+    "object_color": 2.862337864621759,
+    "angular_acceleration": 0.5926038224121383,
+    "linear_acceleration": 1.225830076116128,
+    "total": 63.26991378706387
+  },
+  "after": {
+    "object_silhouette": 0.5947797120461286,
+    "object_color": 0.2793379105733015,
+    "angular_acceleration": 175.54535297608265,
+    "linear_acceleration": 14.208746594688588,
+    "total": 13.432096327635028
+  },
+  "initial_choice": "complete_previous_tracker",
+  "rolled_back_to_baseline": false,
+  "cached_final": {
+    "object_silhouette": 0.5947797119694174,
+    "object_color": 0.2793379105733015,
+    "angular_acceleration": 175.54535297608265,
+    "linear_acceleration": 14.208746594688588,
+    "total": 13.432096326867917
+  },
+  "final_rerender_check": true,
+  "accepted_updates": 295,
+  "windows": 31,
+  "elapsed_seconds": 176.36128535191528,
+  "render_counts": {
+    "full": 212385,
+    "coarse": 0
+  },
+  "reference_inputs": false,
+  "scope": "Object R/t only; fixed human and scale; no SyILEN rollout; objective decrease does not imply GT improvement"
+}

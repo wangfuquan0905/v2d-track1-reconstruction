@@ -1,0 +1,177 @@
+{
+  "episode_000016": {
+    "status": "previously_reviewed",
+    "note": "复用此前检查过的完整结果；本轮再次核对文件来源和帧覆盖。"
+  },
+  "episode_000017": {
+    "status": "needs_visual_review",
+    "frames": [
+      0,
+      314,
+      418
+    ],
+    "note": "初始草面朝向不匹配；拾放后半段物体明显偏离 RGB，放下后仍存在漂移。训练目标下降不代表该段三维重建正确。"
+  },
+  "episode_000000": {
+    "status": "needs_visual_review",
+    "frames": [
+      592,
+      789
+    ],
+    "note": "抽查 5 个关键帧：中后段呼啦圈方向有偏差，末帧落地位置和投影大小不匹配。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "0d2201845be3b7d41dec9de07a56a92fb3b0230517ce0fb54a2f8d9dfd90c04f",
+    "upstream_recovery_note": "SAM3D 初始布局投影偏移已用 RGB 掩膜配准修正，IoU 0.027→0.575，原深度校准门槛通过；后续姿态仍需目视检查。"
+  },
+  "episode_000001": {
+    "status": "needs_visual_review",
+    "frames": [
+      167,
+      501,
+      667
+    ],
+    "note": "抽查 5 个关键帧：竖起时环的方向偏差明显，放下后预测仍偏在人旁，没有回到地面上的圈。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "a25ef283572760a761ca8657c6df9c87a06e430594c92fed788ec86bd5a5b985",
+    "upstream_recovery_note": "SAM3D 布局配准通过原尺度校准门槛，IoU 0.023→0.489；后续姿态仍需目视检查。"
+  },
+  "episode_000002": {
+    "status": "needs_visual_review",
+    "frames": [
+      433,
+      865
+    ],
+    "note": "抽查 5 个关键帧：中段有方向偏差，末帧呼啦圈仍斜靠人体，没有跟随真实物体落地。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "bb7e17c6ddfb00a4825c952a7fd3a82a265aad1b3119dc64a5ec4df701dfceb5",
+    "upstream_recovery_note": "SAM3D 布局配准通过原尺度校准门槛，IoU 0.020→0.440；后续姿态仍需目视检查。"
+  },
+  "episode_000005": {
+    "status": "sample_reviewed",
+    "frames": [
+      0,
+      167,
+      334,
+      501,
+      667
+    ],
+    "note": "抽查 5 个关键帧：碗的拿起、转向和放到椅面基本跟随 RGB，可优先查看；仍需检查手部接触和全程视频。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "3be8e99782db55e7205a859c03f5c4ee51fc8c920c0917090b689f707578dc0a",
+    "upstream_recovery_note": "SAM3D 布局配准通过原尺度校准门槛，IoU 0.238→0.950；后续姿态仍需目视检查。"
+  },
+  "episode_000007": {
+    "status": "upstream_recovery",
+    "frames": [
+      0
+    ],
+    "note": "SAM3D 布局配准通过原尺度校准门槛，IoU 0.281→0.780；后续姿态仍需目视检查。"
+  },
+  "episode_000008": {
+    "status": "upstream_recovery",
+    "frames": [
+      0
+    ],
+    "note": "SAM3D 布局配准通过原尺度校准门槛，IoU 0.384→0.824；后续姿态仍需目视检查。"
+  },
+  "episode_000012": {
+    "status": "upstream_recovery",
+    "frames": [
+      0
+    ],
+    "note": "SAM3D 布局配准通过原尺度校准门槛，IoU 0.036→0.746；后续姿态仍需目视检查。"
+  },
+  "episode_000006": {
+    "status": "retry_pending",
+    "note": "已复现相同输入的渲染波动；网格有 9 条非流形边。固定抗锯齿拓扑缓存的完整重跑正在验证，保留原校验门槛。"
+  },
+  "episode_000003": {
+    "status": "sample_reviewed",
+    "frames": [
+      0,
+      148,
+      296,
+      444,
+      591
+    ],
+    "note": "抽查 5 个关键帧：红碗的位置和翻转动作与 RGB 大致吻合，可优先查看；尚非逐帧或三维真值验证。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "648849dd5de718072225ebee85e24d3c2bb02325aebfafe4cdcde12279906221"
+  },
+  "episode_000004": {
+    "status": "needs_visual_review",
+    "frames": [
+      373,
+      560
+    ],
+    "note": "抽查 5 个关键帧：第 373 帧碗的方向有偏差，后半段人体与 RGB 有偏移；末帧物体位置恢复较好。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "fb2383662bce2a0c83f95b1c087db1f11bb292d0f8dbe8b02d705c9e801b5238"
+  },
+  "episode_000009": {
+    "status": "sample_reviewed",
+    "frames": [
+      0,
+      103,
+      207,
+      311,
+      414
+    ],
+    "note": "抽查 5 个关键帧：桌体整体运动可辨，桌腿和支架形状、手部接触仍有偏差。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "323051edc97c4d659d70460c7289454e5d2cdc6006bf56084c42ab29422620b4"
+  },
+  "episode_000010": {
+    "status": "sample_reviewed",
+    "frames": [
+      0,
+      144,
+      288,
+      432,
+      576
+    ],
+    "note": "抽查 5 个关键帧：桌体位置和姿态与 RGB 大致吻合，可优先查看；尚非逐帧或三维真值验证。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "a5bb3bce3eaa8427cbcbc866a59007b0c1eba2cdd3d777f7ac2bd6a494d5a9d2"
+  },
+  "episode_000011": {
+    "status": "sample_reviewed",
+    "frames": [
+      0,
+      219,
+      438,
+      657,
+      876
+    ],
+    "note": "抽查 5 个关键帧：桌体位置和最终翻倒方向与 RGB 大致吻合，可优先查看；仍需检查遮挡时的深度。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "116e0fcda7705e56275e7bab9fe7d9c758e3dec349db24477b9f6bece379f3f5"
+  },
+  "episode_000013": {
+    "status": "needs_visual_review",
+    "frames": [
+      212,
+      318
+    ],
+    "note": "抽查 5 个关键帧：拿起和放下位置有所改善，但持锅时的锅面方向、锅柄与手的接触仍有偏差。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "2bb59099dd04b5e6e0fa869abb335d4362067a4db70a5d24726a686df95cada8"
+  },
+  "episode_000024": {
+    "status": "sample_reviewed",
+    "frames": [
+      0,
+      105,
+      210,
+      315,
+      419
+    ],
+    "note": "抽查 5 个关键帧：凳子投影位置整体稳定，可优先查看；坐下时的人体深度和接触仍需检查。",
+    "qa_scope": "five exported keyframes, RGB visual inspection only",
+    "comparison_sha256": "1f899e01dc4f7edbc71c7f203d8956a1eb60fa2c4b61251600652fb8573f56c4"
+  },
+  "episode_000029": {
+    "status": "retry_pending",
+    "note": "最终重渲染一致性校验未通过，网格有 23 条非流形边；已排入固定拓扑缓存的后续重试。"
+  }
+}
