@@ -1,5 +1,6 @@
 # Preserve the original producing sources and third-party patches byte for byte.
 frozen/** -text -whitespace
+revisions/** -text -whitespace
 legacy/** -text -whitespace
 dependency_patches/** -text -whitespace
 notices/** -text -whitespace

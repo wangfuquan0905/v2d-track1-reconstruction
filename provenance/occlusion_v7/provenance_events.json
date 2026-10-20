@@ -1,0 +1,7 @@
+[
+  {
+    "time": 1792465835.4123123,
+    "event": "Stopped queue before any v7 inference; corrected source archive discovery to include relative local imports. Candidate producer and v7 algorithm unchanged. Existing candidate checkpoint will resume.",
+    "previous_manifest": "initial_manifest_import_closure/original_run_manifest.json"
+  }
+]

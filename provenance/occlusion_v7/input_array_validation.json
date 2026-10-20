@@ -1,0 +1,365 @@
+{
+  "status": "passed",
+  "episodes": [
+    {
+      "episode": "episode_000000",
+      "checks": {
+        "frames": 790,
+        "scored_frames": 169,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.9968028886505635e-15
+      },
+      "first_original_depth_m": 3.810314416885376
+    },
+    {
+      "episode": "episode_000001",
+      "checks": {
+        "frames": 668,
+        "scored_frames": 174,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 4.218847493575595e-15
+      },
+      "first_original_depth_m": 2.892789363861084
+    },
+    {
+      "episode": "episode_000002",
+      "checks": {
+        "frames": 866,
+        "scored_frames": 84,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.219646771412954e-15
+      },
+      "first_original_depth_m": 2.84017276763916
+    },
+    {
+      "episode": "episode_000003",
+      "checks": {
+        "frames": 592,
+        "scored_frames": 340,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.219646771412954e-15
+      },
+      "first_original_depth_m": 2.5687103271484375
+    },
+    {
+      "episode": "episode_000004",
+      "checks": {
+        "frames": 747,
+        "scored_frames": 519,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.552713678800501e-15
+      },
+      "first_original_depth_m": 3.237626791000366
+    },
+    {
+      "episode": "episode_000005",
+      "checks": {
+        "frames": 668,
+        "scored_frames": 412,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 4.218847493575595e-15
+      },
+      "first_original_depth_m": 2.9250426292419434
+    },
+    {
+      "episode": "episode_000006",
+      "checks": {
+        "frames": 816,
+        "scored_frames": 636,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.552713678800501e-15
+      },
+      "first_original_depth_m": 2.982841730117798
+    },
+    {
+      "episode": "episode_000007",
+      "checks": {
+        "frames": 777,
+        "scored_frames": 597,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.3306690738754696e-15
+      },
+      "first_original_depth_m": 2.8360531330108643
+    },
+    {
+      "episode": "episode_000008",
+      "checks": {
+        "frames": 634,
+        "scored_frames": 454,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.219646771412954e-15
+      },
+      "first_original_depth_m": 3.0910990238189697
+    },
+    {
+      "episode": "episode_000009",
+      "checks": {
+        "frames": 415,
+        "scored_frames": 325,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.6645352591003757e-15
+      },
+      "first_original_depth_m": 3.097259521484375
+    },
+    {
+      "episode": "episode_000010",
+      "checks": {
+        "frames": 577,
+        "scored_frames": 418,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.886579864025407e-15
+      },
+      "first_original_depth_m": 3.0746235847473145
+    },
+    {
+      "episode": "episode_000011",
+      "checks": {
+        "frames": 877,
+        "scored_frames": 803,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.3306690738754696e-15
+      },
+      "first_original_depth_m": 2.966937780380249
+    },
+    {
+      "episode": "episode_000012",
+      "checks": {
+        "frames": 405,
+        "scored_frames": 209,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.3306690738754696e-15
+      },
+      "first_original_depth_m": 2.6218841075897217
+    },
+    {
+      "episode": "episode_000013",
+      "checks": {
+        "frames": 425,
+        "scored_frames": 106,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.886579864025407e-15
+      },
+      "first_original_depth_m": 3.1103515625
+    },
+    {
+      "episode": "episode_000014",
+      "checks": {
+        "frames": 442,
+        "scored_frames": 83,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.886579864025407e-15
+      },
+      "first_original_depth_m": 2.770271062850952
+    },
+    {
+      "episode": "episode_000015",
+      "checks": {
+        "frames": 501,
+        "scored_frames": 356,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.4416913763379853e-15
+      },
+      "first_original_depth_m": 2.780863046646118
+    },
+    {
+      "episode": "episode_000016",
+      "checks": {
+        "frames": 360,
+        "scored_frames": 240,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.219646771412954e-15
+      },
+      "first_original_depth_m": 2.7847330570220947
+    },
+    {
+      "episode": "episode_000017",
+      "checks": {
+        "frames": 419,
+        "scored_frames": 277,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.774758283725532e-15
+      },
+      "first_original_depth_m": 2.9367573261260986
+    },
+    {
+      "episode": "episode_000018",
+      "checks": {
+        "frames": 535,
+        "scored_frames": 420,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.552713678800501e-15
+      },
+      "first_original_depth_m": 3.2526023387908936
+    },
+    {
+      "episode": "episode_000019",
+      "checks": {
+        "frames": 443,
+        "scored_frames": 283,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.9976021664879227e-15
+      },
+      "first_original_depth_m": 2.970783233642578
+    },
+    {
+      "episode": "episode_000020",
+      "checks": {
+        "frames": 549,
+        "scored_frames": 375,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.6645352591003757e-15
+      },
+      "first_original_depth_m": 2.600612163543701
+    },
+    {
+      "episode": "episode_000021",
+      "checks": {
+        "frames": 563,
+        "scored_frames": 347,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.552713678800501e-15
+      },
+      "first_original_depth_m": 3.2647757530212402
+    },
+    {
+      "episode": "episode_000022",
+      "checks": {
+        "frames": 533,
+        "scored_frames": 452,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 4.107825191113079e-15
+      },
+      "first_original_depth_m": 2.4404163360595703
+    },
+    {
+      "episode": "episode_000023",
+      "checks": {
+        "frames": 552,
+        "scored_frames": 399,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.7755575615628914e-15
+      },
+      "first_original_depth_m": 2.685901403427124
+    },
+    {
+      "episode": "episode_000024",
+      "checks": {
+        "frames": 420,
+        "scored_frames": 242,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.886579864025407e-15
+      },
+      "first_original_depth_m": 2.510056734085083
+    },
+    {
+      "episode": "episode_000025",
+      "checks": {
+        "frames": 365,
+        "scored_frames": 219,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.1086244689504383e-15
+      },
+      "first_original_depth_m": 2.647704839706421
+    },
+    {
+      "episode": "episode_000026",
+      "checks": {
+        "frames": 399,
+        "scored_frames": 281,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.886579864025407e-15
+      },
+      "first_original_depth_m": 2.8631837368011475
+    },
+    {
+      "episode": "episode_000027",
+      "checks": {
+        "frames": 440,
+        "scored_frames": 243,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 3.3306690738754696e-15
+      },
+      "first_original_depth_m": 2.71406626701355
+    },
+    {
+      "episode": "episode_000028",
+      "checks": {
+        "frames": 366,
+        "scored_frames": 147,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.886579864025407e-15
+      },
+      "first_original_depth_m": 3.6857542991638184
+    },
+    {
+      "episode": "episode_000029",
+      "checks": {
+        "frames": 419,
+        "scored_frames": 267,
+        "native_parameter_shapes_valid": true,
+        "transforms_finite_and_rigid": true,
+        "fixed_human_and_scale": true,
+        "rotation_max_orthogonality_error": 2.6645352591003757e-15
+      },
+      "first_original_depth_m": 2.9349427223205566
+    }
+  ]
+}

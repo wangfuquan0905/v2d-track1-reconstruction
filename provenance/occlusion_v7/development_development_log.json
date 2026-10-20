@@ -1,0 +1,366 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "episode": "form_hoi_full_000",
+      "baseline_v5": {
+        "CD-H": 8.482064231288039,
+        "CD-O": 4.864309706942148,
+        "ACC-H": 1.2385887096087975,
+        "ACC-O": 0.052066262131536235,
+        "PEN": 0.006639141083842095,
+        "visible_iou_nonempty": 0.9052529759494318,
+        "censored_iou_nonempty": 0.9482591410048195,
+        "max_step_m": 0.008291874551072068,
+        "max_step_frames": [
+          502,
+          503
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 239,
+            "CD-O": 5.1761355764445796,
+            "ACC-O": 0.05280205146408916
+          },
+          "partial": {
+            "scored_frames": 216,
+            "CD-O": 4.5192801568908445,
+            "ACC-O": 0.05125212486079481
+          },
+          "missing": {
+            "scored_frames": 0,
+            "CD-O": null,
+            "ACC-O": null
+          }
+        },
+        "cd_o_median_cm": 4.268994582533374,
+        "cd_o_p95_cm": 8.431752467551298,
+        "cd_o_max_cm": 9.251050182616165,
+        "worst_cd_frame": 258
+      },
+      "v6_motion_gate_only": {
+        "CD-H": 8.482064231288039,
+        "CD-O": 15.903439484863057,
+        "ACC-H": 1.2385887096087975,
+        "ACC-O": 0.11204115201284683,
+        "PEN": 0.01319253862489204,
+        "visible_iou_nonempty": 0.8937063298487227,
+        "censored_iou_nonempty": 0.960241019527448,
+        "max_step_m": 0.016178879339393114,
+        "max_step_frames": [
+          0,
+          1
+        ],
+        "max_step_pair_in_gt_scoring_set": false,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 239,
+            "CD-O": 14.567697280438567,
+            "ACC-O": 0.1595590193278124
+          },
+          "partial": {
+            "scored_frames": 216,
+            "CD-O": 17.381413498092005,
+            "ACC-O": 0.05946351178934323
+          },
+          "missing": {
+            "scored_frames": 0,
+            "CD-O": null,
+            "ACC-O": null
+          }
+        },
+        "cd_o_median_cm": 14.578753097852964,
+        "cd_o_p95_cm": 22.034226060175396,
+        "cd_o_max_cm": 22.50792202209192,
+        "worst_cd_frame": 417
+      },
+      "v7_local_clear_depth_consensus": {
+        "CD-H": 8.482064231288039,
+        "CD-O": 5.485184609819093,
+        "ACC-H": 1.2385887096087975,
+        "ACC-O": 0.11669258196472881,
+        "PEN": 0.0057522423519209085,
+        "visible_iou_nonempty": 0.9069670663895504,
+        "censored_iou_nonempty": 0.9494419667169377,
+        "max_step_m": 0.03351978846314494,
+        "max_step_frames": [
+          495,
+          496
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 239,
+            "CD-O": 5.415515081393655,
+            "ACC-O": 0.1301600071184983
+          },
+          "partial": {
+            "scored_frames": 216,
+            "CD-O": 5.5622726528453885,
+            "ACC-O": 0.101791125428845
+          },
+          "missing": {
+            "scored_frames": 0,
+            "CD-O": null,
+            "ACC-O": null
+          }
+        },
+        "cd_o_median_cm": 4.93096867162158,
+        "cd_o_p95_cm": 8.303931183823648,
+        "cd_o_max_cm": 13.572798113487277,
+        "worst_cd_frame": 311
+      }
+    },
+    {
+      "episode": "form_hoi_full_001",
+      "baseline_v5": {
+        "CD-H": 8.351754924684071,
+        "CD-O": 7.2685061077079665,
+        "ACC-H": 0.9918431942778759,
+        "ACC-O": 0.06449118077895045,
+        "PEN": 0.019224220489348996,
+        "visible_iou_nonempty": 0.9080004153169849,
+        "censored_iou_nonempty": 0.9326177006051711,
+        "max_step_m": 0.022313600256466087,
+        "max_step_frames": [
+          573,
+          574
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 724,
+            "CD-O": 7.094792115673869,
+            "ACC-O": 0.054844086169429075
+          },
+          "partial": {
+            "scored_frames": 121,
+            "CD-O": 8.307918754259099,
+            "ACC-O": 0.12221429232683043
+          },
+          "missing": {
+            "scored_frames": 0,
+            "CD-O": null,
+            "ACC-O": null
+          }
+        },
+        "cd_o_median_cm": 7.040265235434131,
+        "cd_o_p95_cm": 9.920107221724036,
+        "cd_o_max_cm": 16.005453558034375,
+        "worst_cd_frame": 570
+      },
+      "v6_motion_gate_only": {
+        "CD-H": 8.351754924684071,
+        "CD-O": 41.4536542385862,
+        "ACC-H": 0.9918431942778759,
+        "ACC-O": 0.18456325737721058,
+        "PEN": 0.009505739289580041,
+        "visible_iou_nonempty": 0.8321988610879685,
+        "censored_iou_nonempty": 0.9023630097583613,
+        "max_step_m": 0.023261177612846542,
+        "max_step_frames": [
+          676,
+          677
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 724,
+            "CD-O": 28.413940452641047,
+            "ACC-O": 0.2009547482099673
+          },
+          "partial": {
+            "scored_frames": 121,
+            "CD-O": 119.47640449498533,
+            "ACC-O": 0.08648524611344305
+          },
+          "missing": {
+            "scored_frames": 0,
+            "CD-O": null,
+            "ACC-O": null
+          }
+        },
+        "cd_o_median_cm": 25.87117209566694,
+        "cd_o_p95_cm": 136.125022407194,
+        "cd_o_max_cm": 147.6531051986846,
+        "worst_cd_frame": 644
+      },
+      "v7_local_clear_depth_consensus": {
+        "CD-H": 8.351754924684071,
+        "CD-O": 11.905972954876308,
+        "ACC-H": 0.9918431942778759,
+        "ACC-O": 0.08084889177350335,
+        "PEN": 0.01338991574704696,
+        "visible_iou_nonempty": 0.898308586460791,
+        "censored_iou_nonempty": 0.9267539464982318,
+        "max_step_m": 0.036856635213284035,
+        "max_step_frames": [
+          672,
+          673
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 724,
+            "CD-O": 8.600141923339729,
+            "ACC-O": 0.07590920429837841
+          },
+          "partial": {
+            "scored_frames": 121,
+            "CD-O": 31.686317308863764,
+            "ACC-O": 0.1104053688973914
+          },
+          "missing": {
+            "scored_frames": 0,
+            "CD-O": null,
+            "ACC-O": null
+          }
+        },
+        "cd_o_median_cm": 8.09780028247387,
+        "cd_o_p95_cm": 41.49847200924674,
+        "cd_o_max_cm": 50.982744587827696,
+        "worst_cd_frame": 642
+      }
+    },
+    {
+      "episode": "form_hoi_full_002",
+      "baseline_v5": {
+        "CD-H": 5.015194956514869,
+        "CD-O": 132.34709178696346,
+        "ACC-H": 0.7777323787842207,
+        "ACC-O": 3.2943270956220747,
+        "PEN": 0.006424002919868336,
+        "visible_iou_nonempty": 0.6648852046320354,
+        "censored_iou_nonempty": 0.7583409667327551,
+        "max_step_m": 3.884247183796493,
+        "max_step_frames": [
+          183,
+          184
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 76,
+            "CD-O": 122.1952402946248,
+            "ACC-O": 0.26391917433077144
+          },
+          "partial": {
+            "scored_frames": 330,
+            "CD-O": 128.52045433297675,
+            "ACC-O": 2.376476800745876
+          },
+          "missing": {
+            "scored_frames": 3,
+            "CD-O": 810.4574495314149,
+            "ACC-O": 181.02819353805026
+          }
+        },
+        "cd_o_median_cm": 66.87031245573577,
+        "cd_o_p95_cm": 261.4991183601759,
+        "cd_o_max_cm": 1755.4905307922259,
+        "worst_cd_frame": 186
+      },
+      "v6_motion_gate_only": {
+        "CD-H": 5.015194956514869,
+        "CD-O": 14.481304848007541,
+        "ACC-H": 0.7777323787842207,
+        "ACC-O": 0.13918682122583478,
+        "PEN": 0.013104695740785419,
+        "visible_iou_nonempty": 0.5698804131966587,
+        "censored_iou_nonempty": 0.7612290324577341,
+        "max_step_m": 0.0366053134041967,
+        "max_step_frames": [
+          666,
+          667
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 76,
+            "CD-O": 17.06676643078954,
+            "ACC-O": 0.2045138758679947
+          },
+          "partial": {
+            "scored_frames": 330,
+            "CD-O": 13.87750584478052,
+            "ACC-O": 0.11920139099991577
+          },
+          "missing": {
+            "scored_frames": 3,
+            "CD-O": 15.400835105836117,
+            "ACC-O": 0.6826320951422088
+          }
+        },
+        "cd_o_median_cm": 13.559562543443878,
+        "cd_o_p95_cm": 20.089883537425994,
+        "cd_o_max_cm": 26.118215334846788,
+        "worst_cd_frame": 593
+      },
+      "v7_local_clear_depth_consensus": {
+        "CD-H": 5.015194956514869,
+        "CD-O": 14.481304848007541,
+        "ACC-H": 0.7777323787842207,
+        "ACC-O": 0.13918682122583478,
+        "PEN": 0.013104695740785419,
+        "visible_iou_nonempty": 0.5698804131966587,
+        "censored_iou_nonempty": 0.7612290324577341,
+        "max_step_m": 0.0366053134041967,
+        "max_step_frames": [
+          666,
+          667
+        ],
+        "max_step_pair_in_gt_scoring_set": true,
+        "by_visibility": {
+          "clear": {
+            "scored_frames": 76,
+            "CD-O": 17.06676643078954,
+            "ACC-O": 0.2045138758679947
+          },
+          "partial": {
+            "scored_frames": 330,
+            "CD-O": 13.87750584478052,
+            "ACC-O": 0.11920139099991577
+          },
+          "missing": {
+            "scored_frames": 3,
+            "CD-O": 15.400835105836117,
+            "ACC-O": 0.6826320951422088
+          }
+        },
+        "cd_o_median_cm": 13.559562543443878,
+        "cd_o_p95_cm": 20.089883537425994,
+        "cd_o_max_cm": 26.118215334846788,
+        "worst_cd_frame": 593
+      }
+    }
+  ],
+  "held_out": false,
+  "development_sequence": [
+    "v6 fixed the missing-frame jump but regressed clear-scene depth through slow drift.",
+    "v7 adds nearby consensus of current original/stable 3D candidates for clear frames; partial/missing motion rules remain unchanged."
+  ],
+  "inference_reference_access": false,
+  "all_versions_and_inputs_retained": true,
+  "frozen": {
+    "3": {
+      "sha256": "cfd3af8b4f4c5728b50becc4ebc04f0fc091bcf9f6692d7abbe872aefb84a2c8",
+      "source_and_input_files_verified": true
+    },
+    "5": {
+      "sha256": "5bdbd6b4d86738c2ffab307e4e7f69ec9b3dd71857880fe257620fcb0a9c32ed",
+      "source_and_input_files_verified": true
+    },
+    "6": {
+      "sha256": "ef08eed3173098cecaa3bd8c938a8249d2d4710741d4b4b2e6a56683fefefa6a",
+      "source_and_input_files_verified": true
+    },
+    "7": {
+      "sha256": "84274f709f7f45d1e7906097f10e1be9d64dfd26cfe7abe0904ad2329249aa6d",
+      "source_and_input_files_verified": true
+    }
+  },
+  "scope": "Local experiment on the same three previously inspected public multi-view pseudo-GT scenes; not an official challenge score or a submission.",
+  "known_tradeoff": "Paperbox visible IoU declines despite improved 3D surface/acceleration errors. Do not claim all metrics improved.",
+  "source_sha256": "403e1e8929df4e7cae9be1df74b18febe1f169085095b9b1df30ede200768b22"
+}

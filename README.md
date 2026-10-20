@@ -1,5 +1,10 @@
 # V2D Track 1 reconstruction
 
+This branch adds the **v7 occlusion/motion rerun**. See
+[OCCLUSION_V7.md](OCCLUSION_V7.md) for its changes, known regressions, single/all-30
+commands and separate submission package. Its source lives in
+`revisions/occlusion_v7/`; the original v1 archive below remains unchanged.
+
 Code and provenance for the 30-episode `safe_windows_v1` reconstruction submission.
 The submitted method combines public RGB reconstruction models with rigid-object
 tracking and overlapping-window refinement. It does not run SyILEN dynamics.

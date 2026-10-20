@@ -1,0 +1,824 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "episode": "form_hoi_full_000",
+      "sequence": "2026-04-30_14-01-28_g1_box_push_no_feet_07",
+      "scored_frames": 455,
+      "inference_frames": 601,
+      "visibility_counts": {
+        "clear": 352,
+        "partial": 249,
+        "missing": 0
+      },
+      "reference_kind": "public multiview pseudo-GT",
+      "variants": {
+        "cari4d_full": {
+          "CD-H": 8.482064231288039,
+          "CD-O": 5.201466139207531,
+          "ACC-H": 1.2385887096087975,
+          "ACC-O": 0.37977556225552206,
+          "PEN": 0.008050369992088656,
+          "visible_iou_nonempty": 0.8870783549378597,
+          "censored_iou_nonempty": 0.9274296999572715,
+          "max_step_m": 0.03414286859127678,
+          "max_step_frames": [
+            307,
+            308
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 239,
+              "CD-O": 5.559588232615244,
+              "ACC-O": 0.34404472475276454
+            },
+            "partial": {
+              "scored_frames": 216,
+              "CD-O": 4.805210674742518,
+              "ACC-O": 0.41931107227014724
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 4.618831368455789,
+          "cd_o_p95_cm": 8.603410719255944,
+          "cd_o_max_cm": 14.64605616417585,
+          "worst_cd_frame": 310
+        },
+        "window_safe": {
+          "CD-H": 8.482064231288039,
+          "CD-O": 5.159118275296542,
+          "ACC-H": 1.2385887096087975,
+          "ACC-O": 0.10695471959436474,
+          "PEN": 0.00652811253856051,
+          "visible_iou_nonempty": 0.9020635048283911,
+          "censored_iou_nonempty": 0.9430131677184843,
+          "max_step_m": 0.020891526649079412,
+          "max_step_frames": [
+            316,
+            317
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 239,
+              "CD-O": 5.395184410233922,
+              "ACC-O": 0.11873359894668563
+            },
+            "partial": {
+              "scored_frames": 216,
+              "CD-O": 4.897915468583426,
+              "ACC-O": 0.09392160771841704
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 4.702796838924818,
+          "cd_o_p95_cm": 8.479500851158328,
+          "cd_o_max_cm": 13.717943319274662,
+          "worst_cd_frame": 311
+        },
+        "iou_v2": {
+          "CD-H": 8.482064231288039,
+          "CD-O": 5.299990841283626,
+          "ACC-H": 1.2385887096087975,
+          "ACC-O": 0.3774486952006709,
+          "PEN": 0.006609339242121372,
+          "visible_iou_nonempty": 0.9028915142060913,
+          "censored_iou_nonempty": 0.9439671382729503,
+          "max_step_m": 0.13921660494031513,
+          "max_step_frames": [
+            217,
+            218
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 239,
+              "CD-O": 5.394736521301207,
+              "ACC-O": 0.11835334671985114
+            },
+            "partial": {
+              "scored_frames": 216,
+              "CD-O": 5.195156500893804,
+              "ACC-O": 0.664132900232689
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 4.726464288815482,
+          "cd_o_p95_cm": 9.115983665447413,
+          "cd_o_max_cm": 18.544204698586412,
+          "worst_cd_frame": 217
+        },
+        "occlusion_v3": {
+          "CD-H": 8.482064231288039,
+          "CD-O": 5.031295787702924,
+          "ACC-H": 1.2385887096087975,
+          "ACC-O": 0.050275673517818274,
+          "PEN": 0.00645631323853933,
+          "visible_iou_nonempty": 0.898208203708471,
+          "censored_iou_nonempty": 0.9410949434694553,
+          "max_step_m": 0.010144286590634764,
+          "max_step_frames": [
+            316,
+            317
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 239,
+              "CD-O": 5.210275266523746,
+              "ACC-O": 0.05419563736803504
+            },
+            "partial": {
+              "scored_frames": 216,
+              "CD-O": 4.8332583088224785,
+              "ACC-O": 0.045938306109476586
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 4.366568145966706,
+          "cd_o_p95_cm": 8.413377182712122,
+          "cd_o_max_cm": 10.528787415534552,
+          "worst_cd_frame": 311
+        },
+        "occlusion_v5": {
+          "CD-H": 8.482064231288039,
+          "CD-O": 4.864309706942148,
+          "ACC-H": 1.2385887096087975,
+          "ACC-O": 0.052066262131536235,
+          "PEN": 0.006639141083842095,
+          "visible_iou_nonempty": 0.9052529759494318,
+          "censored_iou_nonempty": 0.9482591410048195,
+          "max_step_m": 0.008291874551072068,
+          "max_step_frames": [
+            502,
+            503
+          ],
+          "max_step_pair_in_gt_scoring_set": true,
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 239,
+              "CD-O": 5.1761355764445796,
+              "ACC-O": 0.05280205146408916
+            },
+            "partial": {
+              "scored_frames": 216,
+              "CD-O": 4.5192801568908445,
+              "ACC-O": 0.05125212486079481
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "cd_o_median_cm": 4.268994582533374,
+          "cd_o_p95_cm": 8.431752467551298,
+          "cd_o_max_cm": 9.251050182616165,
+          "worst_cd_frame": 258
+        },
+        "occlusion_v7": {
+          "CD-H": 8.482064231288039,
+          "CD-O": 5.485184609819093,
+          "ACC-H": 1.2385887096087975,
+          "ACC-O": 0.11669258196472881,
+          "PEN": 0.0057522423519209085,
+          "visible_iou_nonempty": 0.9069670663895504,
+          "censored_iou_nonempty": 0.9494419667169377,
+          "max_step_m": 0.03351978846314494,
+          "max_step_frames": [
+            495,
+            496
+          ],
+          "max_step_pair_in_gt_scoring_set": true,
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 239,
+              "CD-O": 5.415515081393655,
+              "ACC-O": 0.1301600071184983
+            },
+            "partial": {
+              "scored_frames": 216,
+              "CD-O": 5.5622726528453885,
+              "ACC-O": 0.101791125428845
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "cd_o_median_cm": 4.93096867162158,
+          "cd_o_p95_cm": 8.303931183823648,
+          "cd_o_max_cm": 13.572798113487277,
+          "worst_cd_frame": 311
+        }
+      },
+      "v5_diagnostics": {
+        "translation_m": [
+          -0.09812741480252841,
+          0.5730454693070234,
+          3.5097270344718985
+        ],
+        "visible_iou": 0.9462467432022095,
+        "censored_iou": 0.946246862411499,
+        "anchor_prior_supported": true
+      },
+      "unexplained_observed_frames": [],
+      "all_observed_frames_pass_evidence_guard": true,
+      "v7_diagnostics": {
+        "translation_m": [
+          -0.09803664369232187,
+          0.5834036885185155,
+          3.5097085330697464
+        ],
+        "visible_iou": 0.9499003291130066,
+        "censored_iou": 0.9499001502990723,
+        "anchor_prior_supported": true
+      }
+    },
+    {
+      "episode": "form_hoi_full_001",
+      "sequence": "2026-03-18_19-39-11_g1_box_push_01",
+      "scored_frames": 845,
+      "inference_frames": 991,
+      "visibility_counts": {
+        "clear": 870,
+        "partial": 121,
+        "missing": 0
+      },
+      "reference_kind": "public multiview pseudo-GT",
+      "variants": {
+        "cari4d_full": {
+          "CD-H": 8.351754924684071,
+          "CD-O": 7.113888432398656,
+          "ACC-H": 0.9918431942778759,
+          "ACC-O": 0.25713235236574844,
+          "PEN": 0.031974853394108646,
+          "visible_iou_nonempty": 0.8811489100052057,
+          "censored_iou_nonempty": 0.9055707977951235,
+          "max_step_m": 0.042669003615997285,
+          "max_step_frames": [
+            574,
+            575
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 724,
+              "CD-O": 6.929180997086577,
+              "ACC-O": 0.23618812659869953
+            },
+            "partial": {
+              "scored_frames": 121,
+              "CD-O": 8.219080028811426,
+              "ACC-O": 0.3824515214181735
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 6.772017853592588,
+          "cd_o_p95_cm": 10.813191958296695,
+          "cd_o_max_cm": 16.7372022396408,
+          "worst_cd_frame": 571
+        },
+        "window_safe": {
+          "CD-H": 8.351754924684071,
+          "CD-O": 7.25317058107744,
+          "ACC-H": 0.9918431942778759,
+          "ACC-O": 0.09398015751409056,
+          "PEN": 0.020669911961371988,
+          "visible_iou_nonempty": 0.9044470972297892,
+          "censored_iou_nonempty": 0.9283330277525693,
+          "max_step_m": 0.023334845292246463,
+          "max_step_frames": [
+            574,
+            575
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 724,
+              "CD-O": 7.087611753077766,
+              "ACC-O": 0.08104056129474924
+            },
+            "partial": {
+              "scored_frames": 121,
+              "CD-O": 8.243787039521775,
+              "ACC-O": 0.17140385720667842
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 7.005816043055621,
+          "cd_o_p95_cm": 9.880711849110826,
+          "cd_o_max_cm": 16.04006945997771,
+          "worst_cd_frame": 570
+        },
+        "iou_v2": {
+          "CD-H": 8.351754924684071,
+          "CD-O": 7.615846129367683,
+          "ACC-H": 0.9918431942778759,
+          "ACC-O": 0.5082531607812406,
+          "PEN": 0.02013987815832162,
+          "visible_iou_nonempty": 0.9054543333265302,
+          "censored_iou_nonempty": 0.9290195304137306,
+          "max_step_m": 0.39509597537810015,
+          "max_step_frames": [
+            582,
+            583
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 724,
+              "CD-O": 7.086923027958559,
+              "ACC-O": 0.08001127150655084
+            },
+            "partial": {
+              "scored_frames": 121,
+              "CD-O": 10.780642207220632,
+              "ACC-O": 3.070626118094259
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 7.02563245805449,
+          "cd_o_p95_cm": 9.917540710276564,
+          "cd_o_max_cm": 62.78872327656633,
+          "worst_cd_frame": 582
+        },
+        "occlusion_v3": {
+          "CD-H": 8.351754924684071,
+          "CD-O": 7.944289536111354,
+          "ACC-H": 0.9918431942778759,
+          "ACC-O": 0.05567395753240039,
+          "PEN": 0.017047582815258467,
+          "visible_iou_nonempty": 0.8995067041769519,
+          "censored_iou_nonempty": 0.9188991151111037,
+          "max_step_m": 0.012515965266792528,
+          "max_step_frames": [
+            426,
+            427
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 724,
+              "CD-O": 7.1030157654101584,
+              "ACC-O": 0.05452545612559568
+            },
+            "partial": {
+              "scored_frames": 121,
+              "CD-O": 12.978026808736692,
+              "ACC-O": 0.06254598247890131
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": true,
+          "cd_o_median_cm": 7.069183047137304,
+          "cd_o_p95_cm": 14.812369216751705,
+          "cd_o_max_cm": 16.538731512498376,
+          "worst_cd_frame": 582
+        },
+        "occlusion_v5": {
+          "CD-H": 8.351754924684071,
+          "CD-O": 7.2685061077079665,
+          "ACC-H": 0.9918431942778759,
+          "ACC-O": 0.06449118077895045,
+          "PEN": 0.019224220489348996,
+          "visible_iou_nonempty": 0.9080004153169849,
+          "censored_iou_nonempty": 0.9326177006051711,
+          "max_step_m": 0.022313600256466087,
+          "max_step_frames": [
+            573,
+            574
+          ],
+          "max_step_pair_in_gt_scoring_set": true,
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 724,
+              "CD-O": 7.094792115673869,
+              "ACC-O": 0.054844086169429075
+            },
+            "partial": {
+              "scored_frames": 121,
+              "CD-O": 8.307918754259099,
+              "ACC-O": 0.12221429232683043
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "cd_o_median_cm": 7.040265235434131,
+          "cd_o_p95_cm": 9.920107221724036,
+          "cd_o_max_cm": 16.005453558034375,
+          "worst_cd_frame": 570
+        },
+        "occlusion_v7": {
+          "CD-H": 8.351754924684071,
+          "CD-O": 11.905972954876308,
+          "ACC-H": 0.9918431942778759,
+          "ACC-O": 0.08084889177350335,
+          "PEN": 0.01338991574704696,
+          "visible_iou_nonempty": 0.898308586460791,
+          "censored_iou_nonempty": 0.9267539464982318,
+          "max_step_m": 0.036856635213284035,
+          "max_step_frames": [
+            672,
+            673
+          ],
+          "max_step_pair_in_gt_scoring_set": true,
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 724,
+              "CD-O": 8.600141923339729,
+              "ACC-O": 0.07590920429837841
+            },
+            "partial": {
+              "scored_frames": 121,
+              "CD-O": 31.686317308863764,
+              "ACC-O": 0.1104053688973914
+            },
+            "missing": {
+              "scored_frames": 0,
+              "CD-O": null,
+              "ACC-O": null
+            }
+          },
+          "cd_o_median_cm": 8.09780028247387,
+          "cd_o_p95_cm": 41.49847200924674,
+          "cd_o_max_cm": 50.982744587827696,
+          "worst_cd_frame": 642
+        }
+      },
+      "v5_diagnostics": {
+        "translation_m": [
+          -0.3898747345014942,
+          0.5041692483867567,
+          3.6776648297194123
+        ],
+        "visible_iou": 0.8885105848312378,
+        "censored_iou": 0.8885105848312378,
+        "anchor_prior_supported": true
+      },
+      "unexplained_observed_frames": [],
+      "all_observed_frames_pass_evidence_guard": true,
+      "v7_diagnostics": {
+        "translation_m": [
+          -0.38482398201484036,
+          0.5177621513148135,
+          3.6610536221478913
+        ],
+        "visible_iou": 0.8942081332206726,
+        "censored_iou": 0.8942082524299622,
+        "anchor_prior_supported": true
+      }
+    },
+    {
+      "episode": "form_hoi_full_002",
+      "sequence": "2026-02-20_17-27-05_brown_cardboard_box_pick_and_place_004",
+      "scored_frames": 409,
+      "inference_frames": 766,
+      "visibility_counts": {
+        "clear": 300,
+        "partial": 463,
+        "missing": 3
+      },
+      "reference_kind": "public multiview pseudo-GT",
+      "variants": {
+        "cari4d_full": {
+          "CD-H": 5.015194956514869,
+          "CD-O": 3191.361791669965,
+          "ACC-H": 0.7777323787842207,
+          "ACC-O": 7.182370468039821,
+          "PEN": 0.006561605792227324,
+          "visible_iou_nonempty": 0.08733476067589276,
+          "censored_iou_nonempty": 0.13859369307951722,
+          "max_step_m": 2.3894911749393737,
+          "max_step_frames": [
+            302,
+            303
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 76,
+              "CD-O": 5714.307525328828,
+              "ACC-O": 9.71512973689388
+            },
+            "partial": {
+              "scored_frames": 330,
+              "CD-O": 2639.164958431825,
+              "ACC-O": 6.623615348592139
+            },
+            "missing": {
+              "scored_frames": 3,
+              "CD-O": 18.388195174215053,
+              "ACC-O": 4.482198796315269
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": false,
+          "cd_o_median_cm": 4671.6658837016585,
+          "cd_o_p95_cm": 7234.204713030391,
+          "cd_o_max_cm": 7864.84222742113,
+          "worst_cd_frame": 765
+        },
+        "window_safe": {
+          "CD-H": 5.015194956514869,
+          "CD-O": 1585.7338653010922,
+          "ACC-H": 0.7777323787842207,
+          "ACC-O": 0.09625043254766216,
+          "PEN": 0.0,
+          "visible_iou_nonempty": 0.08881958924614743,
+          "censored_iou_nonempty": 0.11049065911754243,
+          "max_step_m": 0.033619860201965474,
+          "max_step_frames": [
+            516,
+            517
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 76,
+              "CD-O": 2588.0975202878753,
+              "ACC-O": 0.10959794833781848
+            },
+            "partial": {
+              "scored_frames": 330,
+              "CD-O": 1364.4512550829554,
+              "ACC-O": 0.09223058742895461
+            },
+            "missing": {
+              "scored_frames": 3,
+              "CD-O": 533.6083962975961,
+              "ACC-O": 0.20029632892153268
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": false,
+          "cd_o_median_cm": 2030.9510071558332,
+          "cd_o_p95_cm": 3463.5375214209053,
+          "cd_o_max_cm": 3591.656699416684,
+          "worst_cd_frame": 765
+        },
+        "iou_v2": {
+          "CD-H": 5.015194956514869,
+          "CD-O": 206.68643549137659,
+          "ACC-H": 0.7777323787842207,
+          "ACC-O": 44.4561234034398,
+          "PEN": 0.0015251836382180295,
+          "visible_iou_nonempty": 0.73592380380568,
+          "censored_iou_nonempty": 0.8300849355532645,
+          "max_step_m": 10.92587392024891,
+          "max_step_frames": [
+            317,
+            318
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 76,
+              "CD-O": 118.58194254479936,
+              "ACC-O": 22.448477550371777
+            },
+            "partial": {
+              "scored_frames": 330,
+              "CD-O": 228.68896795263174,
+              "ACC-O": 44.26871770258341
+            },
+            "missing": {
+              "scored_frames": 3,
+              "CD-O": 18.38835273326546,
+              "ACC-O": 622.5977787753654
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": false,
+          "cd_o_median_cm": 76.87397989684446,
+          "cd_o_p95_cm": 1111.848738302077,
+          "cd_o_max_cm": 2240.719726589547,
+          "worst_cd_frame": 180
+        },
+        "occlusion_v3": {
+          "CD-H": 5.015194956514869,
+          "CD-O": 197.07394011124774,
+          "ACC-H": 0.7777323787842207,
+          "ACC-O": 0.10858619883868195,
+          "PEN": 0.0007049941085171661,
+          "visible_iou_nonempty": 0.4604698301611534,
+          "censored_iou_nonempty": 0.4999358660271721,
+          "max_step_m": 0.37151367271484675,
+          "max_step_frames": [
+            512,
+            513
+          ],
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 76,
+              "CD-O": 122.1697273362326,
+              "ACC-O": 0.26476828134037195
+            },
+            "partial": {
+              "scored_frames": 330,
+              "CD-O": 213.6832243125712,
+              "ACC-O": 0.07262794667376243
+            },
+            "missing": {
+              "scored_frames": 3,
+              "CD-O": 267.6260682660482,
+              "ACC-O": 0.10738118027034889
+            }
+          },
+          "max_step_pair_in_gt_scoring_set": false,
+          "cd_o_median_cm": 222.21768600669228,
+          "cd_o_p95_cm": 312.567402789693,
+          "cd_o_max_cm": 312.62962851637803,
+          "worst_cd_frame": 30
+        },
+        "occlusion_v5": {
+          "CD-H": 5.015194956514869,
+          "CD-O": 132.34709178696346,
+          "ACC-H": 0.7777323787842207,
+          "ACC-O": 3.2943270956220747,
+          "PEN": 0.006424002919868336,
+          "visible_iou_nonempty": 0.6648852046320354,
+          "censored_iou_nonempty": 0.7583409667327551,
+          "max_step_m": 3.884247183796493,
+          "max_step_frames": [
+            183,
+            184
+          ],
+          "max_step_pair_in_gt_scoring_set": true,
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 76,
+              "CD-O": 122.1952402946248,
+              "ACC-O": 0.26391917433077144
+            },
+            "partial": {
+              "scored_frames": 330,
+              "CD-O": 128.52045433297675,
+              "ACC-O": 2.376476800745876
+            },
+            "missing": {
+              "scored_frames": 3,
+              "CD-O": 810.4574495314149,
+              "ACC-O": 181.02819353805026
+            }
+          },
+          "cd_o_median_cm": 66.87031245573577,
+          "cd_o_p95_cm": 261.4991183601759,
+          "cd_o_max_cm": 1755.4905307922259,
+          "worst_cd_frame": 186
+        },
+        "occlusion_v7": {
+          "CD-H": 5.015194956514869,
+          "CD-O": 14.481304848007541,
+          "ACC-H": 0.7777323787842207,
+          "ACC-O": 0.13918682122583478,
+          "PEN": 0.013104695740785419,
+          "visible_iou_nonempty": 0.5698804131966587,
+          "censored_iou_nonempty": 0.7612290324577341,
+          "max_step_m": 0.0366053134041967,
+          "max_step_frames": [
+            666,
+            667
+          ],
+          "max_step_pair_in_gt_scoring_set": true,
+          "by_visibility": {
+            "clear": {
+              "scored_frames": 76,
+              "CD-O": 17.06676643078954,
+              "ACC-O": 0.2045138758679947
+            },
+            "partial": {
+              "scored_frames": 330,
+              "CD-O": 13.87750584478052,
+              "ACC-O": 0.11920139099991577
+            },
+            "missing": {
+              "scored_frames": 3,
+              "CD-O": 15.400835105836117,
+              "ACC-O": 0.6826320951422088
+            }
+          },
+          "cd_o_median_cm": 13.559562543443878,
+          "cd_o_p95_cm": 20.089883537425994,
+          "cd_o_max_cm": 26.118215334846788,
+          "worst_cd_frame": 593
+        }
+      },
+      "v5_diagnostics": {
+        "translation_m": [
+          -0.2649371912966906,
+          0.9548722970903403,
+          3.1134400524203567
+        ],
+        "visible_iou": 0.32033371925354004,
+        "censored_iou": 0.5559518933296204,
+        "anchor_prior_supported": false
+      },
+      "unexplained_observed_frames": [],
+      "all_observed_frames_pass_evidence_guard": true,
+      "first_frame_CD_O_cm": {
+        "cari4d_full": 8.887261483621874,
+        "window_safe": 13.366390843286998,
+        "iou_v2": 87.08686056163027,
+        "occlusion_v3": 312.55689489850084,
+        "occlusion_v5": 9.905699549240063,
+        "occlusion_v7": 9.702952378908492
+      },
+      "v7_diagnostics": {
+        "translation_m": [
+          -0.26146429296882917,
+          0.9759566528138598,
+          3.108671903610231
+        ],
+        "visible_iou": 0.3093467950820923,
+        "censored_iou": 0.5496014952659607,
+        "anchor_prior_supported": false
+      }
+    }
+  ],
+  "aggregate": {
+    "cari4d_full": {
+      "CD-H": 7.283004704162326,
+      "CD-O": 1067.8923820805237,
+      "ACC-H": 1.0027214275569647,
+      "ACC-O": 2.606426127553697,
+      "PEN": 0.015528943059474875
+    },
+    "window_safe": {
+      "CD-H": 7.283004704162326,
+      "CD-O": 532.7153847191554,
+      "ACC-H": 1.0027214275569647,
+      "ACC-O": 0.09906176988537248,
+      "PEN": 0.009066008166644166
+    },
+    "iou_v2": {
+      "CD-H": 7.283004704162326,
+      "CD-O": 73.20075748734263,
+      "ACC-H": 1.0027214275569647,
+      "ACC-O": 15.11394175314057,
+      "PEN": 0.00942480034622034
+    },
+    "occlusion_v3": {
+      "CD-H": 7.283004704162326,
+      "CD-O": 70.016508478354,
+      "ACC-H": 1.0027214275569647,
+      "ACC-O": 0.07151194329630021,
+      "PEN": 0.008069630054104987
+    },
+    "occlusion_v5": {
+      "CD-H": 7.283004704162326,
+      "CD-O": 48.15996920053786,
+      "ACC-H": 1.0027214275569647,
+      "ACC-O": 1.1369615128441872,
+      "PEN": 0.010762454831019808
+    },
+    "occlusion_v7": {
+      "CD-H": 7.283004704162326,
+      "CD-O": 10.624154137567649,
+      "ACC-H": 1.0027214275569647,
+      "ACC-O": 0.11224276498802233,
+      "PEN": 0.010748951279917762
+    }
+  },
+  "inference_frames": 2358,
+  "scored_frames": 1709,
+  "reference_kind": "public multiview reconstruction pseudo-GT",
+  "held_out": false,
+  "is_challenge_score": false,
+  "development_regression_after_v3_gt_inspection": true,
+  "v7_fitting_reference_access": false,
+  "per_frame_series_match_frozen_evaluator": true,
+  "alignment_identical_across_variants": true,
+  "evaluation_sha256": "2b0a6f3542680a96fbe93701e612861f82154c713e9d50af31fc61686ad7eb80",
+  "analysis_source_sha256": "046496871d492c7bfb58d0d9fc666e6ab7b647fb472f9fca3f7117a4a2b8ab62"
+}

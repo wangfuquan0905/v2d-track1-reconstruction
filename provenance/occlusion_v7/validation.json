@@ -1,0 +1,33 @@
+{
+  "timestamp": 1792465905.707693,
+  "original_workspace_regressions": {
+    "passed": 52,
+    "motion_and_existing_submission_checks": 48,
+    "independent_packaging_motion_checks": 4
+  },
+  "independent_archived_tests": {
+    "passed": 40,
+    "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /path/to/V2D/.venv-cari4d/bin/python -m pytest -o 'pythonpath=revisions/occlusion_v7 revisions/occlusion_v7/scripts' revisions/occlusion_v7/tests -q"
+  },
+  "archived_cli_import_smoke": [
+    "fit_occlusion_motion_anchored.py --help",
+    "refine_object_iou_priority.py --help"
+  ],
+  "all_30_input_arrays_checked": true,
+  "independent_packing_motion_audit_on_completed_development_scenes": 3,
+  "original_v1_archive_verification": "passed, 52 frozen files and 16 historical sources",
+  "prior_v3_v5_v6_v7_producer_source_hashes": "unchanged",
+  "new_test_rerun_status": "running; no v7 Kaggle submission claimed",
+  "runtime_packages": {
+    "torch": "2.9.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "trimesh": "4.9.0",
+    "opencv-python": "4.12.0.88",
+    "h5py": "3.16.0",
+    "nvdiffrast": "0.3.4",
+    "pytorch3d": "0.7.8",
+    "imageio": "2.37.2",
+    "imageio-ffmpeg": "0.6.0"
+  }
+}
