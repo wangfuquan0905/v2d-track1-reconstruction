@@ -34,6 +34,9 @@
     "tests/test_window_search.py": "016331744fed1572c1acc5bd15e1eb1b8aea2098d7c5d5065518f596d9c47be3",
     "tests/test_rotation_temporal.py": "9a3f35492e444c8c7b8d541675fd82d9f9e9dc8671e5be92e80a21e8dd11992b",
     "tests/test_submission_checks.py": "0029a4c9d077a0e26c465117cee0cb0cfe966207e4c0beb2c7bc32dc284d4858",
-    "v2d_syilen/window_objective.py": "946607adccea63cb87ade60ac62eb52f8d4a16d4c412a61a4f6a150aeb38bd84"
+    "v2d_syilen/window_objective.py": "946607adccea63cb87ade60ac62eb52f8d4a16d4c412a61a4f6a150aeb38bd84",
+    "scripts/fit_occlusion_v7_batch_stable.py": "a2595f2dd4cd87ef4cec73708d8425b9c866cf4a95ae591d2a687e7ae0a34d9d",
+    "scripts/repair_track1_occlusion_v7_batch_stable.py": "8aa0399adc29bac0a7559cb22703282957bef7f93bcc9b342e1ef8ed37bd594b",
+    "scripts/occlusion_scene_fixed_batch.py": "f6da175a83be03db5116837c1e05f9511734bcd0e8c9bfcfa7f1e81ad547c89e"
   }
 }

@@ -68,6 +68,32 @@ queues from producing the same outputs. Interrupted candidate/prepare directorie
 are retained under a timestamped name; refinement resumes at completed windows.
 Any failed episode remains failed, and prevents full submission packaging.
 
+The first full queue completed 21 episodes; nine stopped before refinement when
+a full-sequence rerender differed slightly from the preparation observations.
+The maximum reported loss difference was 0.00003463. The GPU vertex contraction
+returned results differing by one float32 unit (0.0000002384 m) for candidate
+batch sizes 2--5 versus 1/6--8. This altered a few silhouette-edge pixels.
+Keeping one Scene alone did not resolve the mismatch.
+
+The repair pads render/loss batches to eight slots with repeated inputs and
+discards padded outputs. Real poses, frame IDs, mesh geometry, loss definitions
+and strict acceptance tolerances remain unchanged. It also keeps one Scene
+through all three stages:
+
+```bash
+python occlusion_v7.py repair --workspace /path/to/V2D --pack \
+  --commit-url https://github.com/OWNER/REPO/commit/FULL_40_CHARACTER_SHA
+```
+
+The repair keeps all finished predictions byte-for-byte, archives failed
+attempts, and reruns only the failed v7 trajectories using the existing candidate
+poses. It uses the unchanged frozen fitter and motion rules. Each repaired result
+records its wrapper source hashes and checks another pair of identical renders
+after finishing. The diagnostic in
+`provenance/occlusion_v7/batch_stability_diagnostic.json` tests all requested
+batch sizes 1--8 at two affected frames; fixed-batch observations are identical.
+If interrupted, the affected episode's v7 stages restart together.
+
 All new outputs are under `outputs/track1_occlusion_v7/`. Each episode contains
 its IoU candidates, v7 source snapshot, visibility decisions, seed, window
 checkpoints, final pose, report and a full comparison video against submitted v1.

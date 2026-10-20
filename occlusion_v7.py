@@ -70,6 +70,10 @@ def main():
     r.add_argument("--episodes", default="all")
     r.add_argument("--pack", action="store_true")
     r.add_argument("--commit-url")
+    f = sub.add_parser("repair")
+    f.add_argument("--workspace", type=Path, required=True)
+    f.add_argument("--pack", action="store_true")
+    f.add_argument("--commit-url")
     k = sub.add_parser("pack")
     k.add_argument("--workspace", type=Path, required=True)
     k.add_argument("--commit-url", required=True)
@@ -95,6 +99,13 @@ def main():
             if args.commit_url:
                 extra += ["--commit-url", args.commit_url]
             subprocess.run([*command, "--stage", "run", "--episodes", args.episodes, *extra],
+                           cwd=work, check=True)
+        elif args.command == "repair":
+            extra = ["--pack"] if args.pack else []
+            if args.commit_url:
+                extra += ["--commit-url", args.commit_url]
+            subprocess.run([str(work / ".venv-cari4d/bin/python"),
+                            str(work / "scripts/repair_track1_occlusion_v7_batch_stable.py"), *extra],
                            cwd=work, check=True)
         else:
             subprocess.run([str(work / ".venv-submission/bin/python"),

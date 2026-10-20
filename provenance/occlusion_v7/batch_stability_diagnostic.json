@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "episode": "episode_000002",
+  "original_gpu_vertex_max_difference_m": 2.384185791015625e-07,
+  "original_max_observation_difference": 3.463029861450195e-05,
+  "fixed_batch_size": 8,
+  "tested_requested_batch_sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    {
+      "frame": 31,
+      "requested_batch_size": 1,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 31,
+      "requested_batch_size": 2,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 31,
+      "requested_batch_size": 3,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 31,
+      "requested_batch_size": 4,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 31,
+      "requested_batch_size": 5,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 31,
+      "requested_batch_size": 6,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 31,
+      "requested_batch_size": 7,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 31,
+      "requested_batch_size": 8,
+      "observations": [
+        0.27705520391464233,
+        0.2669273614883423
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 1,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 2,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 3,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 4,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 5,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 6,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 7,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    },
+    {
+      "frame": 206,
+      "requested_batch_size": 8,
+      "observations": [
+        0.2002139687538147,
+        0.2260509431362152
+      ],
+      "max_difference": 0.0
+    }
+  ],
+  "all_requested_frames_retained": true,
+  "padding_outputs_discarded": true
+}

@@ -1,0 +1,47 @@
+{
+  "started_unix": 1792512988.8501754,
+  "episodes": [
+    "episode_000002",
+    "episode_000001",
+    "episode_000003",
+    "episode_000006",
+    "episode_000009",
+    "episode_000010",
+    "episode_000015",
+    "episode_000023",
+    "episode_000028"
+  ],
+  "original_manifest_sha256": "457b8d4836577707f0f880dc6766a86f6f8c6e413c2ce203c22d2bec773f652f",
+  "preserved_completed_predictions": {
+    "outputs/track1_occlusion_v7/episodes/episode_000004/occlusion/optimized.npz": "1b9544a4a009da70cbe3d127abe58de68585721f5dd9fc90b0703fa4ed7400ac",
+    "outputs/track1_occlusion_v7/episodes/episode_000016/occlusion/optimized.npz": "b21361ff36a08ba99b8bfc0059ae0d5fce6cf1e9f6b1268e830f6cc10311e240",
+    "outputs/track1_occlusion_v7/episodes/episode_000000/occlusion/optimized.npz": "465eab361eac951e1c2beb0a5b38da366d2743635295550a5e2dd5e965812696",
+    "outputs/track1_occlusion_v7/episodes/episode_000005/occlusion/optimized.npz": "e4eed2b3d65adf13f6147d8098ad1d557a573ba804057ed75c8670a21b99a2d7",
+    "outputs/track1_occlusion_v7/episodes/episode_000007/occlusion/optimized.npz": "0e601ea8a1f4e2e950badb7163518fb0ceb4b70d20228077479d9c77eb6e1831",
+    "outputs/track1_occlusion_v7/episodes/episode_000008/occlusion/optimized.npz": "0961f09c5a1d286dba8fa08fbd21432e423ad72571d301437efd0152acc9ef67",
+    "outputs/track1_occlusion_v7/episodes/episode_000011/occlusion/optimized.npz": "3752217d129fdd684d86d5107b697f8eda702e6fa8fda1ae52c41cb4a3d50833",
+    "outputs/track1_occlusion_v7/episodes/episode_000012/occlusion/optimized.npz": "f7a1e4587b3a917c324fcf06d1d6093edf23379a7028fab02a2e7b24be59341c",
+    "outputs/track1_occlusion_v7/episodes/episode_000013/occlusion/optimized.npz": "bcc5c2d68f3ac5762e0cab59dcdf4862b9f817d335f6dfe6d775d810dc25f061",
+    "outputs/track1_occlusion_v7/episodes/episode_000014/occlusion/optimized.npz": "34300ea81b2730da2f69b536c92179fbc02b0fe2518884e1c5a1bccb1182f834",
+    "outputs/track1_occlusion_v7/episodes/episode_000017/occlusion/optimized.npz": "ddc2279c7f458a82f3e4fb2eff099f84289722510dc2831eba862bcb039a97f5",
+    "outputs/track1_occlusion_v7/episodes/episode_000018/occlusion/optimized.npz": "7006cb70622f33caf4af141861a816eed3b0db2a450e6bcfbca8b2ae6c886429",
+    "outputs/track1_occlusion_v7/episodes/episode_000019/occlusion/optimized.npz": "a2699ea9977483a8694ae8317fc492f998ca97741e0092f472d09048eb456fbb",
+    "outputs/track1_occlusion_v7/episodes/episode_000020/occlusion/optimized.npz": "fb7885cde8067fa36895c554a71702f8021db18f12f2923aaefa9452f58cef42",
+    "outputs/track1_occlusion_v7/episodes/episode_000021/occlusion/optimized.npz": "a968435e6f0a7e332b472155a3745d34491b4d05b1591cf16592e0535d0f4536",
+    "outputs/track1_occlusion_v7/episodes/episode_000022/occlusion/optimized.npz": "9bbdee310caa822992a60ae09c461b83b32a3bdab16e37bce8c941112eb304f7",
+    "outputs/track1_occlusion_v7/episodes/episode_000024/occlusion/optimized.npz": "7e814965d269d4f477a1ed3f921dec351ea15295c6c466b709f6d7e038029c0b",
+    "outputs/track1_occlusion_v7/episodes/episode_000025/occlusion/optimized.npz": "1798c6170f272ed68e5e6a94f32ab4e234d3821dc10bf7668ffd8e5396dbb1d9",
+    "outputs/track1_occlusion_v7/episodes/episode_000026/occlusion/optimized.npz": "f546e76e032c0a6c6f7912aed4add22d54b69428093d084e075c7a58d4e57abc",
+    "outputs/track1_occlusion_v7/episodes/episode_000027/occlusion/optimized.npz": "c6f8254bc896fbe971f56f2a912175b7a1c176340646dd775577e34e92611c24",
+    "outputs/track1_occlusion_v7/episodes/episode_000029/occlusion/optimized.npz": "d5b07d88811728b095a2f45315369eca09aeadecccc9c1bccb01e72a8b6a64bc"
+  },
+  "source_sha256": {
+    "scripts/repair_track1_occlusion_v7_batch_stable.py": "8aa0399adc29bac0a7559cb22703282957bef7f93bcc9b342e1ef8ed37bd594b",
+    "scripts/fit_occlusion_v7_batch_stable.py": "a2595f2dd4cd87ef4cec73708d8425b9c866cf4a95ae591d2a687e7ae0a34d9d",
+    "scripts/occlusion_scene_fixed_batch.py": "f6da175a83be03db5116837c1e05f9511734bcd0e8c9bfcfa7f1e81ad547c89e"
+  },
+  "reason": "GPU einsum returns one-ULP-different transformed vertices for render batch sizes 2--5 versus 1/6--8; silhouette differences exceed strict rerender tolerance. Reusing a Scene alone did not fix it.",
+  "change": "Pad render/loss chunks to eight slots and discard padded outputs; share Scene across v7 stages; rerun only failed trajectories.",
+  "loss_motion_and_tolerances_unchanged": true,
+  "reference_inputs": false
+}
